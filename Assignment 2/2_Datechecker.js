@@ -1,6 +1,5 @@
 function checkdate(date)
 {
-    let i = 0;
     let flag=0;
 for (i=2;i<(date);i++)
 {   console.log(i)
