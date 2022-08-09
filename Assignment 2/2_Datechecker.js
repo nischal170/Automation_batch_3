@@ -1,11 +1,13 @@
-function checkdate(date)
+let date=new Date();
+let day=date.getDate();
+
+function checkdate(dat)
 {
     let flag=0;
 for (i=2;i<(date);i++)
-{   console.log(i)
-
+{
     if (date%i==0){
-       // console.log("divisible by",i)
+       
         flag=1
         {break;}
     }
@@ -23,4 +25,4 @@ else{
 }
 }
 
-checkdate(22)
+checkdate(day)
