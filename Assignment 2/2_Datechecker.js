@@ -6,7 +6,7 @@ function checkdate(dat)
     let flag=0;
 for (i=2;i<(dat);i++)
 {
-    if (date%i==0){
+    if (dat%i==0){
        
         flag=1
         {break;}
