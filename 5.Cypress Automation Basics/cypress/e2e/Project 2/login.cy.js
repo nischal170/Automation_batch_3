@@ -8,7 +8,8 @@ describe('Register',() =>{
         cy.get('#inputFirstName').type("Nischal").should("have.value","Nischal")
         cy.get('#inputLastName').type("Neupane").should("have.value","Neupane")
         cy.get('#inputCompanyName').type("apple Inc.").should("have.value","apple Inc.")
-       // cy.get(".selected-dial-code").select("+977").should("have.value","")
+       // cy.get(".selected-dial-code").click()
+        //cy.get("li[class='country highlight active'] span[class='dial-code']").contains("np","+977").click()
        cy.get('#inputEmail').type("gfg@gmail.com").should("have.value","gfg@gmail.com") 
         cy.get("#inputPhone").type("989898988").should("have.value","989898988")
         
