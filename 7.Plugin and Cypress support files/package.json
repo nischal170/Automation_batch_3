@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "cypress": "^10.4.0",
-    "cypress-iframe": "^1.0.1"
+    "cypress-file-upload": "^5.0.8"
   }
 }

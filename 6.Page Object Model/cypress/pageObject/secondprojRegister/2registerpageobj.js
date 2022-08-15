@@ -7,5 +7,6 @@ export function Registration_for_second(){
     Regii.typePhone("9824634764")
     Regii.typeBillingAddress("apple Inc.","london,nepal","Nepal,kathmandu","paris","bagmati","4400","Nepal","NP")
     Regii.typePasswords("%48L2Md12")
+    Regii.captchaClick()
     Regii.clickSubmit()
 }
