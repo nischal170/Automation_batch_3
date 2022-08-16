@@ -31,8 +31,8 @@ export class Register2{
     captchaClick(){
        // cy.iframe('#g-recaptcha-response').find('#recaptcha-anchor').should('be.visible').click()
        //cy.get ('iframe').its ('0.contentDocument.body').should ('not.be.undefined').and ('not.be.empty').then (cy. wrap).find ('# recaptcha-anchor').should ('be.visible').click ();
-       cy.iframe("#g-recaptcha-response").its ('0.contentDocument.body').then (cy. wrap).find('#recaptcha-anchor >div.recaptcha-checkbox-border').should('be.visible').click();
-       //cy.iframe('#my-frame').find('#recaptcha-anchor').should('be.visible').click()
+       //cy.iframe("#g-recaptcha-response").its ('0.contentDocument.body').then (cy. wrap).find('#recaptcha-anchor >div.recaptcha-checkbox-border').should('be.visible').click();
+       cy.iframe('#g-recaptcha-response').find('#recaptcha-anchor >div.recaptcha-checkbox-border').should('be.visible').click()
       // cy.get('iframe[src*=recaptcha]').its('0.contentDocument').should('not.be.undefined').and('not.be.empty').then(cy.wrap).find('#recaptcha-anchor').should('be.visible').click()
     }
 
