@@ -1,4 +1,5 @@
 
+import {Given,And } from "@badeball/cypress-cucumber-preprocessor";
 Given ("Url Visit",()=>{
     cy.visit("https://koklassv4-orderingdev-ms.ekbana.net/system/login")
 })
