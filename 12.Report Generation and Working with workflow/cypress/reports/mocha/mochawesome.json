@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-23T07:59:42.196Z",
-    "end": "2022-08-23T08:00:14.772Z",
-    "duration": 32576,
+    "start": "2022-08-23T16:12:49.549Z",
+    "end": "2022-08-23T16:13:28.435Z",
+    "duration": 38886,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "369a84d8-d3a6-463f-a0a5-a0b9f315c7c9",
+      "uuid": "535f45e6-c47a-4b03-a701-3c9339778a1e",
       "title": "",
       "fullFile": "cypress\\e2e\\filldetails.cy.js",
       "file": "cypress\\e2e\\filldetails.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "5f31772d-ed2d-43d5-b97b-b485ee07eb46",
+          "uuid": "d5edc292-9226-43e3-9b0f-e3f311edba46",
           "title": "Enter details",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Fill details",
               "fullTitle": "Enter details Fill details",
               "timedOut": null,
-              "duration": 26784,
+              "duration": 29924,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "(0, _productpageobj.filldetails)();",
               "err": {},
-              "uuid": "ed6aacc4-cc3f-4841-a209-86dad07df678",
-              "parentUUID": "5f31772d-ed2d-43d5-b97b-b485ee07eb46",
+              "uuid": "9b5d4eb0-43b4-4b7f-b9b3-3be6216edab9",
+              "parentUUID": "d5edc292-9226-43e3-9b0f-e3f311edba46",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ed6aacc4-cc3f-4841-a209-86dad07df678"
+            "9b5d4eb0-43b4-4b7f-b9b3-3be6216edab9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 26784,
+          "duration": 29924,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -97,7 +97,7 @@
         "id": "default",
         "reportDir": "cypress/reports/mocha",
         "quite": true,
-        "overwrite": false,
+        "overwrite": true,
         "html": true,
         "json": true
       },

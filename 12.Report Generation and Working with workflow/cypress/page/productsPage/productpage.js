@@ -8,8 +8,8 @@ export class products{
     addproductcategry(){
         cy.get('#select2-warehouseid-container').type("P{enter}")
       
-    cy.get("input[name='icon']").attachFile('example.json')
-    cy.get("input[name='background_image']").attachFile('example.json')
+    cy.get("input[name='icon']").attachFile('icon.png')
+    cy.get("input[name='background_image']").attachFile('background.jpg')
     
 
   
@@ -29,18 +29,18 @@ export class products{
 
     }
     givetype(){
-        cy.get('#select2-type-container').click()
-        cy.get('#select2-type-results').each(($el, index, $list) => {
-            //cy.log($el.text(),"**")
-            if ($el.text() == 'Category') {
-            
-              cy.wrap($el).click()
-            } 
-          })
-        
+
+        //if html is given in select form type
+        //use this cy.get('select[name='type]').select("Category With Profile",{force:true})
+        //use this in case of no html given
+        cy.get('.select2-selection[aria-controls="select2-type-container"]').click().then(res=>{
+            cy.get('.select2-search__field').type("Category With Profile")
+            cy.get('.select2-results').contains('Category With Profile').click()
+        })
+       
     }
     giveposition(pos){
-        cy.get("#position").type(pos,{force:true}).should("have.value",pos)
+        cy.get("#position").type(pos,).should("have.value",pos)
 
     }
     givestatus(){
