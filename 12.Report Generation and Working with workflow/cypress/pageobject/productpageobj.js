@@ -33,10 +33,5 @@ export function filldetails(){
     prod.submit()
     cy.wait(500)
     cy.get(".alert-message").should("contain","Successfully")
-    cy.writeFile('cypress/fixtures/datas.json',datas)
-    cy.readFile('cypress/fixtures/datas.json').then(res=>{
-        cy.log(res)
-    });
-   //reading file
     
 }
