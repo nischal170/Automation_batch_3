@@ -19,4 +19,11 @@ export function filldetails(){
     prod.giveposition(datas.position)
     prod.givestatus()
     prod.submit()
+    cy.wait(500)
+    cy.get(".alert-message").should("contain","Successfully")
+    cy.writeFile('cypress/fixtures/datas.json',datas)
+   //reading file
+    /*cy.readFile('cypress/fixtures/datas.json').then(res=>{
+        cy.log(Object.keys(res)[2])
+    });*/
 }

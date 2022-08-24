@@ -24,3 +24,17 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-file-upload';
+
+Cypress.Commands.add('login', (username, password) => {
+    cy.session([username,password],()=>{
+        cy.visit('/')
+        cy.get("input[placeholder='Enter Your Username']").type(username).should("have.value",username)
+        cy.get("input[placeholder='Enter your Password']").type(password).should("have.value",password)
+        cy.get("button[class='btn btn-default btn-login']").click()
+        cy.url().should("include","/home")
+
+    })
+   
+
+
+})
