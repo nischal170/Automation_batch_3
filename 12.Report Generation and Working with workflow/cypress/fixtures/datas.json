@@ -1,6 +1,8 @@
 {
-  "category": "expert",
-  "title": "clean",
-  "description": "Omnis omnis architecto adipisci natus dolor porro aut. Necessitatibus quae est. Officiis rerum qui soluta nihil tempora et ut. Eos alias perspiciatis officia molestiae est in est. Cumque vitae a. Iure porro libero.",
-  "position": "8"
+  "category": "squiggly",
+  "title": "stingy",
+  "description": "Ipsa pariatur reprehenderit. Dolor perferendis sit id et fugit provident omnis laborum. Facilis et adipisci quia vitae natus voluptate est labore asperiores.",
+  "position": "8",
+  "icon": "icon.png",
+  "background": "background.jpg"
 }

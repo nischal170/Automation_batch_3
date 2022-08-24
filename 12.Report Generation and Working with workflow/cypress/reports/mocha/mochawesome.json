@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-23T16:12:49.549Z",
-    "end": "2022-08-23T16:13:28.435Z",
-    "duration": 38886,
+    "start": "2022-08-24T05:44:08.739Z",
+    "end": "2022-08-24T05:44:33.532Z",
+    "duration": 24793,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "535f45e6-c47a-4b03-a701-3c9339778a1e",
+      "uuid": "49dd16c1-953c-468a-9c53-e7bffef83dd1",
       "title": "",
       "fullFile": "cypress\\e2e\\filldetails.cy.js",
       "file": "cypress\\e2e\\filldetails.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d5edc292-9226-43e3-9b0f-e3f311edba46",
+          "uuid": "cef22218-0052-4327-8f45-01cb30069b87",
           "title": "Enter details",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Fill details",
               "fullTitle": "Enter details Fill details",
               "timedOut": null,
-              "duration": 29924,
+              "duration": 24675,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "(0, _productpageobj.filldetails)();",
+              "code": "cy.visit('/');\n(0, _productpageobj.filldetails)();",
               "err": {},
-              "uuid": "9b5d4eb0-43b4-4b7f-b9b3-3be6216edab9",
-              "parentUUID": "d5edc292-9226-43e3-9b0f-e3f311edba46",
+              "uuid": "a8832fce-85aa-4bce-abf6-ce39707bcd96",
+              "parentUUID": "cef22218-0052-4327-8f45-01cb30069b87",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "9b5d4eb0-43b4-4b7f-b9b3-3be6216edab9"
+            "a8832fce-85aa-4bce-abf6-ce39707bcd96"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 29924,
+          "duration": 24675,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

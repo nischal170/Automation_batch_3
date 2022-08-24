@@ -7,12 +7,12 @@ export class products{
     }
     addproductcategry(){
         cy.get('#select2-warehouseid-container').type("P{enter}")
-      
-    cy.get("input[name='icon']").attachFile('icon.png')
-    cy.get("input[name='background_image']").attachFile('background.jpg')
+    }
     
-
-  
+    addimages(icon,background){
+    cy.get("input[name='icon']").attachFile(icon)
+    cy.get("input[name='background_image']").attachFile(background)
+    
 
     }
     giveCategory(cat){
