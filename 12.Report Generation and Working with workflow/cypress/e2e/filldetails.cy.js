@@ -1,4 +1,4 @@
-import { filldetails } from "../pageobject/productpageobj";
+import * as details from "../pageobject/productpageobj";
 
 describe("Enter details",()=>{
 
@@ -7,7 +7,10 @@ describe("Enter details",()=>{
     })
     it("Fill details",()=>{
         cy.visit('/')
-        filldetails()
+        details.filldetails()
+        details.writedata()
+        details.readdata()
+        details.final()
        
     });
     
