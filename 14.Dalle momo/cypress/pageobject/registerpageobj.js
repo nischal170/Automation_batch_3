@@ -19,8 +19,8 @@ export function read(){
         re.enterphno(res.Phone_no)
         re.enteremail(res.email)
         re.enterpassword(res.password)
-        Cypress.env('email', res.email)
-        Cypress.env('password',res.password)
+        //Cypress.env('email', res.email)
+        //Cypress.env('password',res.password)
         
 
     })

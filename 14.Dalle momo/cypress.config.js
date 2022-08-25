@@ -8,8 +8,10 @@ module.exports = defineConfig({
     baseUrl: "https://uat.ordering-dalle.ekbana.net/",
     "experimentalSessionAndOrigin":true
   },
-  "env":{
-    "email":""
+  env:{
+    "email":"",
+    "password":""
+    
   }
   
 
