@@ -15,8 +15,8 @@ describe("Enter registration Data",()=>{
         menu.addtocarts()
         cy.visit('/menu')
         menu.viewcart() 
+
        
     });
-   
 
 })
