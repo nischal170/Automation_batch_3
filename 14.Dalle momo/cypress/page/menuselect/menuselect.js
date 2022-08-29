@@ -16,7 +16,6 @@ export class selectfrommenu{
         cy.visit('https://uat.ordering-dalle.ekbana.net/category/dalle-momos')
     }
     getName(){
-        
         cy.get(".product-link[href='/product/chicken-biryani']").then(($cont)=>{
             this.itemsobj.firstitem=$cont.text()
         })
@@ -44,15 +43,21 @@ export class selectfrommenu{
         cy.get(".col-md-10 > .header_account_area > .cart-info > .mini-cart-warp > .cart__link__header > #Capa_1").click({force:true})
     }
     checkcart(){
+        cy.readFile('cypress/fixtures/itemnames.json').then(res=>{
+            const firstitem =res.firstitem
+            const seconditem=res.seconditem
         cy.get("table tr:nth-child(1) .product-name a").then(($element)=>{
-            cy.expect($element.text().trim()).to.eql((this.itemsobj.firstitem).trim())
-            
-        })
-        
+                cy.expect($element.text().trim()).to.eql((firstitem).trim())
+                
+            })
         cy.get("table tr:nth-child(2) .product-name a").then(($element)=>{
-            cy.expect($element.text().trim()).to.eql((this.itemsobj.seconditem).trim())
+                cy.expect($element.text().trim()).to.eql((seconditem).trim())
+            
+            })
+            
+            
         
-        })
+         })  
     }
 
     }

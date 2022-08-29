@@ -1,0 +1,79 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      },
+      "socialTags": {
+        "og:title": "",
+        "og:description": "",
+        "og:image": null,
+        "keywords": "",
+        "description": "",
+        "twitter:title": "",
+        "twitter:image": null,
+        "twitter:description": ""
+      }
+    },
+    "data": {
+      "id": 3,
+      "pageData": [],
+      "title": "About Us",
+      "subTitle": "About Us",
+      "slug": "about-us",
+      "backgroundImage": "https://dalle.com.np/storage/pages/background/609260f026082.jpg",
+      "thumbImage": null,
+      "description": "<div class=\"container\">\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p><span style=\"font-weight: 400;\">Since 2011 we have served home-style cooked food to the general public as a quick-service restaurant. The founders Alok Yonjan and Subash Gauchan originally came up with the idea of starting Dalle in 2008 and designed a logo with the help of a close friend Ahimsa Yonjan. Dalle then started its first outlet in Kamaladi, Kathmandu in 2011.</span></p>\r\n<p><span style=\"font-weight: 400;\">During the early years, Dalle perfected their simple system. Under the guidance of Founder chef Ramesh Lama who took the lead of the Dalle kitchen which served homemade fresh foods. It was the perfect place to get juicy momos with a side of fresh tomato Achaar and Aloo dum. In the following years, Dalle added current favorites like the Dalle Bowl and Curly Fries. As they garnered a lot of popularity, the idea of expanding was born.</span></p>\r\n<p><span style=\"font-weight: 400;\">Dalle presents you Darjeeling style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.&nbsp;</span></p>\r\n<p><span style=\"font-weight: 400;\">Dalle now has 11 outlets in operation. This outlet consists of Franchises that operate both inside and outside the Kathmandu Valley, with more outlets expected to grow within Nepal.</span></p>\r\n<p><span style=\"font-weight: 400;\">Dalle is one of the most popular go-to places for momo.</span></p>\r\n<p><strong>Trip Advisor Ranking</strong></p>\r\n<p><span style=\"font-weight: 400;\">On Tripadvisor, Dalle has a rating of 4.5 out of 5 on 57 reviews. Its current ranking is in 10th position as a fast-food restaurant in a total of 57, whereas 158th of 906 restaurants; both ranking based on restaurants registered on Trip advisor.</span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n</div>",
+      "position": "1"
+    },
+    "code": 0
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 14:16:32 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "58",
+    "content-length": "2678",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 366,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://dalle.com.np/api/v4/page/about-us",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"\",\"og:description\":\"\",\"og:image\":null,\"keywords\":\"\",\"description\":\"\",\"twitter:title\":\"\",\"twitter:image\":null,\"twitter:description\":\"\"}},\"data\":{\"id\":3,\"pageData\":[],\"title\":\"About Us\",\"subTitle\":\"About Us\",\"slug\":\"about-us\",\"backgroundImage\":\"https:\\/\\/dalle.com.np\\/storage\\/pages\\/background\\/609260f026082.jpg\",\"thumbImage\":null,\"description\":\"<div class=\\\"container\\\">\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p><span style=\\\"font-weight: 400;\\\">Since 2011 we have served home-style cooked food to the general public as a quick-service restaurant. The founders Alok Yonjan and Subash Gauchan originally came up with the idea of starting Dalle in 2008 and designed a logo with the help of a close friend Ahimsa Yonjan. Dalle then started its first outlet in Kamaladi, Kathmandu in 2011.<\\/span><\\/p>\\r\\n<p><span style=\\\"font-weight: 400;\\\">During the early years, Dalle perfected their simple system. Under the guidance of Founder chef Ramesh Lama who took the lead of the Dalle kitchen which served homemade fresh foods. It was the perfect place to get juicy momos with a side of fresh tomato Achaar and Aloo dum. In the following years, Dalle added current favorites like the Dalle Bowl and Curly Fries. As they garnered a lot of popularity, the idea of expanding was born.<\\/span><\\/p>\\r\\n<p><span style=\\\"font-weight: 400;\\\">Dalle presents you Darjeeling style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.&nbsp;<\\/span><\\/p>\\r\\n<p><span style=\\\"font-weight: 400;\\\">Dalle now has 11 outlets in operation. This outlet consists of Franchises that operate both inside and outside the Kathmandu Valley, with more outlets expected to grow within Nepal.<\\/span><\\/p>\\r\\n<p><span style=\\\"font-weight: 400;\\\">Dalle is one of the most popular go-to places for momo.<\\/span><\\/p>\\r\\n<p><strong>Trip Advisor Ranking<\\/strong><\\/p>\\r\\n<p><span style=\\\"font-weight: 400;\\\">On Tripadvisor, Dalle has a rating of 4.5 out of 5 on 57 reviews. Its current ranking is in 10th position as a fast-food restaurant in a total of 57, whereas 158th of 906 restaurants; both ranking based on restaurants registered on Trip advisor.<\\/span><\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<\\/div>\",\"position\":\"1\"},\"code\":0}",
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 14:16:32 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "58",
+        "content-length": "2678",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      }
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "App"
+      },
+      {
+        "id": 2,
+        "title": "Web"
+      },
+      {
+        "id": 3,
+        "title": "Service"
+      }
+    ],
+    "code": 0
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 14:16:33 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "content-length": "192",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 360,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://dalle.com.np/api/v4/feedback-section",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"}},\"data\":[{\"id\":1,\"title\":\"App\"},{\"id\":2,\"title\":\"Web\"},{\"id\":3,\"title\":\"Service\"}],\"code\":0}",
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 14:16:33 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "content-length": "192",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

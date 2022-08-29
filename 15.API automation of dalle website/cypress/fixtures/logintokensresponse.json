@@ -1,0 +1,66 @@
+{
+  "body": {
+    "token_type": "Bearer",
+    "expires_in": 864000,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjJmYzc1MGQwMGVmZWM5YTJlNDdlNzNhZmUyNTQ4ZDc1MDRkNzhkZjVkZGMwODYwNjZhMmIyNzFjZGMxYmMwNzdmOWY4YzFmMTQ0OTgzMzBhIn0.eyJhdWQiOiIyIiwianRpIjoiMmZjNzUwZDAwZWZlYzlhMmU0N2U3M2FmZTI1NDhkNzUwNGQ3OGRmNWRkYzA4NjA2NmEyYjI3MWNkYzFiYzA3N2Y5ZjhjMWYxNDQ5ODMzMGEiLCJpYXQiOjE2NjE3NzkwMjIsIm5iZiI6MTY2MTc3OTAyMiwiZXhwIjoxNjYyNjQzMDIyLCJzdWIiOiIxMjY3Iiwic2NvcGVzIjpbXX0.Mj2Q0HiUeyp8i58f0Ytc3mMxA5Ga8G_5qf0n-Vs7dsO6nxR_5n4wwzWGZb3-nXQ_pjG2BfjGVPMd21nZfbYm-qqTiwu0hQxZxmKy8cYBEheQ76XLIVghJg162ELzv7kAxKbrYpeffbyeYTPFT2cBIxUKO9L7Dg6XDtGlRhRoPsVFrO9wu_l4VBuTSJw-vspfGYU6GFW8n2Y6r9XhZZ3ACOVmwpxOfAm4tR5jbYZj8vFIq_WKfuPudjotcuEomFzCAWePNfUeMnNTCHCGRLczD7DlOaeAPPHooXKCpTw6ixMO4c55kWE-_YokpWGGwzU8lp3tsZ9-F615X-ExNvsP2Sx1muQptJ8ILw_BOaWiNkuYnnCDpfkCyvHS-rKYozeynBxWv-OC3F3cPmo7jGCTeq0K9jtNDBI4qSNKCDhDOW2gXzVOcD9NiqYBsLzHTgtuLbJ_GVDTD0T2vpee1-tXBbIjr6IhEQd_nZGBsG9ukjsUSN6bi2Wz6V5B6MXrgTtTwKPl2kDWbX5tAcqayO19Wzf3dtx29SNNaEsX0thSVU8TsPjsisW0upkc37XfE23GOME139YkbTjL1gSOdqpsPD7EXQ2_PHhmIT2kNLUCBYSV0S4CkMaC0WFXpYJH9QxjL5DWHn6cbOLn-_byixqO_x811E10pujP_WhxCUU_NsM",
+    "refresh_token": "def50200fe1b2eb1cb54b712e18f1b0bd67c82df7d4d66317666a335244a33d0d724851f366d65a376ea9c5f89b30b9d169854a2b0e50cc36e28ccb91b37f7ae05243561e7fc07fe487f22f8b46f391aa1c532711f946c941f504350df39d92a9896a66f24721d79d08ecc81873171046fafedf592d74361cb213334364a6e09eadfcc4232ece7b900a8b4579f98116100a816ee2b875c2811649490f920bc7351649d8c4e44916f3fe31ce4e2170302a8e8bddac24f15b830bba21923f48097eda7440ac571a2fd4693999705d8decdf0909bcec95722441a97ed40207b7a0c68b98d6f4c90f2131ced80450fca792c06bb99fb1136ec08bd6e0ea75b3df4d24358f9e22cdaecc72f6d7a015b5cc583d82999e6fd2d1d0a1c19d44c6dd5b2c847db0da6c411fd90ac5a379cb87355288a3caa8e57a57d8a24646e1818f237f0db98a41ff2a0fd56f9a74e7aacdebb0d3e8799bcff4faff4ae981d2c8943774cc4c750be",
+    "warehouse_id": 1,
+    "user_verified": false
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 13:17:02 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "content-length": "1906",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 214
+  },
+  "requestBody": "{\"client_id\":\"2\",\"client_secret\":\"1C0l4HTDcuVa6qQdsgZQVByfoU53KCc2to7FtbRW\",\"grant_type\":\"password\",\"password\":\"XfVuKh7_wQe0nsC\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Antonina.Reilly99@gmail.com\"}",
+  "duration": 658,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"client_id\":\"2\",\"client_secret\":\"1C0l4HTDcuVa6qQdsgZQVByfoU53KCc2to7FtbRW\",\"grant_type\":\"password\",\"password\":\"XfVuKh7_wQe0nsC\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Antonina.Reilly99@gmail.com\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 214
+      },
+      "Request URL": "https://dalle.com.np/api/v4/auth/login",
+      "Response Body": {
+        "token_type": "Bearer",
+        "expires_in": 864000,
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjJmYzc1MGQwMGVmZWM5YTJlNDdlNzNhZmUyNTQ4ZDc1MDRkNzhkZjVkZGMwODYwNjZhMmIyNzFjZGMxYmMwNzdmOWY4YzFmMTQ0OTgzMzBhIn0.eyJhdWQiOiIyIiwianRpIjoiMmZjNzUwZDAwZWZlYzlhMmU0N2U3M2FmZTI1NDhkNzUwNGQ3OGRmNWRkYzA4NjA2NmEyYjI3MWNkYzFiYzA3N2Y5ZjhjMWYxNDQ5ODMzMGEiLCJpYXQiOjE2NjE3NzkwMjIsIm5iZiI6MTY2MTc3OTAyMiwiZXhwIjoxNjYyNjQzMDIyLCJzdWIiOiIxMjY3Iiwic2NvcGVzIjpbXX0.Mj2Q0HiUeyp8i58f0Ytc3mMxA5Ga8G_5qf0n-Vs7dsO6nxR_5n4wwzWGZb3-nXQ_pjG2BfjGVPMd21nZfbYm-qqTiwu0hQxZxmKy8cYBEheQ76XLIVghJg162ELzv7kAxKbrYpeffbyeYTPFT2cBIxUKO9L7Dg6XDtGlRhRoPsVFrO9wu_l4VBuTSJw-vspfGYU6GFW8n2Y6r9XhZZ3ACOVmwpxOfAm4tR5jbYZj8vFIq_WKfuPudjotcuEomFzCAWePNfUeMnNTCHCGRLczD7DlOaeAPPHooXKCpTw6ixMO4c55kWE-_YokpWGGwzU8lp3tsZ9-F615X-ExNvsP2Sx1muQptJ8ILw_BOaWiNkuYnnCDpfkCyvHS-rKYozeynBxWv-OC3F3cPmo7jGCTeq0K9jtNDBI4qSNKCDhDOW2gXzVOcD9NiqYBsLzHTgtuLbJ_GVDTD0T2vpee1-tXBbIjr6IhEQd_nZGBsG9ukjsUSN6bi2Wz6V5B6MXrgTtTwKPl2kDWbX5tAcqayO19Wzf3dtx29SNNaEsX0thSVU8TsPjsisW0upkc37XfE23GOME139YkbTjL1gSOdqpsPD7EXQ2_PHhmIT2kNLUCBYSV0S4CkMaC0WFXpYJH9QxjL5DWHn6cbOLn-_byixqO_x811E10pujP_WhxCUU_NsM",
+        "refresh_token": "def50200fe1b2eb1cb54b712e18f1b0bd67c82df7d4d66317666a335244a33d0d724851f366d65a376ea9c5f89b30b9d169854a2b0e50cc36e28ccb91b37f7ae05243561e7fc07fe487f22f8b46f391aa1c532711f946c941f504350df39d92a9896a66f24721d79d08ecc81873171046fafedf592d74361cb213334364a6e09eadfcc4232ece7b900a8b4579f98116100a816ee2b875c2811649490f920bc7351649d8c4e44916f3fe31ce4e2170302a8e8bddac24f15b830bba21923f48097eda7440ac571a2fd4693999705d8decdf0909bcec95722441a97ed40207b7a0c68b98d6f4c90f2131ced80450fca792c06bb99fb1136ec08bd6e0ea75b3df4d24358f9e22cdaecc72f6d7a015b5cc583d82999e6fd2d1d0a1c19d44c6dd5b2c847db0da6c411fd90ac5a379cb87355288a3caa8e57a57d8a24646e1818f237f0db98a41ff2a0fd56f9a74e7aacdebb0d3e8799bcff4faff4ae981d2c8943774cc4c750be",
+        "warehouse_id": 1,
+        "user_verified": false
+      },
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 13:17:02 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "content-length": "1906",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

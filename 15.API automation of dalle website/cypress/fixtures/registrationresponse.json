@@ -1,0 +1,108 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      }
+    },
+    "data": {
+      "id": 1267,
+      "email": "a----------------@-----.com",
+      "username": "dean_hackett_55",
+      "firstName": "Dean",
+      "lastName": "Hackett",
+      "verified": true,
+      "mobileNumber": "98------98",
+      "createdAt": "Aug 29, 2022",
+      "updatedAt": "Aug 29, 2022",
+      "image": "https://dalle.com.np/frontend/img/default_user.jpg",
+      "total_loyalty_points": 100,
+      "current_loyalty_points": 100,
+      "user_level": "Normal",
+      "next_level": "Silver",
+      "required_points_next": 400
+    },
+    "code": 0
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 13:03:34 GMT",
+    "server": "Apache",
+    "vary": "Authorization",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "content-length": "527",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 201,
+  "statusText": "Created",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "authorization": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 175
+  },
+  "requestBody": "{\"confirmPassword\":\"XfVuKh7_wQe0nsC\",\"email\":\"Antonina.Reilly99@gmail.com\",\"first_name\":\"Dean\",\"last_name\":\"Hackett\",\"mobile_number\":\"9878602098\",\"password\":\"XfVuKh7_wQe0nsC\"}",
+  "duration": 4690,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"confirmPassword\":\"XfVuKh7_wQe0nsC\",\"email\":\"Antonina.Reilly99@gmail.com\",\"first_name\":\"Dean\",\"last_name\":\"Hackett\",\"mobile_number\":\"9878602098\",\"password\":\"XfVuKh7_wQe0nsC\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "authorization": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 175
+      },
+      "Request URL": "https://dalle.com.np/api/v4/auth/signup",
+      "Response Body": {
+        "meta": {
+          "copyright": "Copyright 2017 Ekbana Pte",
+          "emails": "info@ekbana.com",
+          "api": {
+            "version": "0.2"
+          }
+        },
+        "data": {
+          "id": 1267,
+          "email": "a----------------@-----.com",
+          "username": "dean_hackett_55",
+          "firstName": "Dean",
+          "lastName": "Hackett",
+          "verified": true,
+          "mobileNumber": "98------98",
+          "createdAt": "Aug 29, 2022",
+          "updatedAt": "Aug 29, 2022",
+          "image": "https://dalle.com.np/frontend/img/default_user.jpg",
+          "total_loyalty_points": 100,
+          "current_loyalty_points": 100,
+          "user_level": "Normal",
+          "next_level": "Silver",
+          "required_points_next": 400
+        },
+        "code": 0
+      },
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 13:03:34 GMT",
+        "server": "Apache",
+        "vary": "Authorization",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "content-length": "527",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 201
+    }
+  ]
+}
