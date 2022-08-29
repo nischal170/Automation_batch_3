@@ -1,0 +1,383 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      },
+      "socialTags": {
+        "og:title": "DALLE Food and Restaurant",
+        "og:description": "DALLE is one of the fastest-growing quick-service restaurants (QSR) in Nepal. Dalle presents you Darjeeling-style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.",
+        "og:image": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>https://dalle.com.np/uploads/Mask%20Group%2041%402x.png</p>",
+        "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
+        "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
+        "twitter:title": "DALLE Food and Restaurant",
+        "twitter:image": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>https://dalle.com.np/uploads/Mask%20Group%2041%402x.png</p>",
+        "twitter:description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps."
+      },
+      "totalBrands": 0
+    },
+    "data": {
+      "id": 1,
+      "page": {
+        "home ad2 link": "",
+        "home ad3 link": "",
+        "home ad4 link": "",
+        "home ad2": "https://dalle.com.np/uploads/thumbs/thumbs/thumbs/Add%20banner%2039%402x.png",
+        "home ad1": ""
+      },
+      "appCategories": [
+        {
+          "id": 17,
+          "title": "BEVERAGES",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 3,
+          "products": []
+        },
+        {
+          "id": 29,
+          "title": "RICE & NOODLES",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 4,
+          "products": []
+        },
+        {
+          "id": 5,
+          "title": "MOMOS",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 6,
+          "products": []
+        },
+        {
+          "id": 9,
+          "title": "Rice & Noodles",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 7,
+          "products": []
+        },
+        {
+          "id": 4,
+          "title": "SIGNATURE",
+          "description": null,
+          "icon": "https://dalle.com.np/storage/category/thumbnail/60e3ef8e9ea67.jpg",
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 8,
+          "products": []
+        },
+        {
+          "id": 6,
+          "title": "DALLE FROZEN MOMO",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 9,
+          "products": []
+        },
+        {
+          "id": 10,
+          "title": "BEVERAGES",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "half_left",
+          "position": 10,
+          "products": []
+        },
+        {
+          "id": 20,
+          "title": "DALLE FROZEN MOMOS",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 11,
+          "products": []
+        },
+        {
+          "id": 25,
+          "title": "MOMOS",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 12,
+          "products": []
+        },
+        {
+          "id": 15,
+          "title": "Rice & Noodles",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 13,
+          "products": []
+        },
+        {
+          "id": 22,
+          "title": "RICE & NOODLES",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 14,
+          "products": []
+        },
+        {
+          "id": 12,
+          "title": "MOMOS",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 14,
+          "products": []
+        },
+        {
+          "id": 28,
+          "title": "SNACKS",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 15,
+          "products": []
+        },
+        {
+          "id": 11,
+          "title": "SIGNATURE",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 15,
+          "products": []
+        },
+        {
+          "id": 7,
+          "title": "SUPER SAVER PACK (Save up to 25%)",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 16,
+          "products": []
+        },
+        {
+          "id": 18,
+          "title": "SIGNATURE",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 16,
+          "products": []
+        },
+        {
+          "id": 23,
+          "title": "BEVERAGES",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 17,
+          "products": []
+        },
+        {
+          "id": 21,
+          "title": "SNACKS",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 17,
+          "products": []
+        },
+        {
+          "id": 14,
+          "title": "Snacks",
+          "description": null,
+          "icon": null,
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 17,
+          "products": []
+        },
+        {
+          "id": 8,
+          "title": "SNACKS",
+          "description": null,
+          "icon": "https://dalle.com.np/storage/category/thumbnail/60e7efdd04413.jpg",
+          "collection_type": "product",
+          "type": "product_horizontal",
+          "position": 17,
+          "products": []
+        }
+      ],
+      "banners": [
+        {
+          "id": 19,
+          "title": "Satisfy Your Cravings",
+          "shortDescription": "",
+          "type": "home",
+          "websiteUrl": null,
+          "linkTo": "category",
+          "bannerImage": "https://dalle.com.np/storage/uploads/banner/60e6e09946283.jpg",
+          "position": 4,
+          "category": {
+            "id": 381,
+            "parentId": null,
+            "title": "Momo",
+            "description": null,
+            "icon": "https://dalle.com.np/storage/category/icon/60e15a411cdb5.jpg",
+            "slug": "9v7j-momo-v096"
+          }
+        },
+        {
+          "id": 20,
+          "title": "Satisfy Your Cravings",
+          "shortDescription": "",
+          "type": "home",
+          "websiteUrl": null,
+          "linkTo": "product",
+          "bannerImage": "https://dalle.com.np/storage/uploads/banner/60e6e0e429c2d.jpg",
+          "position": 5,
+          "product": {
+            "id": 1208,
+            "title": "Chicken Momo Steam Combo",
+            "categoryId": 237,
+            "categoryTitle": "Chicken Momo Combo",
+            "categorySlug": "klnc-chicken-momo-combo-ard3",
+            "slug": "gsuh-chicken-momo-steam-combo-dk643-bjsa",
+            "hasOffer": false,
+            "unitPrice": [
+              {
+                "id": 1208,
+                "title": "Plate",
+                "sellingPrice": 330,
+                "markedPrice": 330,
+                "newPrice": 0,
+                "oldPrice": 330,
+                "size": null,
+                "sku": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 24,
+          "title": "Momo Monday",
+          "shortDescription": "",
+          "type": "home",
+          "websiteUrl": null,
+          "linkTo": null,
+          "bannerImage": "https://dalle.com.np/storage/uploads/banner/6221ed20abe68.jpg",
+          "position": null
+        }
+      ],
+      "adbanners": [
+        {
+          "id": 7,
+          "title": "First",
+          "shortDescription": "",
+          "type": "ad_home",
+          "websiteUrl": "https://dalle.com.np/product/w8mm-pork-momo-steam-chilli-ktm261-xjcd",
+          "linkTo": "website",
+          "bannerImage": "https://dalle.com.np/storage/uploads/banner/60a20e0bcc44b.jpg",
+          "position": 1
+        },
+        {
+          "id": 8,
+          "title": "Second",
+          "shortDescription": "",
+          "type": "ad_home",
+          "websiteUrl": "https://dalle.com.np/category/ydml-chopsuey-combo-qnna",
+          "linkTo": "website",
+          "bannerImage": "https://dalle.com.np/storage/uploads/banner/60a20e5477f13.jpg",
+          "position": 2
+        },
+        {
+          "id": 9,
+          "title": "Third",
+          "shortDescription": "",
+          "type": "ad_home",
+          "websiteUrl": "https://dalle.com.np/category/tbmn-momo-imoq",
+          "linkTo": "website",
+          "bannerImage": "https://dalle.com.np/storage/uploads/banner/60e6e66303999.jpg",
+          "position": 3
+        }
+      ],
+      "brands": []
+    },
+    "code": 0
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 17:41:30 GMT",
+    "server": "Apache",
+    "vary": "Authorization",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "58",
+    "content-length": "6958",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImY2ZWM0ZDI0OGE1ZTY3YWU3NDhhZDUzNTQ0NDI2ZjI3NmRkYjQzMjlhNmYxZDMzMTViZDM4MGVkNGE5NmY2OTAyYzhjYjY5NDhkM2FjZThmIn0.eyJhdWQiOiIyIiwianRpIjoiZjZlYzRkMjQ4YTVlNjdhZTc0OGFkNTM1NDQ0MjZmMjc2ZGRiNDMyOWE2ZjFkMzMxNWJkMzgwZWQ0YTk2ZjY5MDJjOGNiNjk0OGQzYWNlOGYiLCJpYXQiOjE2NjE3OTQ4ODcsIm5iZiI6MTY2MTc5NDg4NywiZXhwIjoxNjYyNjU4ODg3LCJzdWIiOiIxMjcwIiwic2NvcGVzIjpbXX0.mZyCh2igT4SJSwJ_l6GPdTAyELkeVLbO2XUGVZsJqyBCujbn9I1IJgKXXysdayFdFg1bexFIC9BbG9858rpelldf3Qo3m2mF33DWgfdJAaVkaL17z0uxbynvOiF4I2N-Q7eutJRhMXG8FqarlTBoUz1G5BzBiilgPVOQV8gTSy4phTLndSjrCG1vqmqG-CGQpYUPFh1gAUgOLNgeLr7kJHDZXxEo-AbsUhKIcd0fzSBtqtxyOTvJLasmA7S3s45yUGKgCYZCUc-RajgayfUj3lYYGR7rjiTJGbW3DvZ9JvfoNDn5q3aaXDRSrfjxgAK5z1nl8THq0mLgxJ8qHknY-epNuwiVxpTnD33P4ztdytcZXto4YUDEBmN65E0H5mZlCLcKDL8SEzEOm-Xd3JUK1EA2INkUW8cn8-CVPfIDGP0bVx8JbxW6kDjgQl4BvKESeyb04k8G0n6rbKXt5LNIieJs1xF7BN5Zeo-FG67lz1HMbPvzkhKqadH-alAYNpQGUcjVHKZXAlF_E2b9SsQFrgtuaGsSLYfhZ8fz0m5EZfwssEwQCZFYW7hR8oR-YLdG2Q6NCpN9YHewvFBGFwIRqAL-tkJH1kXSGo1HWRG-HPUjkvVE2EX6rFJQSx42aOgDrdqEGC-O7mcYRqdqxv8Zt1yQTtsOAJSgO31vQQijaCk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 990,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImY2ZWM0ZDI0OGE1ZTY3YWU3NDhhZDUzNTQ0NDI2ZjI3NmRkYjQzMjlhNmYxZDMzMTViZDM4MGVkNGE5NmY2OTAyYzhjYjY5NDhkM2FjZThmIn0.eyJhdWQiOiIyIiwianRpIjoiZjZlYzRkMjQ4YTVlNjdhZTc0OGFkNTM1NDQ0MjZmMjc2ZGRiNDMyOWE2ZjFkMzMxNWJkMzgwZWQ0YTk2ZjY5MDJjOGNiNjk0OGQzYWNlOGYiLCJpYXQiOjE2NjE3OTQ4ODcsIm5iZiI6MTY2MTc5NDg4NywiZXhwIjoxNjYyNjU4ODg3LCJzdWIiOiIxMjcwIiwic2NvcGVzIjpbXX0.mZyCh2igT4SJSwJ_l6GPdTAyELkeVLbO2XUGVZsJqyBCujbn9I1IJgKXXysdayFdFg1bexFIC9BbG9858rpelldf3Qo3m2mF33DWgfdJAaVkaL17z0uxbynvOiF4I2N-Q7eutJRhMXG8FqarlTBoUz1G5BzBiilgPVOQV8gTSy4phTLndSjrCG1vqmqG-CGQpYUPFh1gAUgOLNgeLr7kJHDZXxEo-AbsUhKIcd0fzSBtqtxyOTvJLasmA7S3s45yUGKgCYZCUc-RajgayfUj3lYYGR7rjiTJGbW3DvZ9JvfoNDn5q3aaXDRSrfjxgAK5z1nl8THq0mLgxJ8qHknY-epNuwiVxpTnD33P4ztdytcZXto4YUDEBmN65E0H5mZlCLcKDL8SEzEOm-Xd3JUK1EA2INkUW8cn8-CVPfIDGP0bVx8JbxW6kDjgQl4BvKESeyb04k8G0n6rbKXt5LNIieJs1xF7BN5Zeo-FG67lz1HMbPvzkhKqadH-alAYNpQGUcjVHKZXAlF_E2b9SsQFrgtuaGsSLYfhZ8fz0m5EZfwssEwQCZFYW7hR8oR-YLdG2Q6NCpN9YHewvFBGFwIRqAL-tkJH1kXSGo1HWRG-HPUjkvVE2EX6rFJQSx42aOgDrdqEGC-O7mcYRqdqxv8Zt1yQTtsOAJSgO31vQQijaCk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://dalle.com.np/api/v4/home",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"DALLE Food and Restaurant\",\"og:description\":\"DALLE is one of the fastest-growing quick-service restaurants (QSR) in Nepal. Dalle presents you Darjeeling-style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.\",\"og:image\":\"<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>https:\\/\\/dalle.com.np\\/uploads\\/Mask%20Group%2041%402x.png<\\/p>\",\"keywords\":\"Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.\",\"description\":\"Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.\",\"twitter:title\":\"DALLE Food and Restaurant\",\"twitter:image\":\"<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>https:\\/\\/dalle.com.np\\/uploads\\/Mask%20Group%2041%402x.png<\\/p>\",\"twitter:description\":\"Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.\"},\"totalBrands\":0},\"data\":{\"id\":1,\"page\":{\"home ad2 link\":\"\",\"home ad3 link\":\"\",\"home ad4 link\":\"\",\"home ad2\":\"https:\\/\\/dalle.com.np\\/uploads\\/thumbs\\/thumbs\\/thumbs\\/Add%20banner%2039%402x.png\",\"home ad1\":\"\"},\"appCategories\":[{\"id\":17,\"title\":\"BEVERAGES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":3,\"products\":[]},{\"id\":29,\"title\":\"RICE & NOODLES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":4,\"products\":[]},{\"id\":5,\"title\":\"MOMOS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":6,\"products\":[]},{\"id\":9,\"title\":\"Rice & Noodles\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":7,\"products\":[]},{\"id\":4,\"title\":\"SIGNATURE\",\"description\":null,\"icon\":\"https:\\/\\/dalle.com.np\\/storage\\/category\\/thumbnail\\/60e3ef8e9ea67.jpg\",\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":8,\"products\":[]},{\"id\":6,\"title\":\"DALLE FROZEN MOMO\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":9,\"products\":[]},{\"id\":10,\"title\":\"BEVERAGES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"half_left\",\"position\":10,\"products\":[]},{\"id\":20,\"title\":\"DALLE FROZEN MOMOS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":11,\"products\":[]},{\"id\":25,\"title\":\"MOMOS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":12,\"products\":[]},{\"id\":15,\"title\":\"Rice & Noodles\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":13,\"products\":[]},{\"id\":22,\"title\":\"RICE & NOODLES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":14,\"products\":[]},{\"id\":12,\"title\":\"MOMOS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":14,\"products\":[]},{\"id\":28,\"title\":\"SNACKS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":15,\"products\":[]},{\"id\":11,\"title\":\"SIGNATURE\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":15,\"products\":[]},{\"id\":7,\"title\":\"SUPER SAVER PACK (Save up to 25%)\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":16,\"products\":[]},{\"id\":18,\"title\":\"SIGNATURE\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":16,\"products\":[]},{\"id\":23,\"title\":\"BEVERAGES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":17,\"products\":[]},{\"id\":21,\"title\":\"SNACKS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":17,\"products\":[]},{\"id\":14,\"title\":\"Snacks\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":17,\"products\":[]},{\"id\":8,\"title\":\"SNACKS\",\"description\":null,\"icon\":\"https:\\/\\/dalle.com.np\\/storage\\/category\\/thumbnail\\/60e7efdd04413.jpg\",\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":17,\"products\":[]}],\"banners\":[{\"id\":19,\"title\":\"Satisfy Your Cravings\",\"shortDescription\":\"\",\"type\":\"home\",\"websiteUrl\":null,\"linkTo\":\"category\",\"bannerImage\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/banner\\/60e6e09946283.jpg\",\"position\":4,\"category\":{\"id\":381,\"parentId\":null,\"title\":\"Momo\",\"description\":null,\"icon\":\"https:\\/\\/dalle.com.np\\/storage\\/category\\/icon\\/60e15a411cdb5.jpg\",\"slug\":\"9v7j-momo-v096\"}},{\"id\":20,\"title\":\"Satisfy Your Cravings\",\"shortDescription\":\"\",\"type\":\"home\",\"websiteUrl\":null,\"linkTo\":\"product\",\"bannerImage\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/banner\\/60e6e0e429c2d.jpg\",\"position\":5,\"product\":{\"id\":1208,\"title\":\"Chicken Momo Steam Combo\",\"categoryId\":237,\"categoryTitle\":\"Chicken Momo Combo\",\"categorySlug\":\"klnc-chicken-momo-combo-ard3\",\"slug\":\"gsuh-chicken-momo-steam-combo-dk643-bjsa\",\"hasOffer\":false,\"unitPrice\":[{\"id\":1208,\"title\":\"Plate\",\"sellingPrice\":330,\"markedPrice\":330,\"newPrice\":0,\"oldPrice\":330,\"size\":null,\"sku\":null,\"barcode\":null,\"stock\":999,\"hasOffer\":false,\"alwaysAvailable\":true}]}},{\"id\":24,\"title\":\"Momo Monday\",\"shortDescription\":\"\",\"type\":\"home\",\"websiteUrl\":null,\"linkTo\":null,\"bannerImage\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/banner\\/6221ed20abe68.jpg\",\"position\":null}],\"adbanners\":[{\"id\":7,\"title\":\"First\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":\"https:\\/\\/dalle.com.np\\/product\\/w8mm-pork-momo-steam-chilli-ktm261-xjcd\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/banner\\/60a20e0bcc44b.jpg\",\"position\":1},{\"id\":8,\"title\":\"Second\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":\"https:\\/\\/dalle.com.np\\/category\\/ydml-chopsuey-combo-qnna\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/banner\\/60a20e5477f13.jpg\",\"position\":2},{\"id\":9,\"title\":\"Third\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":\"https:\\/\\/dalle.com.np\\/category\\/tbmn-momo-imoq\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/banner\\/60e6e66303999.jpg\",\"position\":3}],\"brands\":[]},\"code\":0}",
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 17:41:30 GMT",
+        "server": "Apache",
+        "vary": "Authorization",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "58",
+        "content-length": "6958",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

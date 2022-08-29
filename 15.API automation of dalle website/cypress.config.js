@@ -8,7 +8,8 @@ module.exports = defineConfig({
     baseUrl: "https://dalle.com.np/api/v4/"
   },
   env:{
-    apikey:"HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk"
+    apikey:"HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    accesstoken:''
 
   }
 });

@@ -31,7 +31,7 @@
     "code": 0
   },
   "headers": {
-    "date": "Mon, 29 Aug 2022 14:16:33 GMT",
+    "date": "Mon, 29 Aug 2022 17:40:51 GMT",
     "server": "Apache",
     "cache-control": "no-cache",
     "x-ratelimit-limit": "60",
@@ -50,7 +50,7 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 386,
+  "duration": 394,
   "allRequestResponses": [
     {
       "Request Body": null,
@@ -64,7 +64,7 @@
       "Request URL": "https://dalle.com.np/api/v4/page/privacy-policy",
       "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"\",\"og:description\":\"\",\"og:image\":null,\"keywords\":\"\",\"description\":\"\",\"twitter:title\":\"\",\"twitter:image\":null,\"twitter:description\":\"\"}},\"data\":{\"id\":1,\"pageData\":[],\"title\":\"Privacy Policy\",\"subTitle\":\"Privacy Policy\",\"slug\":\"privacy-policy\",\"backgroundImage\":\"https:\\/\\/dalle.com.np\\/storage\\/pages\\/background\\/609261546af6d.jpg\",\"thumbImage\":null,\"description\":\"<div class=\\\"container\\\">\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>At Dalle - Restaurant and Food Service, accessible from dalle.com.np, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that are collected and recorded by Dalle - Restaurant and Food Service and how we use it.<\\/p>\\r\\n<p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<\\/p>\\r\\n<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and\\/or collect in Dalle - Restaurant and Food Service. This policy is not applicable to any information collected offline or via channels other than this website.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<h2>Consent<\\/h2>\\r\\n<p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<h2>Information we collect<\\/h2>\\r\\n<p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.<\\/p>\\r\\n<p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and\\/or attachments you may send us, and any other information you may choose to provide.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<\\/div>\",\"position\":\"1\"},\"code\":0}",
       "Response Headers": {
-        "date": "Mon, 29 Aug 2022 14:16:33 GMT",
+        "date": "Mon, 29 Aug 2022 17:40:51 GMT",
         "server": "Apache",
         "cache-control": "no-cache",
         "x-ratelimit-limit": "60",

@@ -8,25 +8,20 @@
       }
     },
     "data": {
-      "firstName": "Amaya",
-      "middleName": "bahadur",
-      "lastName": "Thompson",
-      "contactNo": "9818839595",
-      "email": "Anissa_Simonis@yahoo.com",
-      "address": "sinamangal",
-      "previously_applied": "false",
-      "franchise_type": "multi unit",
-      "status": "Pending"
+      "success": {
+        "title": "Query Sent",
+        "message": "You query has been sent"
+      }
     },
     "code": 0
   },
   "headers": {
-    "date": "Mon, 29 Aug 2022 17:40:55 GMT",
+    "date": "Mon, 29 Aug 2022 17:40:52 GMT",
     "server": "Apache",
     "cache-control": "no-cache",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "59",
-    "content-length": "345",
+    "content-length": "188",
     "connection": "close",
     "content-type": "application/json"
   },
@@ -40,13 +35,13 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate",
     "content-type": "application/json",
-    "content-length": 208
+    "content-length": 292
   },
-  "requestBody": "{\"address\":\"sinamangal\",\"contactNo\":\"9818839595\",\"email\":\"Anissa_Simonis@yahoo.com\",\"firstName\":\"Amaya\",\"franchise_type\":\"multi unit\",\"lastName\":\"Thompson\",\"middleName\":\"bahadur\",\"previously_applied\":\"false\"}",
-  "duration": 5390,
+  "requestBody": "{\"contact\":\"9831066396\",\"email\":\"Dena.Waelchi19@hotmail.com\",\"message\":\"Eligendi impedit maxime nemo esse sit. Nisi tempore consequatur alias ipsa nisi quisquam animi. Veniam consequuntur necessitatibus voluptas quos animi fugit. Quod magnam aut voluptas.\",\"name\":\"JulieMetz\",\"subject\":\"Web\"}",
+  "duration": 3321,
   "allRequestResponses": [
     {
-      "Request Body": "{\"address\":\"sinamangal\",\"contactNo\":\"9818839595\",\"email\":\"Anissa_Simonis@yahoo.com\",\"firstName\":\"Amaya\",\"franchise_type\":\"multi unit\",\"lastName\":\"Thompson\",\"middleName\":\"bahadur\",\"previously_applied\":\"false\"}",
+      "Request Body": "{\"contact\":\"9831066396\",\"email\":\"Dena.Waelchi19@hotmail.com\",\"message\":\"Eligendi impedit maxime nemo esse sit. Nisi tempore consequatur alias ipsa nisi quisquam animi. Veniam consequuntur necessitatibus voluptas quos animi fugit. Quod magnam aut voluptas.\",\"name\":\"JulieMetz\",\"subject\":\"Web\"}",
       "Request Headers": {
         "Connection": "keep-alive",
         "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
@@ -54,9 +49,9 @@
         "accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "content-type": "application/json",
-        "content-length": 208
+        "content-length": 292
       },
-      "Request URL": "https://dalle.com.np/api/v4/franchise",
+      "Request URL": "https://dalle.com.np/api/v4/contact-us",
       "Response Body": {
         "meta": {
           "copyright": "Copyright 2017 Ekbana Pte",
@@ -66,25 +61,20 @@
           }
         },
         "data": {
-          "firstName": "Amaya",
-          "middleName": "bahadur",
-          "lastName": "Thompson",
-          "contactNo": "9818839595",
-          "email": "Anissa_Simonis@yahoo.com",
-          "address": "sinamangal",
-          "previously_applied": "false",
-          "franchise_type": "multi unit",
-          "status": "Pending"
+          "success": {
+            "title": "Query Sent",
+            "message": "You query has been sent"
+          }
         },
         "code": 0
       },
       "Response Headers": {
-        "date": "Mon, 29 Aug 2022 17:40:55 GMT",
+        "date": "Mon, 29 Aug 2022 17:40:52 GMT",
         "server": "Apache",
         "cache-control": "no-cache",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "59",
-        "content-length": "345",
+        "content-length": "188",
         "connection": "close",
         "content-type": "application/json"
       },

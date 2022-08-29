@@ -73,8 +73,13 @@ describe("These apis don't require login",()=>{
     it("Contact us",()=>{
         const key=Cypress.env("apikey")
         const options={
-            method:"GET",
-            url:"faq",
+            method:"POST",
+            url:"contact-us",
+            body:{"contact":faker.phone.number('98########'),
+            "email": faker.internet.email(),
+            "message":faker.lorem.paragraph() ,
+            "name": faker.name.firstName()+faker.name.lastName(),
+            "subject": "Web"},
         
             
         headers: {
@@ -82,11 +87,12 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
-                cy.writeFile('cypress/fixtures/extra/faq.json',response)
+                cy.writeFile('cypress/fixtures/extra/contactusresponse.json',response)
                 
         })
 
     });
+    /* ASKS FOR CITY
     it("Product offer",()=>{
         const key=Cypress.env("apikey")
         const options={
@@ -103,8 +109,8 @@ describe("These apis don't require login",()=>{
                 
         })
 
-    });
-    /*ASKS FOR CITY
+    });*/
+   
     it("Franchise",()=>{
         const key=Cypress.env("apikey")
         const options={
@@ -129,7 +135,42 @@ describe("These apis don't require login",()=>{
                 
         })
 
-    });*/
+    });
+    it("Testimonials",()=>{
+        const key=Cypress.env("apikey")
+        const options={
+            method:"GET",
+            url:"testimonial?offer=1&page=1",
+        
+            
+        headers: {
+            'Api-Key':`${key}`,
+          }
+            };
+            cy.request(options).then((response) => {
+                cy.writeFile('cypress/fixtures/extra/testimonials.json',response)
+                
+        })
+
+    });
+    it("Gallery",()=>{
+        const key=Cypress.env("apikey")
+        const options={
+            method:"GET",
+            url:"gallery?type=gallery&page=1&perPage=16",
+        
+            
+        headers: {
+            'Api-Key':`${key}`,
+          }
+            };
+            cy.request(options).then((response) => {
+                cy.writeFile('cypress/fixtures/extra/galleryresponse.json',response)
+                
+        })
+
+    });
+    
     
 
 

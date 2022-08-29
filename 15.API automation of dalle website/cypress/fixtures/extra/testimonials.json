@@ -1,0 +1,128 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      },
+      "pagination": {
+        "total": 5,
+        "count": 5,
+        "per_page": 20,
+        "current_page": 1,
+        "total_pages": 1,
+        "links": []
+      }
+    },
+    "data": [
+      {
+        "id": 7,
+        "name": "Sriyan Kafle",
+        "title": null,
+        "date": null,
+        "designation": "Google",
+        "email": "neekipradhan5@gmail.com",
+        "description": "<p>According to me food derives a tradition and the tradition of this place shows me how the food is cooked in a perfect way with love and kindness .I am a food lover and I would prescribe the people suffering with hunger to join this place where it gives a very nice warmth and the goodness of the food and surrounds which is necessary for every restaurant and the main thing the momo's made here are too good which melt in one's mouth so I myself being the oldest customer of this place love it!</p>",
+        "shortDesc": "",
+        "image": "https://dalle.com.np/storage/uploads/testimonial/6092501119ce9.png",
+        "rating": "5"
+      },
+      {
+        "id": 5,
+        "name": "Anjum",
+        "title": null,
+        "date": null,
+        "designation": "Trip Advisor ",
+        "email": "",
+        "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Momos to remember!!🤤😩</p>\r\n<p>Dalle is one of the very rare restaurants in town which wins at maintaining the same taste throughout their multiple branches! My personal favorites are their pork momos and chicken chilies. They do not overdo their spices. The quality is great. Their momos are light yet filling. The price factor makes it ideal for everyday office lunch as well! Quick and warm service. I think I'll be having Dalle's momos for lunch today as well!</p>",
+        "shortDesc": "",
+        "image": "https://dalle.com.np/storage/uploads/testimonial/60924cee341e7.jpg",
+        "rating": "4"
+      },
+      {
+        "id": 4,
+        "name": "Ananda Gautam",
+        "title": null,
+        "date": null,
+        "designation": "Trip Advisor ",
+        "email": "",
+        "description": "<p>Dalle is a very fine place with a variety of items to offer amongst of their items I like their momo and their sauce is awesome which is made from Dalle (a kind of chilly) which names their restaurant, in addition, I also love the Chinese choupsey of this restaurant.</p>",
+        "shortDesc": "",
+        "image": "https://dalle.com.np/storage/uploads/testimonial/60924c829dd0e.jpg",
+        "rating": "4.5"
+      },
+      {
+        "id": 3,
+        "name": "Leena Limbu- Chang\t",
+        "title": null,
+        "date": null,
+        "designation": "Trip Advisor ",
+        "email": "",
+        "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>We&rsquo;re back from Nepal but me and my husband miss Dalle Momos especially the pork. We&rsquo;ve been to many Momo restaurants here in New York and even in Nepal but so far, Dalle Momos the BEST. Now we sure do know where our first stop in Nepal is going to be. Apart from the food, the restaurant was clean, the sauces are technically prepared with Dalle(Nepali Chili) but panic not for non spicy lovers, other options like ketchup and mayonnaise are available. In addition, the service was great. If you ever go to Kathmandu and you wanna chow down at clean and hygienic restaurant, Dalle is your place.</p>",
+        "shortDesc": "",
+        "image": "https://dalle.com.np/storage/uploads/testimonial/60924b36c676a.jpg",
+        "rating": "4.5"
+      },
+      {
+        "id": 2,
+        "name": "Sitashma",
+        "title": null,
+        "date": null,
+        "designation": "Trip Advisor ",
+        "email": "",
+        "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>\"Dalle\" in Nepali refers to a round-shaped red chili. This particularly is known for its extra flavor and spiciness. Order momos, noodles, and rice bowls with their Dalle sauce and enjoy the flavors tingling in your mouth.</p>",
+        "shortDesc": "",
+        "image": "https://dalle.com.np/storage/uploads/testimonial/609248104629c.jpg",
+        "rating": "4"
+      }
+    ],
+    "code": 0
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 17:41:00 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "content-length": "3758",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 400,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://dalle.com.np/api/v4/testimonial?offer=1&page=1",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"pagination\":{\"total\":5,\"count\":5,\"per_page\":20,\"current_page\":1,\"total_pages\":1,\"links\":[]}},\"data\":[{\"id\":7,\"name\":\"Sriyan Kafle\",\"title\":null,\"date\":null,\"designation\":\"Google\",\"email\":\"neekipradhan5@gmail.com\",\"description\":\"<p>According to me food derives a tradition and the tradition of this place shows me how the food is cooked in a perfect way with love and kindness .I am a food lover and I would prescribe the people suffering with hunger to join this place where it gives a very nice warmth and the goodness of the food and surrounds which is necessary for every restaurant and the main thing the momo's made here are too good which melt in one's mouth so I myself being the oldest customer of this place love it!<\\/p>\",\"shortDesc\":\"\",\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/testimonial\\/6092501119ce9.png\",\"rating\":\"5\"},{\"id\":5,\"name\":\"Anjum\",\"title\":null,\"date\":null,\"designation\":\"Trip Advisor \",\"email\":\"\",\"description\":\"<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>Momos to remember!!\\ud83e\\udd24\\ud83d\\ude29<\\/p>\\r\\n<p>Dalle is one of the very rare restaurants in town which wins at maintaining the same taste throughout their multiple branches! My personal favorites are their pork momos and chicken chilies. They do not overdo their spices. The quality is great. Their momos are light yet filling. The price factor makes it ideal for everyday office lunch as well! Quick and warm service. I think I'll be having Dalle's momos for lunch today as well!<\\/p>\",\"shortDesc\":\"\",\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/testimonial\\/60924cee341e7.jpg\",\"rating\":\"4\"},{\"id\":4,\"name\":\"Ananda Gautam\",\"title\":null,\"date\":null,\"designation\":\"Trip Advisor \",\"email\":\"\",\"description\":\"<p>Dalle is a very fine place with a variety of items to offer amongst of their items I like their momo and their sauce is awesome which is made from Dalle (a kind of chilly) which names their restaurant, in addition, I also love the Chinese choupsey of this restaurant.<\\/p>\",\"shortDesc\":\"\",\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/testimonial\\/60924c829dd0e.jpg\",\"rating\":\"4.5\"},{\"id\":3,\"name\":\"Leena Limbu- Chang\\t\",\"title\":null,\"date\":null,\"designation\":\"Trip Advisor \",\"email\":\"\",\"description\":\"<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>We&rsquo;re back from Nepal but me and my husband miss Dalle Momos especially the pork. We&rsquo;ve been to many Momo restaurants here in New York and even in Nepal but so far, Dalle Momos the BEST. Now we sure do know where our first stop in Nepal is going to be. Apart from the food, the restaurant was clean, the sauces are technically prepared with Dalle(Nepali Chili) but panic not for non spicy lovers, other options like ketchup and mayonnaise are available. In addition, the service was great. If you ever go to Kathmandu and you wanna chow down at clean and hygienic restaurant, Dalle is your place.<\\/p>\",\"shortDesc\":\"\",\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/testimonial\\/60924b36c676a.jpg\",\"rating\":\"4.5\"},{\"id\":2,\"name\":\"Sitashma\",\"title\":null,\"date\":null,\"designation\":\"Trip Advisor \",\"email\":\"\",\"description\":\"<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>\\\"Dalle\\\" in Nepali refers to a round-shaped red chili. This particularly is known for its extra flavor and spiciness. Order momos, noodles, and rice bowls with their Dalle sauce and enjoy the flavors tingling in your mouth.<\\/p>\",\"shortDesc\":\"\",\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/uploads\\/testimonial\\/609248104629c.jpg\",\"rating\":\"4\"}],\"code\":0}",
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 17:41:00 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "content-length": "3758",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

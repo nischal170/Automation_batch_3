@@ -1,0 +1,95 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      },
+      "pagination": {
+        "total": 3,
+        "count": 3,
+        "per_page": 16,
+        "current_page": 1,
+        "total_pages": 1,
+        "links": []
+      }
+    },
+    "data": [
+      {
+        "id": 4,
+        "image": "https://dalle.com.np/storage/gallery/165925566_10225582734534978_5056694748299227339_n.jpg",
+        "featured": true,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 3,
+        "image": "https://dalle.com.np/storage/gallery/166206470_10225582735094992_2871999590629738506_n.jpg",
+        "featured": true,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 2,
+        "image": "https://dalle.com.np/storage/gallery/150472044_3890685214285452_7647620674018976590_n.jpg",
+        "featured": true,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      }
+    ],
+    "code": 0
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 17:41:01 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "content-length": "787",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 460,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://dalle.com.np/api/v4/gallery?type=gallery&page=1&perPage=16",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"pagination\":{\"total\":3,\"count\":3,\"per_page\":16,\"current_page\":1,\"total_pages\":1,\"links\":[]}},\"data\":[{\"id\":4,\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/gallery\\/165925566_10225582734534978_5056694748299227339_n.jpg\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":3,\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/gallery\\/166206470_10225582735094992_2871999590629738506_n.jpg\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":2,\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/gallery\\/150472044_3890685214285452_7647620674018976590_n.jpg\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null}],\"code\":0}",
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 17:41:01 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "content-length": "787",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}
