@@ -2,7 +2,7 @@ describe('Dalle momos api when signed in',()=>{
     before(()=>{
         cy.readFile('cypress/fixtures/login.json').then(res=>{
             cy.request("POST",'auth/login',{"client_id": "2",
-    "client_secret": "1C0l4HTDcuVa6qQdsgZQVByfoU53KCc2to7FtbRW",
+    "client_secret": "olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa",
     "grant_type": "password",
     "password": res.password,
     "provider": "",

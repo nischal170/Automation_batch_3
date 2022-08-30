@@ -18,25 +18,26 @@
       }
     },
     "data": {
-      "id": 2,
+      "id": 5,
       "pageData": [],
-      "title": "Terms And Conditions",
-      "subTitle": "Terms And Conditions",
+      "title": "Terms and Conditions",
+      "subTitle": "Terms and Conditions",
       "slug": "terms-and-conditions",
-      "backgroundImage": "https://dalle.com.np/storage/pages/background/6092613e65371.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/pages/background/606c3d0e21d11.png",
       "thumbImage": null,
-      "description": "<div class=\"container\">\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Welcome to Dalle - Restaurant and Food Service!</p>\r\n<p>These terms and conditions outline the rules and regulations for the use of Dalle's Website, located at dalle.com.np</p>\r\n<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Dalle - Restaurant and Food Service if you do not agree to take all of the terms and conditions stated on this page.</p>\r\n<p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: \"Client\", \"You\" and \"Your\" refers to you, the person log on this website and compliant to the Company&amp;rsquo's terms and conditions. \"The Company\", \"Ourselves\", \"We\", \"Our\" and \"Us\", refers to our Company. \"Party\", \"Parties\", or \"Us\", refers to both the Client and ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&amp;rsquo's needs in respect of the provision of the Company&amp;rsquo's stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization, and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>\r\n<p>&nbsp;</p>\r\n<h3><strong>Cookies</strong></h3>\r\n<p>We employ the use of cookies. By accessing Dalle - Restaurant and Food Service, you agreed to use cookies in agreement with Dalle's Privacy Policy.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n</div>",
+      "description": "<div class=\"bg-base text-secondary\">\r\n<div class=\"container \">\r\n<div class=\"staticContent undefined\">\r\n<p style=\"text-align: justify;\"><img style=\"width: 100%;\" src=\"https://www.gyapu.com/public/files/19DDF274535AA88-TermAndCondition.jpeg\" alt=\"\" /></p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\"><span style=\"font-size: 23pt; color: #3a3a3a; text-align: left;\">Terms and Conditions</span></p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<div style=\"border: 1pt none #e0e0e0; padding: 0in; text-align: justify;\">\r\n<p>Welcome to Dalle - Restaurant and Food Service!</p>\r\n<p>These terms and conditions outline the rules and regulations for the use of Dalle's Website, located at https://uat.ordering-dalle.ekbana.net/.</p>\r\n<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Dalle - Restaurant and Food Service if you do not agree to take all of the terms and conditions stated on this page.</p>\r\n<ul>\r\n<li>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: \"Client\", \"You\" and \"Your\" refers to you, the person log on this website and compliant to the Company&rsquo;s terms and conditions.</li>\r\n<li>\"The Company\", \"Ourselves\", \"We\", \"Our\" and \"Us\", refers to our Company.</li>\r\n<li>\"Party\", \"Parties\", or \"Us\", refers to both the Client and ourselves.</li>\r\n<li>All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&rsquo;s needs in respect of the provision of the Company&rsquo;s stated services, in accordance with and subject to, prevailing law of Netherlands.</li>\r\n<li>Any use of the above terminology or other words in the singular, plural, capitalization, and/or he/she or they, are taken as interchangeable and therefore as referring to same.</li>\r\n</ul>\r\n</div>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n</div>\r\n</div>\r\n</div>",
       "position": "1"
     },
     "code": 0
   },
   "headers": {
-    "date": "Mon, 29 Aug 2022 17:40:50 GMT",
+    "date": "Tue, 30 Aug 2022 09:39:49 GMT",
     "server": "Apache",
-    "cache-control": "no-cache",
+    "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "59",
-    "content-length": "2318",
+    "expires": "Wed, 30 Aug 2023 09:39:49 GMT",
+    "content-length": "2790",
     "connection": "close",
     "content-type": "application/json"
   },
@@ -45,31 +46,32 @@
   "isOkStatusCode": true,
   "requestHeaders": {
     "Connection": "keep-alive",
-    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
     "accept": "*/*",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 472,
+  "duration": 340,
   "allRequestResponses": [
     {
       "Request Body": null,
       "Request Headers": {
         "Connection": "keep-alive",
-        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
         "accept": "*/*",
         "accept-encoding": "gzip, deflate"
       },
-      "Request URL": "https://dalle.com.np/api/v4/page/terms-and-conditions",
-      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"\",\"og:description\":\"\",\"og:image\":null,\"keywords\":\"\",\"description\":\"\",\"twitter:title\":\"\",\"twitter:image\":null,\"twitter:description\":\"\"}},\"data\":{\"id\":2,\"pageData\":[],\"title\":\"Terms And Conditions\",\"subTitle\":\"Terms And Conditions\",\"slug\":\"terms-and-conditions\",\"backgroundImage\":\"https:\\/\\/dalle.com.np\\/storage\\/pages\\/background\\/6092613e65371.png\",\"thumbImage\":null,\"description\":\"<div class=\\\"container\\\">\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<div style=\\\"display: none;\\\">&nbsp;<\\/div>\\r\\n<p>Welcome to Dalle - Restaurant and Food Service!<\\/p>\\r\\n<p>These terms and conditions outline the rules and regulations for the use of Dalle's Website, located at dalle.com.np<\\/p>\\r\\n<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Dalle - Restaurant and Food Service if you do not agree to take all of the terms and conditions stated on this page.<\\/p>\\r\\n<p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: \\\"Client\\\", \\\"You\\\" and \\\"Your\\\" refers to you, the person log on this website and compliant to the Company&amp;rsquo's terms and conditions. \\\"The Company\\\", \\\"Ourselves\\\", \\\"We\\\", \\\"Our\\\" and \\\"Us\\\", refers to our Company. \\\"Party\\\", \\\"Parties\\\", or \\\"Us\\\", refers to both the Client and ourselves. All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&amp;rsquo's needs in respect of the provision of the Company&amp;rsquo's stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization, and\\/or he\\/she or they, are taken as interchangeable and therefore as referring to same.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<h3><strong>Cookies<\\/strong><\\/h3>\\r\\n<p>We employ the use of cookies. By accessing Dalle - Restaurant and Food Service, you agreed to use cookies in agreement with Dalle's Privacy Policy.<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<p>&nbsp;<\\/p>\\r\\n<\\/div>\",\"position\":\"1\"},\"code\":0}",
+      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/page/terms-and-conditions",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"\",\"og:description\":\"\",\"og:image\":null,\"keywords\":\"\",\"description\":\"\",\"twitter:title\":\"\",\"twitter:image\":null,\"twitter:description\":\"\"}},\"data\":{\"id\":5,\"pageData\":[],\"title\":\"Terms and Conditions\",\"subTitle\":\"Terms and Conditions\",\"slug\":\"terms-and-conditions\",\"backgroundImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/pages\\/background\\/606c3d0e21d11.png\",\"thumbImage\":null,\"description\":\"<div class=\\\"bg-base text-secondary\\\">\\r\\n<div class=\\\"container \\\">\\r\\n<div class=\\\"staticContent undefined\\\">\\r\\n<p style=\\\"text-align: justify;\\\"><img style=\\\"width: 100%;\\\" src=\\\"https:\\/\\/www.gyapu.com\\/public\\/files\\/19DDF274535AA88-TermAndCondition.jpeg\\\" alt=\\\"\\\" \\/><\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\"><span style=\\\"font-size: 23pt; color: #3a3a3a; text-align: left;\\\">Terms and Conditions<\\/span><\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<div style=\\\"border: 1pt none #e0e0e0; padding: 0in; text-align: justify;\\\">\\r\\n<p>Welcome to Dalle - Restaurant and Food Service!<\\/p>\\r\\n<p>These terms and conditions outline the rules and regulations for the use of Dalle's Website, located at https:\\/\\/uat.ordering-dalle.ekbana.net\\/.<\\/p>\\r\\n<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Dalle - Restaurant and Food Service if you do not agree to take all of the terms and conditions stated on this page.<\\/p>\\r\\n<ul>\\r\\n<li>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: \\\"Client\\\", \\\"You\\\" and \\\"Your\\\" refers to you, the person log on this website and compliant to the Company&rsquo;s terms and conditions.<\\/li>\\r\\n<li>\\\"The Company\\\", \\\"Ourselves\\\", \\\"We\\\", \\\"Our\\\" and \\\"Us\\\", refers to our Company.<\\/li>\\r\\n<li>\\\"Party\\\", \\\"Parties\\\", or \\\"Us\\\", refers to both the Client and ourselves.<\\/li>\\r\\n<li>All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&rsquo;s needs in respect of the provision of the Company&rsquo;s stated services, in accordance with and subject to, prevailing law of Netherlands.<\\/li>\\r\\n<li>Any use of the above terminology or other words in the singular, plural, capitalization, and\\/or he\\/she or they, are taken as interchangeable and therefore as referring to same.<\\/li>\\r\\n<\\/ul>\\r\\n<\\/div>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<\\/div>\\r\\n<\\/div>\\r\\n<\\/div>\",\"position\":\"1\"},\"code\":0}",
       "Response Headers": {
-        "date": "Mon, 29 Aug 2022 17:40:50 GMT",
+        "date": "Tue, 30 Aug 2022 09:39:49 GMT",
         "server": "Apache",
-        "cache-control": "no-cache",
+        "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "59",
-        "content-length": "2318",
+        "expires": "Wed, 30 Aug 2023 09:39:49 GMT",
+        "content-length": "2790",
         "connection": "close",
         "content-type": "application/json"
       },

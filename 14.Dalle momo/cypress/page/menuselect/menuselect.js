@@ -37,6 +37,8 @@ export class selectfrommenu{
     }
     addtocart(){
         cy.get(".pro-details-cart.btn-hover>button").click()
+        cy.wait(500)
+        cy.get('div.ng-tns-c16-1.toast-message.ng-star-inserted').should("contain","Sucessfully!")
 
     }
     clickcart(){

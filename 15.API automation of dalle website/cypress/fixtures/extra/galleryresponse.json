@@ -7,18 +7,38 @@
         "version": "0.2"
       },
       "pagination": {
-        "total": 3,
-        "count": 3,
+        "total": 21,
+        "count": 16,
         "per_page": 16,
         "current_page": 1,
-        "total_pages": 1,
-        "links": []
+        "total_pages": 2,
+        "links": {
+          "next": "https://uat.ordering-dalle.ekbana.net/api/v4/gallery?page=2"
+        }
       }
     },
     "data": [
       {
-        "id": 4,
-        "image": "https://dalle.com.np/storage/gallery/165925566_10225582734534978_5056694748299227339_n.jpg",
+        "id": 62,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/Musuro Daal 1Kg.jpg",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 61,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/45@2x.png",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 60,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/29@2x.png",
         "featured": true,
         "position": 9999999,
         "title": null,
@@ -26,8 +46,8 @@
         "author": null
       },
       {
-        "id": 3,
-        "image": "https://dalle.com.np/storage/gallery/166206470_10225582735094992_2871999590629738506_n.jpg",
+        "id": 53,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/Artboard 1 copy.png",
         "featured": true,
         "position": 9999999,
         "title": null,
@@ -35,9 +55,108 @@
         "author": null
       },
       {
-        "id": 2,
-        "image": "https://dalle.com.np/storage/gallery/150472044_3890685214285452_7647620674018976590_n.jpg",
+        "id": 52,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/originals-kaval-windbreaker-winter-jacket-2-1@2x.png",
         "featured": true,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 50,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/originals-kaval-windbreaker-winter-jacket-2-3@2x.png",
+        "featured": true,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 45,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/12.png",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 46,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/12@2x.png",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 47,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/43 (1).png",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 48,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/originals-kaval-windbreaker-winter-jacket-2-7.png",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 49,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/43 (1)-1@2x.png",
+        "featured": true,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 24,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/165564935_10225582732494927_9190283121174597419_n.jpg",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 23,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/165555824_10225582733934963_5833693921913828782_n.jpg",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 22,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/166628154_10225582733174944_3164669081542302748_n.jpg",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 20,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/166206470_10225582735094992_2871999590629738506_n.jpg",
+        "featured": false,
+        "position": 9999999,
+        "title": null,
+        "content": null,
+        "author": null
+      },
+      {
+        "id": 19,
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/150472044_3890685214285452_7647620674018976590_n.jpg",
+        "featured": false,
         "position": 9999999,
         "title": null,
         "content": null,
@@ -47,12 +166,13 @@
     "code": 0
   },
   "headers": {
-    "date": "Mon, 29 Aug 2022 17:41:01 GMT",
+    "date": "Tue, 30 Aug 2022 09:40:00 GMT",
     "server": "Apache",
-    "cache-control": "no-cache",
+    "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "59",
-    "content-length": "787",
+    "expires": "Wed, 30 Aug 2023 09:40:00 GMT",
+    "content-length": "3323",
     "connection": "close",
     "content-type": "application/json"
   },
@@ -61,31 +181,32 @@
   "isOkStatusCode": true,
   "requestHeaders": {
     "Connection": "keep-alive",
-    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
     "accept": "*/*",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 460,
+  "duration": 367,
   "allRequestResponses": [
     {
       "Request Body": null,
       "Request Headers": {
         "Connection": "keep-alive",
-        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
         "accept": "*/*",
         "accept-encoding": "gzip, deflate"
       },
-      "Request URL": "https://dalle.com.np/api/v4/gallery?type=gallery&page=1&perPage=16",
-      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"pagination\":{\"total\":3,\"count\":3,\"per_page\":16,\"current_page\":1,\"total_pages\":1,\"links\":[]}},\"data\":[{\"id\":4,\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/gallery\\/165925566_10225582734534978_5056694748299227339_n.jpg\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":3,\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/gallery\\/166206470_10225582735094992_2871999590629738506_n.jpg\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":2,\"image\":\"https:\\/\\/dalle.com.np\\/storage\\/gallery\\/150472044_3890685214285452_7647620674018976590_n.jpg\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null}],\"code\":0}",
+      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/gallery?type=gallery&page=1&perPage=16",
+      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"pagination\":{\"total\":21,\"count\":16,\"per_page\":16,\"current_page\":1,\"total_pages\":2,\"links\":{\"next\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/api\\/v4\\/gallery?page=2\"}}},\"data\":[{\"id\":62,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/Musuro Daal 1Kg.jpg\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":61,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/45@2x.png\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":60,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/29@2x.png\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":53,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/Artboard 1 copy.png\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":52,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/originals-kaval-windbreaker-winter-jacket-2-1@2x.png\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":50,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/originals-kaval-windbreaker-winter-jacket-2-3@2x.png\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":45,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/12.png\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":46,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/12@2x.png\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":47,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/43 (1).png\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":48,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/originals-kaval-windbreaker-winter-jacket-2-7.png\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":49,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/43 (1)-1@2x.png\",\"featured\":true,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":24,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/165564935_10225582732494927_9190283121174597419_n.jpg\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":23,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/165555824_10225582733934963_5833693921913828782_n.jpg\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":22,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/166628154_10225582733174944_3164669081542302748_n.jpg\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":20,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/166206470_10225582735094992_2871999590629738506_n.jpg\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null},{\"id\":19,\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/gallery\\/150472044_3890685214285452_7647620674018976590_n.jpg\",\"featured\":false,\"position\":9999999,\"title\":null,\"content\":null,\"author\":null}],\"code\":0}",
       "Response Headers": {
-        "date": "Mon, 29 Aug 2022 17:41:01 GMT",
+        "date": "Tue, 30 Aug 2022 09:40:00 GMT",
         "server": "Apache",
-        "cache-control": "no-cache",
+        "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "59",
-        "content-length": "787",
+        "expires": "Wed, 30 Aug 2023 09:40:00 GMT",
+        "content-length": "3323",
         "connection": "close",
         "content-type": "application/json"
       },

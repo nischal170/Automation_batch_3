@@ -16,11 +16,12 @@
     "code": 0
   },
   "headers": {
-    "date": "Mon, 29 Aug 2022 17:40:52 GMT",
+    "date": "Tue, 30 Aug 2022 09:39:50 GMT",
     "server": "Apache",
-    "cache-control": "no-cache",
+    "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "59",
+    "expires": "Wed, 30 Aug 2023 09:39:50 GMT",
     "content-length": "188",
     "connection": "close",
     "content-type": "application/json"
@@ -30,28 +31,28 @@
   "isOkStatusCode": true,
   "requestHeaders": {
     "Connection": "keep-alive",
-    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
     "accept": "*/*",
     "accept-encoding": "gzip, deflate",
     "content-type": "application/json",
-    "content-length": 292
+    "content-length": 367
   },
-  "requestBody": "{\"contact\":\"9831066396\",\"email\":\"Dena.Waelchi19@hotmail.com\",\"message\":\"Eligendi impedit maxime nemo esse sit. Nisi tempore consequatur alias ipsa nisi quisquam animi. Veniam consequuntur necessitatibus voluptas quos animi fugit. Quod magnam aut voluptas.\",\"name\":\"JulieMetz\",\"subject\":\"Web\"}",
-  "duration": 3321,
+  "requestBody": "{\"contact\":\"9801793476\",\"email\":\"Orlo_Stiedemann@gmail.com\",\"message\":\"Repudiandae suscipit inventore officia dolores voluptate nobis quibusdam hic. Omnis qui excepturi amet eveniet. Et perferendis quia. Vel adipisci nihil qui qui perferendis. Magnam aut quod. Ad dicta nobis quia odit eaque quasi similique necessitatibus.\",\"name\":\"EmmanuelHomenick\",\"subject\":\"Web\"}",
+  "duration": 4459,
   "allRequestResponses": [
     {
-      "Request Body": "{\"contact\":\"9831066396\",\"email\":\"Dena.Waelchi19@hotmail.com\",\"message\":\"Eligendi impedit maxime nemo esse sit. Nisi tempore consequatur alias ipsa nisi quisquam animi. Veniam consequuntur necessitatibus voluptas quos animi fugit. Quod magnam aut voluptas.\",\"name\":\"JulieMetz\",\"subject\":\"Web\"}",
+      "Request Body": "{\"contact\":\"9801793476\",\"email\":\"Orlo_Stiedemann@gmail.com\",\"message\":\"Repudiandae suscipit inventore officia dolores voluptate nobis quibusdam hic. Omnis qui excepturi amet eveniet. Et perferendis quia. Vel adipisci nihil qui qui perferendis. Magnam aut quod. Ad dicta nobis quia odit eaque quasi similique necessitatibus.\",\"name\":\"EmmanuelHomenick\",\"subject\":\"Web\"}",
       "Request Headers": {
         "Connection": "keep-alive",
-        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
         "accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "content-type": "application/json",
-        "content-length": 292
+        "content-length": 367
       },
-      "Request URL": "https://dalle.com.np/api/v4/contact-us",
+      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/contact-us",
       "Response Body": {
         "meta": {
           "copyright": "Copyright 2017 Ekbana Pte",
@@ -69,11 +70,12 @@
         "code": 0
       },
       "Response Headers": {
-        "date": "Mon, 29 Aug 2022 17:40:52 GMT",
+        "date": "Tue, 30 Aug 2022 09:39:50 GMT",
         "server": "Apache",
-        "cache-control": "no-cache",
+        "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "59",
+        "expires": "Wed, 30 Aug 2023 09:39:50 GMT",
         "content-length": "188",
         "connection": "close",
         "content-type": "application/json"

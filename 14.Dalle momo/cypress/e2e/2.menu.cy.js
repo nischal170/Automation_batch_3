@@ -6,7 +6,6 @@ describe("Enter registration Data",()=>{
             const email=res.email
             const password=res.password
             cy.login(email,password)
-        
          }) 
         
     })

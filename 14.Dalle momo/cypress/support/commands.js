@@ -29,5 +29,7 @@ Cypress.Commands.add('login', (email, password) => {
         cy.get("input[placeholder='Enter Your Phone Number Or Email']").type(email).should("have.value",email)
         cy.get("input[placeholder='Password']").type(password).should("have.value",password)
         cy.get("div[class='button-box']>button[type='submit']").click()
+        cy.wait(500)
+        cy.get(".toast-message[role='alertdialog']").should("contain","Successfully")
     })
  })

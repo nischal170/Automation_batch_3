@@ -17,5 +17,7 @@ export class register{
     }
     clicksubmit(){
         cy.get("div[class='button-box']>button[type='submit']").click().should("contain","Register")
+        cy.wait(500)
+        cy.get('.toast-message[role="alertdialog"]').should("contain","Successfully!")
     }
 }
