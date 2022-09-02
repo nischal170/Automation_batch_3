@@ -31,12 +31,12 @@
     "code": 0
   },
   "headers": {
-    "date": "Tue, 30 Aug 2022 09:39:49 GMT",
+    "date": "Fri, 02 Sep 2022 08:59:40 GMT",
     "server": "Apache",
     "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "58",
-    "expires": "Wed, 30 Aug 2023 09:39:49 GMT",
+    "expires": "Sat, 02 Sep 2023 08:59:40 GMT",
     "content-length": "2437",
     "connection": "close",
     "content-type": "application/json"
@@ -51,7 +51,7 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 350,
+  "duration": 411,
   "allRequestResponses": [
     {
       "Request Body": null,
@@ -65,12 +65,12 @@
       "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/page/about-us",
       "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"\",\"og:description\":\"\",\"og:image\":null,\"keywords\":\"\",\"description\":\"\",\"twitter:title\":\"\",\"twitter:image\":null,\"twitter:description\":\"\"}},\"data\":{\"id\":4,\"pageData\":[],\"title\":\"About Us\",\"subTitle\":\"About us page\",\"slug\":\"about-us\",\"backgroundImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/pages\\/background\\/6066cbc7aec2e.jpg\",\"thumbImage\":null,\"description\":\"<div class=\\\"bg-base text-secondary\\\">\\r\\n<div class=\\\"container \\\">\\r\\n<div class=\\\"staticContent undefined\\\">\\r\\n<p><img style=\\\"width: 100%; max-width: 100%; height: auto;\\\" src=\\\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Artboard%203%20copy.jpg?1624277250400\\\" alt=\\\"Artboard 3 copy\\\" \\/><\\/p>\\r\\n<ul class=\\\"list-disc\\\">\\r\\n<li>\\r\\n<div class=\\\"about-title\\\">\\r\\n<div class=\\\"about-title\\\">\\r\\n<h2>&nbsp;<\\/h2>\\r\\n<h2>Privacy Policy<\\/h2>\\r\\n<\\/div>\\r\\n<p>At Dalle - Restaurant and Food Service, accessible from https:\\/\\/uat.ordering-dalle.ekbana.net, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that are collected and recorded by Dalle - Restaurant and Food Service and how we use it.<\\/p>\\r\\n<p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<\\/p>\\r\\n<p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and\\/or collect in Dalle - Restaurant and Food Service. This policy is not applicable to any information collected offline or via channels other than this website.<\\/p>\\r\\n<h2>Consent<\\/h2>\\r\\n<p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.<\\/p>\\r\\n<h2>Information we collect<\\/h2>\\r\\n<p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.<\\/p>\\r\\n<p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and\\/or attachments you may send us, and any other information you may choose to provide.<\\/p>\\r\\n<\\/div>\\r\\n<\\/li>\\r\\n<\\/ul>\\r\\n<\\/div>\\r\\n<\\/div>\\r\\n<\\/div>\",\"position\":\"1\"},\"code\":0}",
       "Response Headers": {
-        "date": "Tue, 30 Aug 2022 09:39:49 GMT",
+        "date": "Fri, 02 Sep 2022 08:59:40 GMT",
         "server": "Apache",
         "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "58",
-        "expires": "Wed, 30 Aug 2023 09:39:49 GMT",
+        "expires": "Sat, 02 Sep 2023 08:59:40 GMT",
         "content-length": "2437",
         "connection": "close",
         "content-type": "application/json"

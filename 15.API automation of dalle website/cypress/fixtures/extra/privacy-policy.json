@@ -31,12 +31,12 @@
     "code": 0
   },
   "headers": {
-    "date": "Tue, 30 Aug 2022 09:39:50 GMT",
+    "date": "Fri, 02 Sep 2022 08:59:41 GMT",
     "server": "Apache",
     "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "57",
-    "expires": "Wed, 30 Aug 2023 09:39:50 GMT",
+    "expires": "Sat, 02 Sep 2023 08:59:41 GMT",
     "content-length": "2596",
     "connection": "close",
     "content-type": "application/json"
@@ -51,7 +51,7 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 355,
+  "duration": 412,
   "allRequestResponses": [
     {
       "Request Body": null,
@@ -65,12 +65,12 @@
       "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/page/privacy-policy",
       "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"\",\"og:description\":\"\",\"og:image\":null,\"keywords\":\"\",\"description\":\"\",\"twitter:title\":\"\",\"twitter:image\":null,\"twitter:description\":\"\"}},\"data\":{\"id\":6,\"pageData\":[],\"title\":\"Privacy Policy\",\"subTitle\":\"Privacy Policy\",\"slug\":\"privacy-policy\",\"backgroundImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/pages\\/background\\/606c3cfe6ed2d.jpg\",\"thumbImage\":null,\"description\":\"<div class=\\\"container\\\">\\r\\n<p style=\\\"text-align: justify;\\\"><img style=\\\"width: 100%;\\\" src=\\\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Artboard%202%20(1).png?1623914260226\\\" alt=\\\"Artboard 2 (1)\\\" \\/><\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">At Dalle - Restaurant and Food Service, accessible from https:\\/\\/uat.ordering-dalle.ekbana.net, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that are collected and recorded by Dalle - Restaurant and Food Service and how we use it.<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and\\/or collect in Dalle - Restaurant and Food Service. This policy is not applicable to any information collected offline or via channels other than this website.<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<h2 style=\\\"text-align: justify;\\\">Consent<\\/h2>\\r\\n<p style=\\\"text-align: justify;\\\">By using our website, you hereby consent to our Privacy Policy and agree to its terms.<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<h2 style=\\\"text-align: justify;\\\">Information we collect<\\/h2>\\r\\n<p style=\\\"text-align: justify;\\\">The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and\\/or attachments you may send us, and any other information you may choose to provide.<\\/p>\\r\\n<p style=\\\"text-align: justify;\\\">&nbsp;<\\/p>\\r\\n<\\/div>\",\"position\":\"1\"},\"code\":0}",
       "Response Headers": {
-        "date": "Tue, 30 Aug 2022 09:39:50 GMT",
+        "date": "Fri, 02 Sep 2022 08:59:41 GMT",
         "server": "Apache",
         "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "57",
-        "expires": "Wed, 30 Aug 2023 09:39:50 GMT",
+        "expires": "Sat, 02 Sep 2023 08:59:41 GMT",
         "content-length": "2596",
         "connection": "close",
         "content-type": "application/json"

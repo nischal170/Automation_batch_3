@@ -13,6 +13,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/terms_and_conditions.json',response)
                 
         })
@@ -30,6 +32,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/about_us.json',response)
                 
         })
@@ -48,6 +52,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/privacy-policy.json',response)
                 
         })
@@ -65,6 +71,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/Feedback_section.json',response)
                 
         })
@@ -87,6 +95,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/contactusresponse.json',response)
                 
         })
@@ -105,6 +115,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/productoffer.json',response)
                 
         })
@@ -131,6 +143,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/franchise.json',response)
                 
         })
@@ -148,6 +162,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/testimonials.json',response)
                 
         })
@@ -165,6 +181,8 @@ describe("These apis don't require login",()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/extra/galleryresponse.json',response)
                 
         })

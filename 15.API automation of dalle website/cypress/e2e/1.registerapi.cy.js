@@ -24,6 +24,8 @@ describe('Registration',()=>{
           }
             };
             cy.request(options).then((response) => {
+                expect(response.status).to.eq(201)
+                expect(response.duration).to.be.lessThan(1000)
                 cy.writeFile('cypress/fixtures/registration.json',response)
                 
         })

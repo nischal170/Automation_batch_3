@@ -8,15 +8,15 @@
       }
     },
     "data": {
-      "id": 763,
-      "email": "m---------------@-----.com",
-      "username": "jacinto_boehm_97",
-      "firstName": "Jacinto",
-      "lastName": "Boehm",
+      "id": 795,
+      "email": "b-------@-------.com",
+      "username": "maurice_hodkiewicz_46",
+      "firstName": "Maurice",
+      "lastName": "Hodkiewicz",
       "verified": true,
-      "mobileNumber": "98------93",
-      "createdAt": "Aug 30, 2022",
-      "updatedAt": "Aug 30, 2022",
+      "mobileNumber": "98------05",
+      "createdAt": "Sep 2, 2022",
+      "updatedAt": "Sep 2, 2022",
       "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
       "total_loyalty_points": 50,
       "current_loyalty_points": 50,
@@ -27,14 +27,14 @@
     "code": 0
   },
   "headers": {
-    "date": "Tue, 30 Aug 2022 09:39:38 GMT",
+    "date": "Fri, 02 Sep 2022 08:59:19 GMT",
     "server": "Apache",
     "vary": "Authorization",
     "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "59",
-    "expires": "Wed, 30 Aug 2023 09:39:38 GMT",
-    "content-length": "542",
+    "expires": "Sat, 02 Sep 2023 08:59:19 GMT",
+    "content-length": "544",
     "connection": "close",
     "content-type": "application/json"
   },
@@ -48,13 +48,13 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate",
     "content-type": "application/json",
-    "content-length": 175
+    "content-length": 174
   },
-  "requestBody": "{\"confirmPassword\":\"tfORQGz0KC7rgg0\",\"email\":\"Muhammad_Bogan89@gmail.com\",\"first_name\":\"Jacinto\",\"last_name\":\"Boehm\",\"mobile_number\":\"9843035893\",\"password\":\"tfORQGz0KC7rgg0\"}",
-  "duration": 798,
+  "requestBody": "{\"confirmPassword\":\"NiJkAuASNmufREV\",\"email\":\"Barney57@hotmail.com\",\"first_name\":\"Maurice\",\"last_name\":\"Hodkiewicz\",\"mobile_number\":\"9855275805\",\"password\":\"NiJkAuASNmufREV\"}",
+  "duration": 988,
   "allRequestResponses": [
     {
-      "Request Body": "{\"confirmPassword\":\"tfORQGz0KC7rgg0\",\"email\":\"Muhammad_Bogan89@gmail.com\",\"first_name\":\"Jacinto\",\"last_name\":\"Boehm\",\"mobile_number\":\"9843035893\",\"password\":\"tfORQGz0KC7rgg0\"}",
+      "Request Body": "{\"confirmPassword\":\"NiJkAuASNmufREV\",\"email\":\"Barney57@hotmail.com\",\"first_name\":\"Maurice\",\"last_name\":\"Hodkiewicz\",\"mobile_number\":\"9855275805\",\"password\":\"NiJkAuASNmufREV\"}",
       "Request Headers": {
         "Connection": "keep-alive",
         "authorization": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
@@ -62,7 +62,7 @@
         "accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "content-type": "application/json",
-        "content-length": 175
+        "content-length": 174
       },
       "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/auth/signup",
       "Response Body": {
@@ -74,15 +74,15 @@
           }
         },
         "data": {
-          "id": 763,
-          "email": "m---------------@-----.com",
-          "username": "jacinto_boehm_97",
-          "firstName": "Jacinto",
-          "lastName": "Boehm",
+          "id": 795,
+          "email": "b-------@-------.com",
+          "username": "maurice_hodkiewicz_46",
+          "firstName": "Maurice",
+          "lastName": "Hodkiewicz",
           "verified": true,
-          "mobileNumber": "98------93",
-          "createdAt": "Aug 30, 2022",
-          "updatedAt": "Aug 30, 2022",
+          "mobileNumber": "98------05",
+          "createdAt": "Sep 2, 2022",
+          "updatedAt": "Sep 2, 2022",
           "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
           "total_loyalty_points": 50,
           "current_loyalty_points": 50,
@@ -93,14 +93,14 @@
         "code": 0
       },
       "Response Headers": {
-        "date": "Tue, 30 Aug 2022 09:39:38 GMT",
+        "date": "Fri, 02 Sep 2022 08:59:19 GMT",
         "server": "Apache",
         "vary": "Authorization",
         "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "59",
-        "expires": "Wed, 30 Aug 2023 09:39:38 GMT",
-        "content-length": "542",
+        "expires": "Sat, 02 Sep 2023 08:59:19 GMT",
+        "content-length": "544",
         "connection": "close",
         "content-type": "application/json"
       },

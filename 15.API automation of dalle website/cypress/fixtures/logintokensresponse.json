@@ -1,19 +1,19 @@
 {
   "body": {
     "token_type": "Bearer",
-    "expires_in": 863999,
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijk4MzI1MWIzMjk5ODNiZTA1NmI1NmM1MWQ5ZmJmZmZmYmI4M2VlMTgzNTM1OThhNzI5M2M3NTk4ZWVlMmYyZDllMWJmMDMxNzJhOTlhZjdhIn0.eyJhdWQiOiIyIiwianRpIjoiOTgzMjUxYjMyOTk4M2JlMDU2YjU2YzUxZDlmYmZmZmZiYjgzZWUxODM1MzU5OGE3MjkzYzc1OThlZWUyZjJkOWUxYmYwMzE3MmE5OWFmN2EiLCJpYXQiOjE2NjE4NTIzODEsIm5iZiI6MTY2MTg1MjM4MSwiZXhwIjoxNjYyNzE2MzgwLCJzdWIiOiI3NjMiLCJzY29wZXMiOltdfQ.Z50vADFsrxN7L7kI_ideTl0LbS52pmFGTt5gbcLNIl6dj5yfTPZXoZ9TDUJrsipep7_TL8M3hra6joVb7F2TEL21hha2i3pzYjOtP9piA48u-ZQ2EKUjbg96jaKse2XCbP9CS_E6dgPODNK1ou3LGD8ucK9ETBnqVebjHUU2ZjB65g3fh6RFZYLrt1hqryH27jqM4LZIlYkzBi13HRBapIV2EtgocFAHXz6oI0MpX33vo4qQjnNPO401XOYgikFUb4mI_YeKyEI6QNclWkmZvfBIfBrIDEiHbPN2EFk6CzSn9uFDcgpFQG6PYY_oEdhbwJw2WMhdGXUusWJwFdXwiaaj1J284i32tNZoM_qk74lTr3n_yvGJEr9ADFEeJ17_4-rRPuVE48W6ozNo7drvI0CgNpfO0gSUyFOvFftgpdHJRQG-YRfzOFRmJL3RysxzfoEUfBio_AgGGU5qptVxYqZhjtFdKHu2gHTul4gvqjn_JWQe_F7ecAa-wV6Chctf0ty7icUMA19XPjP4PzEJNzxbnGd10DgI7hvIhF661kNjijIsfhCEDN6D0cDvUaqjizq3foUmdOgddzJomKMUrMF60AsaD_b9hmWpVn9gCgfaOcL9iPFKg49ymb4eE7DFP8cOZMgViMw3qKS99GLUiL0Tgc3VfPLrgr8m5sPW4hY",
-    "refresh_token": "def50200fe7ea247fc0ceff78c4c3e8f9898aae267bcf185c05e641f29e8ad88423f8fbfe7a7ebd45b713e5cb57b0655585bf09d44077a9e021b340ab1f0336b286e3cde5423071def8572adc371b66dc106c3badbc0e7799b853cb634854a804b12477a216603fb6b89e1c4929e919d0c9b1d8162cdd0ee31aa3d8e44e19958a8ca56eda424fcc9c9926b89901ae8e52275f125285a1503516c0b97645c11e479f9fac8351e732e478772acbadc88ce9af251553eeafe9ac828cd803d355a6256eb6cfd0ff07706f1aa56600d754d513030432a657e573c15a18f13d7fa765370b32295e7f332ef2d9f7de4014ca4e59a3593255681bb72fcf5eb6486ea660bf5d36da6cb932bd8a2db5a56a9577de387c91c04e254b18c31f6935fdd5e7935f213af499fa3ff58edeac281ea76db7a609ed209374ec3b8c84efd4d1ff4d590e354da4d5c8cac85dfb6846206fa0d895e53132bff5ce09a3243a97db65e81c1e8b851",
+    "expires_in": 864000,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
+    "refresh_token": "def50200ca1e2d3715f0e91d07c7296d334b90842c6708eb5f8c9b545a16f3e4816337935cc20ecc21b04a8db7ea682df3194526547501e33c093184cd268ce68cc062a711f9451b8ee6a516e3fd925b9cb6f468f5c35f7de221256ca98aff0fae7a26c55b8cdde46eca86f28abdf2868b2bf2336cd7e39943835c812dab0f5c5302a180409e2b257ea9e93af4baab1e1ca6e6fd96256fa63b7ee4294d860d4ad9ea2e728cb65fbf4c12a75239b9aefa53c40b21511f93a990479c02b7a7af566ffd98431c3b3e5ce553167565b0555b31ef86e4214bb46c81294408c5bda61509cea9eba47a48062a34b6c780ffcdeaa4a5ad63ae323bdcd5a3329eaf6c32e0f50e66b4ba013d88813ad2b4a9c9227caa2965043f55dfa94a7a09384b84de533acff3b8d42c774e0748eb3def920d4702f4a81e87114b3b497f5cacea7e2c109e173180a4dbe92b2b4184e74453d2017054c2b93b38165d1562adbd6bf216cf244974",
     "warehouse_id": 1,
     "user_verified": false
   },
   "headers": {
-    "date": "Tue, 30 Aug 2022 09:39:40 GMT",
+    "date": "Fri, 02 Sep 2022 08:59:24 GMT",
     "server": "Apache",
     "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
-    "x-ratelimit-remaining": "58",
-    "expires": "Wed, 30 Aug 2023 09:39:40 GMT",
+    "x-ratelimit-remaining": "59",
+    "expires": "Sat, 02 Sep 2023 08:59:24 GMT",
     "content-length": "1903",
     "connection": "close",
     "content-type": "application/json"
@@ -27,37 +27,37 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate",
     "content-type": "application/json",
-    "content-length": 213
+    "content-length": 207
   },
-  "requestBody": "{\"client_id\":\"2\",\"client_secret\":\"olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa\",\"grant_type\":\"password\",\"password\":\"tfORQGz0KC7rgg0\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Muhammad_Bogan89@gmail.com\"}",
-  "duration": 695,
+  "requestBody": "{\"client_id\":\"2\",\"client_secret\":\"olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa\",\"grant_type\":\"password\",\"password\":\"NiJkAuASNmufREV\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Barney57@hotmail.com\"}",
+  "duration": 779,
   "allRequestResponses": [
     {
-      "Request Body": "{\"client_id\":\"2\",\"client_secret\":\"olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa\",\"grant_type\":\"password\",\"password\":\"tfORQGz0KC7rgg0\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Muhammad_Bogan89@gmail.com\"}",
+      "Request Body": "{\"client_id\":\"2\",\"client_secret\":\"olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa\",\"grant_type\":\"password\",\"password\":\"NiJkAuASNmufREV\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Barney57@hotmail.com\"}",
       "Request Headers": {
         "Connection": "keep-alive",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
         "accept": "*/*",
         "accept-encoding": "gzip, deflate",
         "content-type": "application/json",
-        "content-length": 213
+        "content-length": 207
       },
       "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/auth/login",
       "Response Body": {
         "token_type": "Bearer",
-        "expires_in": 863999,
-        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Ijk4MzI1MWIzMjk5ODNiZTA1NmI1NmM1MWQ5ZmJmZmZmYmI4M2VlMTgzNTM1OThhNzI5M2M3NTk4ZWVlMmYyZDllMWJmMDMxNzJhOTlhZjdhIn0.eyJhdWQiOiIyIiwianRpIjoiOTgzMjUxYjMyOTk4M2JlMDU2YjU2YzUxZDlmYmZmZmZiYjgzZWUxODM1MzU5OGE3MjkzYzc1OThlZWUyZjJkOWUxYmYwMzE3MmE5OWFmN2EiLCJpYXQiOjE2NjE4NTIzODEsIm5iZiI6MTY2MTg1MjM4MSwiZXhwIjoxNjYyNzE2MzgwLCJzdWIiOiI3NjMiLCJzY29wZXMiOltdfQ.Z50vADFsrxN7L7kI_ideTl0LbS52pmFGTt5gbcLNIl6dj5yfTPZXoZ9TDUJrsipep7_TL8M3hra6joVb7F2TEL21hha2i3pzYjOtP9piA48u-ZQ2EKUjbg96jaKse2XCbP9CS_E6dgPODNK1ou3LGD8ucK9ETBnqVebjHUU2ZjB65g3fh6RFZYLrt1hqryH27jqM4LZIlYkzBi13HRBapIV2EtgocFAHXz6oI0MpX33vo4qQjnNPO401XOYgikFUb4mI_YeKyEI6QNclWkmZvfBIfBrIDEiHbPN2EFk6CzSn9uFDcgpFQG6PYY_oEdhbwJw2WMhdGXUusWJwFdXwiaaj1J284i32tNZoM_qk74lTr3n_yvGJEr9ADFEeJ17_4-rRPuVE48W6ozNo7drvI0CgNpfO0gSUyFOvFftgpdHJRQG-YRfzOFRmJL3RysxzfoEUfBio_AgGGU5qptVxYqZhjtFdKHu2gHTul4gvqjn_JWQe_F7ecAa-wV6Chctf0ty7icUMA19XPjP4PzEJNzxbnGd10DgI7hvIhF661kNjijIsfhCEDN6D0cDvUaqjizq3foUmdOgddzJomKMUrMF60AsaD_b9hmWpVn9gCgfaOcL9iPFKg49ymb4eE7DFP8cOZMgViMw3qKS99GLUiL0Tgc3VfPLrgr8m5sPW4hY",
-        "refresh_token": "def50200fe7ea247fc0ceff78c4c3e8f9898aae267bcf185c05e641f29e8ad88423f8fbfe7a7ebd45b713e5cb57b0655585bf09d44077a9e021b340ab1f0336b286e3cde5423071def8572adc371b66dc106c3badbc0e7799b853cb634854a804b12477a216603fb6b89e1c4929e919d0c9b1d8162cdd0ee31aa3d8e44e19958a8ca56eda424fcc9c9926b89901ae8e52275f125285a1503516c0b97645c11e479f9fac8351e732e478772acbadc88ce9af251553eeafe9ac828cd803d355a6256eb6cfd0ff07706f1aa56600d754d513030432a657e573c15a18f13d7fa765370b32295e7f332ef2d9f7de4014ca4e59a3593255681bb72fcf5eb6486ea660bf5d36da6cb932bd8a2db5a56a9577de387c91c04e254b18c31f6935fdd5e7935f213af499fa3ff58edeac281ea76db7a609ed209374ec3b8c84efd4d1ff4d590e354da4d5c8cac85dfb6846206fa0d895e53132bff5ce09a3243a97db65e81c1e8b851",
+        "expires_in": 864000,
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
+        "refresh_token": "def50200ca1e2d3715f0e91d07c7296d334b90842c6708eb5f8c9b545a16f3e4816337935cc20ecc21b04a8db7ea682df3194526547501e33c093184cd268ce68cc062a711f9451b8ee6a516e3fd925b9cb6f468f5c35f7de221256ca98aff0fae7a26c55b8cdde46eca86f28abdf2868b2bf2336cd7e39943835c812dab0f5c5302a180409e2b257ea9e93af4baab1e1ca6e6fd96256fa63b7ee4294d860d4ad9ea2e728cb65fbf4c12a75239b9aefa53c40b21511f93a990479c02b7a7af566ffd98431c3b3e5ce553167565b0555b31ef86e4214bb46c81294408c5bda61509cea9eba47a48062a34b6c780ffcdeaa4a5ad63ae323bdcd5a3329eaf6c32e0f50e66b4ba013d88813ad2b4a9c9227caa2965043f55dfa94a7a09384b84de533acff3b8d42c774e0748eb3def920d4702f4a81e87114b3b497f5cacea7e2c109e173180a4dbe92b2b4184e74453d2017054c2b93b38165d1562adbd6bf216cf244974",
         "warehouse_id": 1,
         "user_verified": false
       },
       "Response Headers": {
-        "date": "Tue, 30 Aug 2022 09:39:40 GMT",
+        "date": "Fri, 02 Sep 2022 08:59:24 GMT",
         "server": "Apache",
         "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
-        "x-ratelimit-remaining": "58",
-        "expires": "Wed, 30 Aug 2023 09:39:40 GMT",
+        "x-ratelimit-remaining": "59",
+        "expires": "Sat, 02 Sep 2023 08:59:24 GMT",
         "content-length": "1903",
         "connection": "close",
         "content-type": "application/json"

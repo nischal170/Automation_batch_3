@@ -28,12 +28,12 @@
     "code": 0
   },
   "headers": {
-    "date": "Tue, 30 Aug 2022 09:39:50 GMT",
+    "date": "Fri, 02 Sep 2022 08:59:41 GMT",
     "server": "Apache",
     "cache-control": "no-cache, max-age=31536000",
     "x-ratelimit-limit": "60",
     "x-ratelimit-remaining": "59",
-    "expires": "Wed, 30 Aug 2023 09:39:50 GMT",
+    "expires": "Sat, 02 Sep 2023 08:59:41 GMT",
     "content-length": "216",
     "connection": "close",
     "content-type": "application/json"
@@ -48,7 +48,7 @@
     "accept": "*/*",
     "accept-encoding": "gzip, deflate"
   },
-  "duration": 373,
+  "duration": 416,
   "allRequestResponses": [
     {
       "Request Body": null,
@@ -62,12 +62,12 @@
       "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/feedback-section",
       "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"}},\"data\":[{\"id\":1,\"title\":\"Web\"},{\"id\":2,\"title\":\"App\"},{\"id\":3,\"title\":\"Design\"},{\"id\":4,\"title\":\"Issue\"}],\"code\":0}",
       "Response Headers": {
-        "date": "Tue, 30 Aug 2022 09:39:50 GMT",
+        "date": "Fri, 02 Sep 2022 08:59:41 GMT",
         "server": "Apache",
         "cache-control": "no-cache, max-age=31536000",
         "x-ratelimit-limit": "60",
         "x-ratelimit-remaining": "59",
-        "expires": "Wed, 30 Aug 2023 09:39:50 GMT",
+        "expires": "Sat, 02 Sep 2023 08:59:41 GMT",
         "content-length": "216",
         "connection": "close",
         "content-type": "application/json"
