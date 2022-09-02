@@ -1,68 +1,8 @@
 {
-  "body": {
-    "token_type": "Bearer",
-    "expires_in": 864000,
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-    "refresh_token": "def50200ca1e2d3715f0e91d07c7296d334b90842c6708eb5f8c9b545a16f3e4816337935cc20ecc21b04a8db7ea682df3194526547501e33c093184cd268ce68cc062a711f9451b8ee6a516e3fd925b9cb6f468f5c35f7de221256ca98aff0fae7a26c55b8cdde46eca86f28abdf2868b2bf2336cd7e39943835c812dab0f5c5302a180409e2b257ea9e93af4baab1e1ca6e6fd96256fa63b7ee4294d860d4ad9ea2e728cb65fbf4c12a75239b9aefa53c40b21511f93a990479c02b7a7af566ffd98431c3b3e5ce553167565b0555b31ef86e4214bb46c81294408c5bda61509cea9eba47a48062a34b6c780ffcdeaa4a5ad63ae323bdcd5a3329eaf6c32e0f50e66b4ba013d88813ad2b4a9c9227caa2965043f55dfa94a7a09384b84de533acff3b8d42c774e0748eb3def920d4702f4a81e87114b3b497f5cacea7e2c109e173180a4dbe92b2b4184e74453d2017054c2b93b38165d1562adbd6bf216cf244974",
-    "warehouse_id": 1,
-    "user_verified": false
-  },
-  "headers": {
-    "date": "Fri, 02 Sep 2022 08:59:24 GMT",
-    "server": "Apache",
-    "cache-control": "no-cache, max-age=31536000",
-    "x-ratelimit-limit": "60",
-    "x-ratelimit-remaining": "59",
-    "expires": "Sat, 02 Sep 2023 08:59:24 GMT",
-    "content-length": "1903",
-    "connection": "close",
-    "content-type": "application/json"
-  },
-  "status": 200,
-  "statusText": "OK",
-  "isOkStatusCode": true,
-  "requestHeaders": {
-    "Connection": "keep-alive",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-    "accept": "*/*",
-    "accept-encoding": "gzip, deflate",
-    "content-type": "application/json",
-    "content-length": 207
-  },
-  "requestBody": "{\"client_id\":\"2\",\"client_secret\":\"olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa\",\"grant_type\":\"password\",\"password\":\"NiJkAuASNmufREV\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Barney57@hotmail.com\"}",
-  "duration": 779,
-  "allRequestResponses": [
-    {
-      "Request Body": "{\"client_id\":\"2\",\"client_secret\":\"olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa\",\"grant_type\":\"password\",\"password\":\"NiJkAuASNmufREV\",\"provider\":\"\",\"refresh_token\":\"\",\"scope\":\"\",\"username\":\"Barney57@hotmail.com\"}",
-      "Request Headers": {
-        "Connection": "keep-alive",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-        "accept": "*/*",
-        "accept-encoding": "gzip, deflate",
-        "content-type": "application/json",
-        "content-length": 207
-      },
-      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/auth/login",
-      "Response Body": {
-        "token_type": "Bearer",
-        "expires_in": 864000,
-        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-        "refresh_token": "def50200ca1e2d3715f0e91d07c7296d334b90842c6708eb5f8c9b545a16f3e4816337935cc20ecc21b04a8db7ea682df3194526547501e33c093184cd268ce68cc062a711f9451b8ee6a516e3fd925b9cb6f468f5c35f7de221256ca98aff0fae7a26c55b8cdde46eca86f28abdf2868b2bf2336cd7e39943835c812dab0f5c5302a180409e2b257ea9e93af4baab1e1ca6e6fd96256fa63b7ee4294d860d4ad9ea2e728cb65fbf4c12a75239b9aefa53c40b21511f93a990479c02b7a7af566ffd98431c3b3e5ce553167565b0555b31ef86e4214bb46c81294408c5bda61509cea9eba47a48062a34b6c780ffcdeaa4a5ad63ae323bdcd5a3329eaf6c32e0f50e66b4ba013d88813ad2b4a9c9227caa2965043f55dfa94a7a09384b84de533acff3b8d42c774e0748eb3def920d4702f4a81e87114b3b497f5cacea7e2c109e173180a4dbe92b2b4184e74453d2017054c2b93b38165d1562adbd6bf216cf244974",
-        "warehouse_id": 1,
-        "user_verified": false
-      },
-      "Response Headers": {
-        "date": "Fri, 02 Sep 2022 08:59:24 GMT",
-        "server": "Apache",
-        "cache-control": "no-cache, max-age=31536000",
-        "x-ratelimit-limit": "60",
-        "x-ratelimit-remaining": "59",
-        "expires": "Sat, 02 Sep 2023 08:59:24 GMT",
-        "content-length": "1903",
-        "connection": "close",
-        "content-type": "application/json"
-      },
-      "Response Status": 200
-    }
-  ]
+  "token_type": "Bearer",
+  "expires_in": 864000,
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjU2YzUzNzQ2MmQ5NWNhYmEzZjFiNGY5M2QxZGI5ZGJlOTRkYWMzM2IwNGM4M2QwOTdlMjY2NDA0YTQ3ZTE5N2IyZGM5NDgyZWQ2MzE4MzljIn0.eyJhdWQiOiIyIiwianRpIjoiNTZjNTM3NDYyZDk1Y2FiYTNmMWI0ZjkzZDFkYjlkYmU5NGRhYzMzYjA0YzgzZDA5N2UyNjY0MDRhNDdlMTk3YjJkYzk0ODJlZDYzMTgzOWMiLCJpYXQiOjE2NjIxMTE4OTIsIm5iZiI6MTY2MjExMTg5MiwiZXhwIjoxNjYyOTc1ODkyLCJzdWIiOiI3OTkiLCJzY29wZXMiOltdfQ.CkLXtoxlr98maV2mhJIrzLMHgIBEKOJNB1rVNG487QlUXk1N38Gry5n6PupBdE3vEL6ohGnGlEwykpeOnbv9MHuPa8WTdJwzOkk5atd3Sma4HGiKKeXzzNY-mQShq6yPqgoj1n6NBlyqL-cFVtwHnc6U09ZZX7znuqTjfcCvwC_uPcCYrry1WzYFzdBZ_9cAW--447XO33nT0ckd5eI-yzKUdrpL7c7z5Lj7nyveB0Srz2aJIzQZB2B_5BCYy1LTZVZ6-5E4KXbNNravFAD7FuWwEGQNaq2icybvZD5JzZA4QiQtwXx0o8RmMjhQJPTno97Le9CpZXXR8zCnitiTCUYpQr1vv-U-Q4G9Jw7ashSunahM-Z28wmBcVkAbh2Zal3atTM5XGcKTk9_wBRBd5k-pXs5boFMoFalIPmsOg3nV93S2xy51kqF8TLtsp4s4fe2s8YeCQYog5_cvDtUhBVDVCvDxGNi9CFmn58yFm5E3UFhkn7u1keQ-8i1Zk0v_MoXBN80oyBFGLauY7zu3_JLA_irAsyOiYbrgSfDdJ3GJ5Cb9pzYv1H95ucrCDsBBhF1MrqOH8r-I19pTNB4jUkNNasWul2gnPMHniBF7qhnI1z6ruTYxy6cKuwqcdgSUO1_fJBMBTrIDRaoU0g06ffePst7cFRWImy16AhvcYDk",
+  "refresh_token": "def50200aeab72fad27b094403608de52700b27930ce150e7216e8a0e4fcaccadc5a184274dff285094c644e88fcc3ef3771abb143700dc9b85becff9fd00912a378a5604054ec796d4ce40f0a23f84776d2b01034c630cf2cfcb7f2cda843747ee11271274204ed91c9045d9c671c3b751154c3a1f0bbfc9891320780d86c1d822f4fd348cc90e6083b91bb77be33813b0d24337680aa70bee9cb0bd09ac9d7ffa72b63040a3b4402f3438dda58dd26889fcb2c557882ebf689759bdd0c16276a1a02d5ad78552e6bdf3adcd7bde3a90db289cfb364f6dcfd2c29411b8adc38200f639fe38152811f8354a7758f9e8dce25a9888f0296b06296dc7525d2d9e06729fdb7be587254353077002eb24f69c66672161ab0bb44924940034c9d5780b8dc43c46f1f17fb66b92c6b968711ad2146a58f8becafa177127fccf0fdcfd9588ffa4c87c4030bbf110df786ebaf2a9704b75e1a4f7ccba00fb357eb403c0ed46c57",
+  "warehouse_id": 1,
+  "user_verified": false
 }

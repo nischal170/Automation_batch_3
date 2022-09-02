@@ -1,65 +1,11 @@
 {
-  "body": {
-    "meta": {
-      "copyright": "Copyright 2017 Ekbana Pte",
-      "emails": "info@ekbana.com",
-      "api": {
-        "version": "0.2"
-      }
-    },
-    "data": [],
-    "code": 0
-  },
-  "headers": {
-    "date": "Fri, 02 Sep 2022 08:59:26 GMT",
-    "server": "Apache",
-    "vary": "Authorization",
-    "cache-control": "no-cache, max-age=31536000",
-    "x-ratelimit-limit": "60",
-    "x-ratelimit-remaining": "59",
-    "expires": "Sat, 02 Sep 2023 08:59:26 GMT",
-    "content-length": "120",
-    "connection": "close",
-    "content-type": "application/json"
-  },
-  "status": 200,
-  "statusText": "OK",
-  "isOkStatusCode": true,
-  "requestHeaders": {
-    "Connection": "keep-alive",
-    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-    "accept": "*/*",
-    "accept-encoding": "gzip, deflate"
-  },
-  "duration": 446,
-  "allRequestResponses": [
-    {
-      "Request Body": null,
-      "Request Headers": {
-        "Connection": "keep-alive",
-        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-        "accept": "*/*",
-        "accept-encoding": "gzip, deflate"
-      },
-      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/favourite/products",
-      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"}},\"data\":[],\"code\":0}",
-      "Response Headers": {
-        "date": "Fri, 02 Sep 2022 08:59:26 GMT",
-        "server": "Apache",
-        "vary": "Authorization",
-        "cache-control": "no-cache, max-age=31536000",
-        "x-ratelimit-limit": "60",
-        "x-ratelimit-remaining": "59",
-        "expires": "Sat, 02 Sep 2023 08:59:26 GMT",
-        "content-length": "120",
-        "connection": "close",
-        "content-type": "application/json"
-      },
-      "Response Status": 200
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
     }
-  ]
+  },
+  "data": [],
+  "code": 0
 }

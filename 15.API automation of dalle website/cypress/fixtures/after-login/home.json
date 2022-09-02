@@ -1,219 +1,165 @@
 {
-  "body": {
-    "meta": {
-      "copyright": "Copyright 2017 Ekbana Pte",
-      "emails": "info@ekbana.com",
-      "api": {
-        "version": "0.2"
-      },
-      "socialTags": {
-        "og:title": "DALLE Food and resturant",
-        "og:description": "dalledalle",
-        "og:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
-        "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
-        "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
-        "twitter:title": "DALLE Food and resturant",
-        "twitter:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
-        "twitter:description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps."
-      },
-      "totalBrands": 1
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
     },
-    "data": {
-      "id": 1,
-      "page": {
-        "min-price": "10",
-        "home ad2 link": "",
-        "home ad3 link": "",
-        "home ad4 link": "",
-        "home ad2": "https://uat.ordering-dalle.ekbana.net/uploads/thumbs/thumbs/thumbs/Add%20banner%2039%402x.png",
-        "home ad1": ""
+    "socialTags": {
+      "og:title": "DALLE Food and resturant",
+      "og:description": "dalledalle",
+      "og:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
+      "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
+      "twitter:title": "DALLE Food and resturant",
+      "twitter:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "twitter:description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps."
+    },
+    "totalBrands": 1
+  },
+  "data": {
+    "id": 1,
+    "page": {
+      "min-price": "10",
+      "home ad2 link": "",
+      "home ad3 link": "",
+      "home ad4 link": "",
+      "home ad2": "https://uat.ordering-dalle.ekbana.net/uploads/thumbs/thumbs/thumbs/Add%20banner%2039%402x.png",
+      "home ad1": ""
+    },
+    "appCategories": [
+      {
+        "id": 18,
+        "title": "HOT DEALS",
+        "description": null,
+        "icon": null,
+        "collection_type": "product",
+        "type": "product_horizontal",
+        "position": 1,
+        "products": []
       },
-      "appCategories": [
-        {
-          "id": 18,
-          "title": "HOT DEALS",
-          "description": null,
-          "icon": null,
-          "collection_type": "product",
-          "type": "product_horizontal",
-          "position": 1,
-          "products": []
-        },
-        {
-          "id": 21,
-          "title": "BEVERAGES",
-          "description": null,
-          "icon": null,
-          "collection_type": "product",
-          "type": "product_horizontal",
-          "position": 21,
-          "products": []
-        },
-        {
-          "id": 22,
-          "title": "RICE & NOODLES",
-          "description": null,
-          "icon": null,
-          "collection_type": "product",
-          "type": "product_horizontal",
-          "position": 22,
-          "products": []
-        },
-        {
-          "id": 23,
-          "title": "MOMOS",
-          "description": null,
-          "icon": null,
-          "collection_type": "product",
-          "type": "product_horizontal",
-          "position": 23,
-          "products": []
-        }
-      ],
-      "banners": [
-        {
+      {
+        "id": 21,
+        "title": "BEVERAGES",
+        "description": null,
+        "icon": null,
+        "collection_type": "product",
+        "type": "product_horizontal",
+        "position": 21,
+        "products": []
+      },
+      {
+        "id": 22,
+        "title": "RICE & NOODLES",
+        "description": null,
+        "icon": null,
+        "collection_type": "product",
+        "type": "product_horizontal",
+        "position": 22,
+        "products": []
+      },
+      {
+        "id": 23,
+        "title": "MOMOS",
+        "description": null,
+        "icon": null,
+        "collection_type": "product",
+        "type": "product_horizontal",
+        "position": 23,
+        "products": []
+      }
+    ],
+    "banners": [
+      {
+        "id": 3,
+        "title": "Delicious Jhol Momo",
+        "shortDescription": "",
+        "type": "home",
+        "websiteUrl": null,
+        "linkTo": "category",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/607fd38a1a31a.jpg",
+        "position": 1,
+        "category": {
           "id": 3,
-          "title": "Delicious Jhol Momo",
-          "shortDescription": "",
-          "type": "home",
-          "websiteUrl": null,
-          "linkTo": "category",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/607fd38a1a31a.jpg",
-          "position": 1,
-          "category": {
-            "id": 3,
-            "parentId": null,
-            "title": "RICE AND NOODLES",
-            "description": null,
-            "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
-            "slug": "rice-and-noodles"
-          }
-        },
-        {
-          "id": 6,
-          "title": "Satisfy Your Cravings",
-          "shortDescription": "",
-          "type": "home",
-          "websiteUrl": "#",
-          "linkTo": "website",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6066cd6c964d9.jpg",
-          "position": 2
+          "parentId": null,
+          "title": "RICE AND NOODLES",
+          "description": null,
+          "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
+          "slug": "rice-and-noodles"
         }
-      ],
-      "adbanners": [
-        {
-          "id": 14,
-          "title": "First",
-          "shortDescription": "",
-          "type": "ad_home",
-          "websiteUrl": "#",
-          "linkTo": "website",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6094f5fc55869.jpg",
-          "position": 1
-        },
-        {
-          "id": 27,
-          "title": "first pkr",
-          "shortDescription": "",
-          "type": "ad_home",
-          "websiteUrl": null,
-          "linkTo": "website",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d20f92431.jpg",
-          "position": 2
-        },
-        {
-          "id": 16,
-          "title": "second",
-          "shortDescription": "",
-          "type": "ad_home",
-          "websiteUrl": "https://uat.ordering-dalle.ekbana.net/product/dalle-jhol-momos",
-          "linkTo": "website",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af41d9e3c.jpg",
-          "position": 2
-        },
-        {
-          "id": 17,
-          "title": "Third",
-          "shortDescription": "",
-          "type": "ad_home",
-          "websiteUrl": "https://uat.ordering-dalle.ekbana.net/product/deep-fried-momos",
-          "linkTo": "website",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af87311f0.jpg",
-          "position": 3
-        },
-        {
-          "id": 28,
-          "title": "second pkr",
-          "shortDescription": "",
-          "type": "ad_home",
-          "websiteUrl": null,
-          "linkTo": "website",
-          "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d518b0567.jpg",
-          "position": 4
-        }
-      ],
-      "brands": [
-        {
-          "id": 6,
-          "title": "test",
-          "icon": null,
-          "slug": "test",
-          "content": null
-        }
-      ]
-    },
-    "code": 0
-  },
-  "headers": {
-    "date": "Fri, 02 Sep 2022 08:59:27 GMT",
-    "server": "Apache",
-    "vary": "Authorization",
-    "cache-control": "no-cache, max-age=31536000",
-    "x-ratelimit-limit": "60",
-    "x-ratelimit-remaining": "59",
-    "expires": "Sat, 02 Sep 2023 08:59:27 GMT",
-    "content-length": "4141",
-    "connection": "close",
-    "content-type": "application/json"
-  },
-  "status": 200,
-  "statusText": "OK",
-  "isOkStatusCode": true,
-  "requestHeaders": {
-    "Connection": "keep-alive",
-    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-    "accept": "*/*",
-    "accept-encoding": "gzip, deflate"
-  },
-  "duration": 545,
-  "allRequestResponses": [
-    {
-      "Request Body": null,
-      "Request Headers": {
-        "Connection": "keep-alive",
-        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-        "accept": "*/*",
-        "accept-encoding": "gzip, deflate"
       },
-      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/home",
-      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"DALLE Food and resturant\",\"og:description\":\"dalledalle\",\"og:image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Mask%20Group%2041%402x.png\",\"keywords\":\"Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.\",\"description\":\"Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.\",\"twitter:title\":\"DALLE Food and resturant\",\"twitter:image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Mask%20Group%2041%402x.png\",\"twitter:description\":\"Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.\"},\"totalBrands\":1},\"data\":{\"id\":1,\"page\":{\"min-price\":\"10\",\"home ad2 link\":\"\",\"home ad3 link\":\"\",\"home ad4 link\":\"\",\"home ad2\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/thumbs\\/thumbs\\/thumbs\\/Add%20banner%2039%402x.png\",\"home ad1\":\"\"},\"appCategories\":[{\"id\":18,\"title\":\"HOT DEALS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":1,\"products\":[]},{\"id\":21,\"title\":\"BEVERAGES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":21,\"products\":[]},{\"id\":22,\"title\":\"RICE & NOODLES\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":22,\"products\":[]},{\"id\":23,\"title\":\"MOMOS\",\"description\":null,\"icon\":null,\"collection_type\":\"product\",\"type\":\"product_horizontal\",\"position\":23,\"products\":[]}],\"banners\":[{\"id\":3,\"title\":\"Delicious Jhol Momo\",\"shortDescription\":\"\",\"type\":\"home\",\"websiteUrl\":null,\"linkTo\":\"category\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/607fd38a1a31a.jpg\",\"position\":1,\"category\":{\"id\":3,\"parentId\":null,\"title\":\"RICE AND NOODLES\",\"description\":null,\"icon\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/category\\/icon\\/6066d89e4cd53.png\",\"slug\":\"rice-and-noodles\"}},{\"id\":6,\"title\":\"Satisfy Your Cravings\",\"shortDescription\":\"\",\"type\":\"home\",\"websiteUrl\":\"#\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/6066cd6c964d9.jpg\",\"position\":2}],\"adbanners\":[{\"id\":14,\"title\":\"First\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":\"#\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/6094f5fc55869.jpg\",\"position\":1},{\"id\":27,\"title\":\"first pkr\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":null,\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/60d1d20f92431.jpg\",\"position\":2},{\"id\":16,\"title\":\"second\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/product\\/dalle-jhol-momos\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/6093af41d9e3c.jpg\",\"position\":2},{\"id\":17,\"title\":\"Third\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/product\\/deep-fried-momos\",\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/6093af87311f0.jpg\",\"position\":3},{\"id\":28,\"title\":\"second pkr\",\"shortDescription\":\"\",\"type\":\"ad_home\",\"websiteUrl\":null,\"linkTo\":\"website\",\"bannerImage\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/uploads\\/banner\\/60d1d518b0567.jpg\",\"position\":4}],\"brands\":[{\"id\":6,\"title\":\"test\",\"icon\":null,\"slug\":\"test\",\"content\":null}]},\"code\":0}",
-      "Response Headers": {
-        "date": "Fri, 02 Sep 2022 08:59:27 GMT",
-        "server": "Apache",
-        "vary": "Authorization",
-        "cache-control": "no-cache, max-age=31536000",
-        "x-ratelimit-limit": "60",
-        "x-ratelimit-remaining": "59",
-        "expires": "Sat, 02 Sep 2023 08:59:27 GMT",
-        "content-length": "4141",
-        "connection": "close",
-        "content-type": "application/json"
+      {
+        "id": 6,
+        "title": "Satisfy Your Cravings",
+        "shortDescription": "",
+        "type": "home",
+        "websiteUrl": "#",
+        "linkTo": "website",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6066cd6c964d9.jpg",
+        "position": 2
+      }
+    ],
+    "adbanners": [
+      {
+        "id": 14,
+        "title": "First",
+        "shortDescription": "",
+        "type": "ad_home",
+        "websiteUrl": "#",
+        "linkTo": "website",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6094f5fc55869.jpg",
+        "position": 1
       },
-      "Response Status": 200
-    }
-  ]
+      {
+        "id": 27,
+        "title": "first pkr",
+        "shortDescription": "",
+        "type": "ad_home",
+        "websiteUrl": null,
+        "linkTo": "website",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d20f92431.jpg",
+        "position": 2
+      },
+      {
+        "id": 16,
+        "title": "second",
+        "shortDescription": "",
+        "type": "ad_home",
+        "websiteUrl": "https://uat.ordering-dalle.ekbana.net/product/dalle-jhol-momos",
+        "linkTo": "website",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af41d9e3c.jpg",
+        "position": 2
+      },
+      {
+        "id": 17,
+        "title": "Third",
+        "shortDescription": "",
+        "type": "ad_home",
+        "websiteUrl": "https://uat.ordering-dalle.ekbana.net/product/deep-fried-momos",
+        "linkTo": "website",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af87311f0.jpg",
+        "position": 3
+      },
+      {
+        "id": 28,
+        "title": "second pkr",
+        "shortDescription": "",
+        "type": "ad_home",
+        "websiteUrl": null,
+        "linkTo": "website",
+        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d518b0567.jpg",
+        "position": 4
+      }
+    ],
+    "brands": [
+      {
+        "id": 6,
+        "title": "test",
+        "icon": null,
+        "slug": "test",
+        "content": null
+      }
+    ]
+  },
+  "code": 0
 }

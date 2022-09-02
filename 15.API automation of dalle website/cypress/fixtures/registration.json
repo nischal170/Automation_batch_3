@@ -1,110 +1,27 @@
 {
-  "body": {
-    "meta": {
-      "copyright": "Copyright 2017 Ekbana Pte",
-      "emails": "info@ekbana.com",
-      "api": {
-        "version": "0.2"
-      }
-    },
-    "data": {
-      "id": 795,
-      "email": "b-------@-------.com",
-      "username": "maurice_hodkiewicz_46",
-      "firstName": "Maurice",
-      "lastName": "Hodkiewicz",
-      "verified": true,
-      "mobileNumber": "98------05",
-      "createdAt": "Sep 2, 2022",
-      "updatedAt": "Sep 2, 2022",
-      "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
-      "total_loyalty_points": 50,
-      "current_loyalty_points": 50,
-      "user_level": "Normal",
-      "next_level": "Silver",
-      "required_points_next": 450
-    },
-    "code": 0
-  },
-  "headers": {
-    "date": "Fri, 02 Sep 2022 08:59:19 GMT",
-    "server": "Apache",
-    "vary": "Authorization",
-    "cache-control": "no-cache, max-age=31536000",
-    "x-ratelimit-limit": "60",
-    "x-ratelimit-remaining": "59",
-    "expires": "Sat, 02 Sep 2023 08:59:19 GMT",
-    "content-length": "544",
-    "connection": "close",
-    "content-type": "application/json"
-  },
-  "status": 201,
-  "statusText": "Created",
-  "isOkStatusCode": true,
-  "requestHeaders": {
-    "Connection": "keep-alive",
-    "authorization": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-    "accept": "*/*",
-    "accept-encoding": "gzip, deflate",
-    "content-type": "application/json",
-    "content-length": 174
-  },
-  "requestBody": "{\"confirmPassword\":\"NiJkAuASNmufREV\",\"email\":\"Barney57@hotmail.com\",\"first_name\":\"Maurice\",\"last_name\":\"Hodkiewicz\",\"mobile_number\":\"9855275805\",\"password\":\"NiJkAuASNmufREV\"}",
-  "duration": 988,
-  "allRequestResponses": [
-    {
-      "Request Body": "{\"confirmPassword\":\"NiJkAuASNmufREV\",\"email\":\"Barney57@hotmail.com\",\"first_name\":\"Maurice\",\"last_name\":\"Hodkiewicz\",\"mobile_number\":\"9855275805\",\"password\":\"NiJkAuASNmufREV\"}",
-      "Request Headers": {
-        "Connection": "keep-alive",
-        "authorization": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-        "accept": "*/*",
-        "accept-encoding": "gzip, deflate",
-        "content-type": "application/json",
-        "content-length": 174
-      },
-      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/auth/signup",
-      "Response Body": {
-        "meta": {
-          "copyright": "Copyright 2017 Ekbana Pte",
-          "emails": "info@ekbana.com",
-          "api": {
-            "version": "0.2"
-          }
-        },
-        "data": {
-          "id": 795,
-          "email": "b-------@-------.com",
-          "username": "maurice_hodkiewicz_46",
-          "firstName": "Maurice",
-          "lastName": "Hodkiewicz",
-          "verified": true,
-          "mobileNumber": "98------05",
-          "createdAt": "Sep 2, 2022",
-          "updatedAt": "Sep 2, 2022",
-          "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
-          "total_loyalty_points": 50,
-          "current_loyalty_points": 50,
-          "user_level": "Normal",
-          "next_level": "Silver",
-          "required_points_next": 450
-        },
-        "code": 0
-      },
-      "Response Headers": {
-        "date": "Fri, 02 Sep 2022 08:59:19 GMT",
-        "server": "Apache",
-        "vary": "Authorization",
-        "cache-control": "no-cache, max-age=31536000",
-        "x-ratelimit-limit": "60",
-        "x-ratelimit-remaining": "59",
-        "expires": "Sat, 02 Sep 2023 08:59:19 GMT",
-        "content-length": "544",
-        "connection": "close",
-        "content-type": "application/json"
-      },
-      "Response Status": 201
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
     }
-  ]
+  },
+  "data": {
+    "id": 799,
+    "email": "l-------------@-------.com",
+    "username": "rachelle_wuckert_83",
+    "firstName": "Rachelle",
+    "lastName": "Wuckert",
+    "verified": true,
+    "mobileNumber": "98------62",
+    "createdAt": "Sep 2, 2022",
+    "updatedAt": "Sep 2, 2022",
+    "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
+    "total_loyalty_points": 50,
+    "current_loyalty_points": 50,
+    "user_level": "Normal",
+    "next_level": "Silver",
+    "required_points_next": 450
+  },
+  "code": 0
 }

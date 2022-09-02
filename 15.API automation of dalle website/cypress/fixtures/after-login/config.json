@@ -1,357 +1,305 @@
 {
-  "body": {
-    "meta": {
-      "copyright": "Copyright 2017 Ekbana Pte",
-      "emails": "info@ekbana.com",
-      "api": {
-        "version": "0.2"
-      },
-      "socialTags": {
-        "og:title": "Dalle",
-        "og:description": "DALLE is one of the fastest-growing quick-service restaurants (QSR) in Nepal. Dalle presents you Darjeeling style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.",
-        "og:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
-        "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
-        "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
-        "twitter:title": null,
-        "twitter:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png?1617612758529",
-        "twitter:description": "dalle"
-      }
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
     },
-    "data": {
-      "id": 1,
-      "title": "Dalle Momo",
-      "minimumPrice": 500,
-      "multiplePrice": false,
-      "tax": 13,
-      "currency": "NRS",
-      "checkStock": false,
-      "menuHeader": "0",
-      "verifyUser": false,
-      "stockMessage": "",
-      "outOfStockMessage": "",
-      "serviceTax": 10,
-      "contactless-delivery": true,
-      "userGroup": [
-        {
-          "id": 6,
-          "title": "Normal",
-          "point": 0,
-          "color": "#009044",
-          "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61fa239964b2d.png"
-        },
-        {
-          "id": 10,
-          "title": "Silver",
-          "point": 500,
-          "color": "#87878A",
-          "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2a77c7a.png"
-        },
-        {
-          "id": 7,
-          "title": "Gold",
-          "point": 1000,
-          "color": "#DC9202",
-          "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2301d1b.png"
-        },
-        {
-          "id": 8,
-          "title": "Diamond",
-          "point": 2500,
-          "color": "#10A0C5",
-          "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca336483a.png"
-        },
-        {
-          "id": 9,
-          "title": "Platinum",
-          "point": 5000,
-          "color": "#510A80",
-          "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61fa23a61f7a1.png"
-        }
-      ],
-      "orderColor": [
-        {
-          "id": 1,
-          "status": "Pending",
-          "color": "#2F4F4F",
-          "translation": "ペンディング",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 2,
-          "status": "Processing",
-          "color": "#EA9143",
-          "translation": "受け取った",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 3,
-          "status": "Placed",
-          "color": "#2ECC71",
-          "translation": "置いた",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 4,
-          "status": "Cancelled",
-          "color": "#E74C3C",
-          "translation": "キャンセル",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 5,
-          "status": "Ready For Delivery",
-          "color": "#941fb5",
-          "translation": "配達可能",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 9,
-          "status": "Ready For Pickup",
-          "color": "#604ec8",
-          "translation": "ピックアップの準備ができて",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 10,
-          "status": "Picked Up",
-          "color": "#3ca7c9",
-          "translation": "拾った",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 6,
-          "status": "Delivered",
-          "color": "#3498DB",
-          "translation": "配信された",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 7,
-          "status": "Delivering",
-          "color": "#00BCA4",
-          "translation": "配信する",
-          "createdAt": null,
-          "updatedAt": null
-        },
-        {
-          "id": 8,
-          "status": "Returned",
-          "color": "#98603B",
-          "translation": "戻ってきた",
-          "createdAt": null,
-          "updatedAt": null
-        }
-      ],
-      "color": {
-        "primaryColor": "#ffcc00",
-        "lightPrimaryColor": "#ffcc00",
-        "darkPrimaryColor": "#ffcc00",
-        "headerTextColor": "#ffffff",
-        "saleBgColor": "#e01212",
-        "saleTextColor": "#000000",
-        "addToCartBgColor": "#cf2929",
-        "addToCartTextColor": "#ffffff",
-        "addToCartHoverTextColor": "#ffffff",
-        "addToCartBgHoverColor": "#253237",
-        "paginationBgColor": "#cf2929",
-        "stockColor": "#cf2929",
-        "outOfStockColor": "#a80135",
-        "searchButtonColor": "#f01f1f",
-        "oldPriceColor": "#000000",
-        "footerColor": "#0a0a0a"
-      },
-      "paymentMethod": [
-        {
-          "id": 1,
-          "title": "Esewa",
-          "default": false,
-          "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/620a0b30a10fe.png",
-          "live": false,
-          "merchantCode": "EPAYTEST",
-          "merchantId": "JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R",
-          "merchantSecret": "BhwIWQQADhIYSxILExMcAgFXFhcOBwAKBgAXEQ=="
-        },
-        {
-          "id": 2,
-          "title": "Khalti",
-          "default": false,
-          "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/605f006d34208.png",
-          "live": false,
-          "merchantId": "test_public_key_c94bd1c13bf1401e9b41079cb930ae99"
-        },
-        {
-          "id": 3,
-          "title": "Cash On Delivery",
-          "default": true,
-          "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/62036af93adac.png"
-        },
-        {
-          "id": 5,
-          "title": "Fonepay",
-          "default": false,
-          "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/61090f2b709cf.png"
-        }
-      ],
-      "site_contact_number": "9874512424",
-      "closingMessage": null,
-      "warehouse": [
-        {
-          "id": 1,
-          "title": "Kathmandu",
-          "bounds": {
-            "south": 27.67686524583014,
-            "west": 85.21096148857171,
-            "north": 27.737656351669504,
-            "east": 85.4259137190252,
-            "minZoom": 12,
-            "opening_time": "09:00",
-            "closing_time": "22:00"
-          },
-          "latitude": "27.703886837986065",
-          "longitude": "85.32003544027775",
-          "contact": "Avinash Shrestha",
-          "contactNo": "9860137428",
-          "image": null,
-          "outlets": [
-            {
-              "id": 11,
-              "title": "Newroad",
-              "latitude": "27.703869671213255",
-              "longitude": "85.30591868319233"
-            },
-            {
-              "id": 3,
-              "title": "Maharajgung",
-              "latitude": "27.695038036385068",
-              "longitude": "85.32110844380162"
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "title": "Pokhara",
-          "bounds": {
-            "south": 28.194454809510432,
-            "west": 83.9318293423866,
-            "north": 28.224709248127024,
-            "east": 84.03930545761335,
-            "minZoom": 13,
-            "opening_time": "",
-            "closing_time": ""
-          },
-          "latitude": "28.211315625299452",
-          "longitude": "83.98102373792875",
-          "contact": "kabina",
-          "contactNo": "9860426571",
-          "image": null,
-          "outlets": [
-            {
-              "id": 7,
-              "title": "Chipledhunga",
-              "latitude": "28.2240071",
-              "longitude": "83.98673099999999"
-            }
-          ]
-        }
-      ],
-      "pageData": {
-        "facebook": "https://www.facebook.com/Dalle.ktm/",
-        "instagram": "https://www.instagram.com/dalle.ktm/?hl=en",
-        "max-price": "3000",
-        "min-price": "10",
-        "section2 content1": "About Us",
-        "section2 content2": "Privacy Policy",
-        "section2 content4": "Contact Us",
-        "section2 link5": "https://uat.ordering-dalle.ekbana.net/terms-and-conditions",
-        "section2 link6": "https://uat.ordering-dalle.ekbana.net/delivery-area",
-        "section3 title": "Payment modes",
-        "phone": "(+)977-1-4411302",
-        "section1 address": "Kamaladi, Kathmandu",
-        "section1 mobile": "(+)977-1-4411302",
-        "section2 content3": "FAQs",
-        "section2 content5": "Terms and Conditions",
-        "section1 email": "info@dallerestaurant.com.np",
-        "section5 facebook": "https://www.facebook.com/Dalle.ktm",
-        "sitelogo2": "https://uat.ordering-dalle.ekbana.net/uploads/Dalle%2520logo.png",
-        "section4 description": "You can download the DALLE mobile app on the following platforms by clicking on the images below.",
-        "sitelogo": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
-        "logo": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
-        "section4 title": "<p>GET THE APP ON</p>",
-        "section1 description": "Want a delicious meal, but no time Dalle will deliver it hot and yummy.",
-        "section4 googleplay": "https://uat.ordering-dalle.ekbana.net/uploads/google_play.png",
-        "section4 appstore link": "https://apps.apple.com/us/app/dalle/id1560777520",
-        "section1 title": "<p>INFORMATION</p>",
-        "section4 appstore": "https://uat.ordering-dalle.ekbana.net/uploads/app_store.png?1617179203055",
-        "section2 link3": "https://uat.ordering-dalle.ekbana.net/page/faq",
-        "section5 youtube": "https://www.youtube.com/watch?v=CDLZblD79Wg",
-        "section5 instagram": "https://www.instagram.com/dalle.ktm/?hl=en",
-        "section2 title": "<p>INFORMATION</p>",
-        "section2 link4": "https://uat.ordering-dalle.ekbana.net/page/contact-us",
-        "section2 link1": "https://uat.ordering-dalle.ekbana.net/page/about-us",
-        "section2 link2": "https://uat.ordering-dalle.ekbana.net/page/privacy-policy",
-        "section3 content1": "<p>Cash On Delivery</p>",
-        "section3 content2": "<p>Card on Delivery</p>",
-        "section4 googleplay link": "https://play.google.com/store/apps/details?id=com.dalle.order"
-      }
-    },
-    "code": 0
-  },
-  "headers": {
-    "date": "Fri, 02 Sep 2022 08:59:24 GMT",
-    "server": "Apache",
-    "vary": "Authorization",
-    "cache-control": "no-cache, max-age=31536000",
-    "x-ratelimit-limit": "60",
-    "x-ratelimit-remaining": "59",
-    "expires": "Sat, 02 Sep 2023 08:59:24 GMT",
-    "connection": "close",
-    "content-type": "application/json"
-  },
-  "status": 200,
-  "statusText": "OK",
-  "isOkStatusCode": true,
-  "requestHeaders": {
-    "Connection": "keep-alive",
-    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-    "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-    "accept": "*/*",
-    "accept-encoding": "gzip, deflate"
-  },
-  "duration": 403,
-  "allRequestResponses": [
-    {
-      "Request Body": null,
-      "Request Headers": {
-        "Connection": "keep-alive",
-        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
-        "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImJkNmM2YzkzZjc4N2Q3NWViYjE2NjA3MjVkN2RhYTFmM2RiMjU3OWVkNjliYzUxNzBiYjhiNmJlNTYzMDZkN2VmYjA1MmYxNzc5YmM2ZWVhIn0.eyJhdWQiOiIyIiwianRpIjoiYmQ2YzZjOTNmNzg3ZDc1ZWJiMTY2MDcyNWQ3ZGFhMWYzZGIyNTc5ZWQ2OWJjNTE3MGJiOGI2YmU1NjMwNmQ3ZWZiMDUyZjE3NzliYzZlZWEiLCJpYXQiOjE2NjIxMDkxNjQsIm5iZiI6MTY2MjEwOTE2NCwiZXhwIjoxNjYyOTczMTY0LCJzdWIiOiI3OTUiLCJzY29wZXMiOltdfQ.fHte6aJoay_V-qU3Oh9W65bKf4Nj9FGdmLjX9hCDvS-7CyeTuKWBKukTk15kNAaETFPTxnu6zrBA5tkqdrPpG_i4YlhfNYRcSIYM5OR3FKZsZsjRQXiDBueH4adASQrWj5P62c37hEc9CTA4_AdKP_XahZriusSNDVxed3WEmQiOoe13rsHVGP-uAjNbqtpY55ex1qQlR4HEnxXznYdDHbFBfMCtrOffKngwYVE9aQ_gb5vhvqx40nQZfE9kiFx1NlsLfYP0_KE6TDIgAwNSKUEc6ZcFOYd3dqkLftlim2Ds3Im_Mt9ZdJ5Dr9ZlwYIkv6U2nw759I6HzMfQIxJXvi9mO-M-XnvJK2HkU-hcwhVlsiJ6aPOzH9QbEmqwIlRiYwSa0XuMcWPT5PqCkR_3HbVuTNpMEPF4g7z6gG_aOzvw_IoRDWr_vsN_eeQk5bOZeenC_1-2zZ_Swx0ZIW5VTf70J_LJlH9WlBRaRFwfT1En7Z3n-RdziYY8LdnlbcTUMMdTyXMsCj6WQKjLOWBn7SXZsKz6cP9kGxNG5EQjctwjW3BqAIJr2SyN8gtmti8HgMlaLjw3j3QhbhaIsQ7O4sQrYfsxmPKZt445grfG3MS-QcXR6iTN4I1yVC3uM1bQ1NrB-E1qai7sI5oixBoOXsSMppTwvld8e49OOz52u8Q",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
-        "accept": "*/*",
-        "accept-encoding": "gzip, deflate"
-      },
-      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/config",
-      "Response Body": "{\"meta\":{\"copyright\":\"Copyright 2017 Ekbana Pte\",\"emails\":\"info@ekbana.com\",\"api\":{\"version\":\"0.2\"},\"socialTags\":{\"og:title\":\"Dalle\",\"og:description\":\"DALLE is one of the fastest-growing quick-service restaurants (QSR) in Nepal. Dalle presents you Darjeeling style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.\",\"og:image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Mask%20Group%2041%402x.png\",\"keywords\":\"Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.\",\"description\":\"Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.\",\"twitter:title\":null,\"twitter:image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Mask%20Group%2041%402x.png?1617612758529\",\"twitter:description\":\"dalle\"}},\"data\":{\"id\":1,\"title\":\"Dalle Momo\",\"minimumPrice\":500,\"multiplePrice\":false,\"tax\":13,\"currency\":\"NRS\",\"checkStock\":false,\"menuHeader\":\"0\",\"verifyUser\":false,\"stockMessage\":\"\",\"outOfStockMessage\":\"\",\"serviceTax\":10,\"contactless-delivery\":true,\"userGroup\":[{\"id\":6,\"title\":\"Normal\",\"point\":0,\"color\":\"#009044\",\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/user-group\\/61fa239964b2d.png\"},{\"id\":10,\"title\":\"Silver\",\"point\":500,\"color\":\"#87878A\",\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/user-group\\/61f7ca2a77c7a.png\"},{\"id\":7,\"title\":\"Gold\",\"point\":1000,\"color\":\"#DC9202\",\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/user-group\\/61f7ca2301d1b.png\"},{\"id\":8,\"title\":\"Diamond\",\"point\":2500,\"color\":\"#10A0C5\",\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/user-group\\/61f7ca336483a.png\"},{\"id\":9,\"title\":\"Platinum\",\"point\":5000,\"color\":\"#510A80\",\"image\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/user-group\\/61fa23a61f7a1.png\"}],\"orderColor\":[{\"id\":1,\"status\":\"Pending\",\"color\":\"#2F4F4F\",\"translation\":\"\\u30da\\u30f3\\u30c7\\u30a3\\u30f3\\u30b0\",\"createdAt\":null,\"updatedAt\":null},{\"id\":2,\"status\":\"Processing\",\"color\":\"#EA9143\",\"translation\":\"\\u53d7\\u3051\\u53d6\\u3063\\u305f\",\"createdAt\":null,\"updatedAt\":null},{\"id\":3,\"status\":\"Placed\",\"color\":\"#2ECC71\",\"translation\":\"\\u7f6e\\u3044\\u305f\",\"createdAt\":null,\"updatedAt\":null},{\"id\":4,\"status\":\"Cancelled\",\"color\":\"#E74C3C\",\"translation\":\"\\u30ad\\u30e3\\u30f3\\u30bb\\u30eb\",\"createdAt\":null,\"updatedAt\":null},{\"id\":5,\"status\":\"Ready For Delivery\",\"color\":\"#941fb5\",\"translation\":\"\\u914d\\u9054\\u53ef\\u80fd\",\"createdAt\":null,\"updatedAt\":null},{\"id\":9,\"status\":\"Ready For Pickup\",\"color\":\"#604ec8\",\"translation\":\"\\u30d4\\u30c3\\u30af\\u30a2\\u30c3\\u30d7\\u306e\\u6e96\\u5099\\u304c\\u3067\\u304d\\u3066\",\"createdAt\":null,\"updatedAt\":null},{\"id\":10,\"status\":\"Picked Up\",\"color\":\"#3ca7c9\",\"translation\":\"\\u62fe\\u3063\\u305f\",\"createdAt\":null,\"updatedAt\":null},{\"id\":6,\"status\":\"Delivered\",\"color\":\"#3498DB\",\"translation\":\"\\u914d\\u4fe1\\u3055\\u308c\\u305f\",\"createdAt\":null,\"updatedAt\":null},{\"id\":7,\"status\":\"Delivering\",\"color\":\"#00BCA4\",\"translation\":\"\\u914d\\u4fe1\\u3059\\u308b\",\"createdAt\":null,\"updatedAt\":null},{\"id\":8,\"status\":\"Returned\",\"color\":\"#98603B\",\"translation\":\"\\u623b\\u3063\\u3066\\u304d\\u305f\",\"createdAt\":null,\"updatedAt\":null}],\"color\":{\"primaryColor\":\"#ffcc00\",\"lightPrimaryColor\":\"#ffcc00\",\"darkPrimaryColor\":\"#ffcc00\",\"headerTextColor\":\"#ffffff\",\"saleBgColor\":\"#e01212\",\"saleTextColor\":\"#000000\",\"addToCartBgColor\":\"#cf2929\",\"addToCartTextColor\":\"#ffffff\",\"addToCartHoverTextColor\":\"#ffffff\",\"addToCartBgHoverColor\":\"#253237\",\"paginationBgColor\":\"#cf2929\",\"stockColor\":\"#cf2929\",\"outOfStockColor\":\"#a80135\",\"searchButtonColor\":\"#f01f1f\",\"oldPriceColor\":\"#000000\",\"footerColor\":\"#0a0a0a\"},\"paymentMethod\":[{\"id\":1,\"title\":\"Esewa\",\"default\":false,\"icon\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/payment\\/icon\\/620a0b30a10fe.png\",\"live\":false,\"merchantCode\":\"EPAYTEST\",\"merchantId\":\"JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R\",\"merchantSecret\":\"BhwIWQQADhIYSxILExMcAgFXFhcOBwAKBgAXEQ==\"},{\"id\":2,\"title\":\"Khalti\",\"default\":false,\"icon\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/payment\\/icon\\/605f006d34208.png\",\"live\":false,\"merchantId\":\"test_public_key_c94bd1c13bf1401e9b41079cb930ae99\"},{\"id\":3,\"title\":\"Cash On Delivery\",\"default\":true,\"icon\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/payment\\/icon\\/62036af93adac.png\"},{\"id\":5,\"title\":\"Fonepay\",\"default\":false,\"icon\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/storage\\/payment\\/icon\\/61090f2b709cf.png\"}],\"site_contact_number\":\"9874512424\",\"closingMessage\":null,\"warehouse\":[{\"id\":1,\"title\":\"Kathmandu\",\"bounds\":{\"south\":27.67686524583014,\"west\":85.21096148857171,\"north\":27.737656351669504,\"east\":85.4259137190252,\"minZoom\":12,\"opening_time\":\"09:00\",\"closing_time\":\"22:00\"},\"latitude\":\"27.703886837986065\",\"longitude\":\"85.32003544027775\",\"contact\":\"Avinash Shrestha\",\"contactNo\":\"9860137428\",\"image\":null,\"outlets\":[{\"id\":11,\"title\":\"Newroad\",\"latitude\":\"27.703869671213255\",\"longitude\":\"85.30591868319233\"},{\"id\":3,\"title\":\"Maharajgung\",\"latitude\":\"27.695038036385068\",\"longitude\":\"85.32110844380162\"}]},{\"id\":2,\"title\":\"Pokhara\",\"bounds\":{\"south\":28.194454809510432,\"west\":83.9318293423866,\"north\":28.224709248127024,\"east\":84.03930545761335,\"minZoom\":13,\"opening_time\":\"\",\"closing_time\":\"\"},\"latitude\":\"28.211315625299452\",\"longitude\":\"83.98102373792875\",\"contact\":\"kabina\",\"contactNo\":\"9860426571\",\"image\":null,\"outlets\":[{\"id\":7,\"title\":\"Chipledhunga\",\"latitude\":\"28.2240071\",\"longitude\":\"83.98673099999999\"}]}],\"pageData\":{\"facebook\":\"https:\\/\\/www.facebook.com\\/Dalle.ktm\\/\",\"instagram\":\"https:\\/\\/www.instagram.com\\/dalle.ktm\\/?hl=en\",\"max-price\":\"3000\",\"min-price\":\"10\",\"section2 content1\":\"About Us\",\"section2 content2\":\"Privacy Policy\",\"section2 content4\":\"Contact Us\",\"section2 link5\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/terms-and-conditions\",\"section2 link6\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/delivery-area\",\"section3 title\":\"Payment modes\",\"phone\":\"(+)977-1-4411302\",\"section1 address\":\"Kamaladi, Kathmandu\",\"section1 mobile\":\"(+)977-1-4411302\",\"section2 content3\":\"FAQs\",\"section2 content5\":\"Terms and Conditions\",\"section1 email\":\"info@dallerestaurant.com.np\",\"section5 facebook\":\"https:\\/\\/www.facebook.com\\/Dalle.ktm\",\"sitelogo2\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Dalle%2520logo.png\",\"section4 description\":\"You can download the DALLE mobile app on the following platforms by clicking on the images below.\",\"sitelogo\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Mask%20Group%2041%402x.png\",\"logo\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/Mask%20Group%2041%402x.png\",\"section4 title\":\"<p>GET THE APP ON<\\/p>\",\"section1 description\":\"Want a delicious meal, but no time Dalle will deliver it hot and yummy.\",\"section4 googleplay\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/google_play.png\",\"section4 appstore link\":\"https:\\/\\/apps.apple.com\\/us\\/app\\/dalle\\/id1560777520\",\"section1 title\":\"<p>INFORMATION<\\/p>\",\"section4 appstore\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/uploads\\/app_store.png?1617179203055\",\"section2 link3\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/page\\/faq\",\"section5 youtube\":\"https:\\/\\/www.youtube.com\\/watch?v=CDLZblD79Wg\",\"section5 instagram\":\"https:\\/\\/www.instagram.com\\/dalle.ktm\\/?hl=en\",\"section2 title\":\"<p>INFORMATION<\\/p>\",\"section2 link4\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/page\\/contact-us\",\"section2 link1\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/page\\/about-us\",\"section2 link2\":\"https:\\/\\/uat.ordering-dalle.ekbana.net\\/page\\/privacy-policy\",\"section3 content1\":\"<p>Cash On Delivery<\\/p>\",\"section3 content2\":\"<p>Card on Delivery<\\/p>\",\"section4 googleplay link\":\"https:\\/\\/play.google.com\\/store\\/apps\\/details?id=com.dalle.order\"}},\"code\":0}",
-      "Response Headers": {
-        "date": "Fri, 02 Sep 2022 08:59:24 GMT",
-        "server": "Apache",
-        "vary": "Authorization",
-        "cache-control": "no-cache, max-age=31536000",
-        "x-ratelimit-limit": "60",
-        "x-ratelimit-remaining": "59",
-        "expires": "Sat, 02 Sep 2023 08:59:24 GMT",
-        "connection": "close",
-        "content-type": "application/json"
-      },
-      "Response Status": 200
+    "socialTags": {
+      "og:title": "Dalle",
+      "og:description": "DALLE is one of the fastest-growing quick-service restaurants (QSR) in Nepal. Dalle presents you Darjeeling style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.",
+      "og:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
+      "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
+      "twitter:title": null,
+      "twitter:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png?1617612758529",
+      "twitter:description": "dalle"
     }
-  ]
+  },
+  "data": {
+    "id": 1,
+    "title": "Dalle Momo",
+    "minimumPrice": 500,
+    "multiplePrice": false,
+    "tax": 13,
+    "currency": "NRS",
+    "checkStock": false,
+    "menuHeader": "0",
+    "verifyUser": false,
+    "stockMessage": "",
+    "outOfStockMessage": "",
+    "serviceTax": 10,
+    "contactless-delivery": true,
+    "userGroup": [
+      {
+        "id": 6,
+        "title": "Normal",
+        "point": 0,
+        "color": "#009044",
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61fa239964b2d.png"
+      },
+      {
+        "id": 10,
+        "title": "Silver",
+        "point": 500,
+        "color": "#87878A",
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2a77c7a.png"
+      },
+      {
+        "id": 7,
+        "title": "Gold",
+        "point": 1000,
+        "color": "#DC9202",
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2301d1b.png"
+      },
+      {
+        "id": 8,
+        "title": "Diamond",
+        "point": 2500,
+        "color": "#10A0C5",
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca336483a.png"
+      },
+      {
+        "id": 9,
+        "title": "Platinum",
+        "point": 5000,
+        "color": "#510A80",
+        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61fa23a61f7a1.png"
+      }
+    ],
+    "orderColor": [
+      {
+        "id": 1,
+        "status": "Pending",
+        "color": "#2F4F4F",
+        "translation": "ペンディング",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 2,
+        "status": "Processing",
+        "color": "#EA9143",
+        "translation": "受け取った",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 3,
+        "status": "Placed",
+        "color": "#2ECC71",
+        "translation": "置いた",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 4,
+        "status": "Cancelled",
+        "color": "#E74C3C",
+        "translation": "キャンセル",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 5,
+        "status": "Ready For Delivery",
+        "color": "#941fb5",
+        "translation": "配達可能",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 9,
+        "status": "Ready For Pickup",
+        "color": "#604ec8",
+        "translation": "ピックアップの準備ができて",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 10,
+        "status": "Picked Up",
+        "color": "#3ca7c9",
+        "translation": "拾った",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 6,
+        "status": "Delivered",
+        "color": "#3498DB",
+        "translation": "配信された",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 7,
+        "status": "Delivering",
+        "color": "#00BCA4",
+        "translation": "配信する",
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": 8,
+        "status": "Returned",
+        "color": "#98603B",
+        "translation": "戻ってきた",
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ],
+    "color": {
+      "primaryColor": "#ffcc00",
+      "lightPrimaryColor": "#ffcc00",
+      "darkPrimaryColor": "#ffcc00",
+      "headerTextColor": "#ffffff",
+      "saleBgColor": "#e01212",
+      "saleTextColor": "#000000",
+      "addToCartBgColor": "#cf2929",
+      "addToCartTextColor": "#ffffff",
+      "addToCartHoverTextColor": "#ffffff",
+      "addToCartBgHoverColor": "#253237",
+      "paginationBgColor": "#cf2929",
+      "stockColor": "#cf2929",
+      "outOfStockColor": "#a80135",
+      "searchButtonColor": "#f01f1f",
+      "oldPriceColor": "#000000",
+      "footerColor": "#0a0a0a"
+    },
+    "paymentMethod": [
+      {
+        "id": 1,
+        "title": "Esewa",
+        "default": false,
+        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/620a0b30a10fe.png",
+        "live": false,
+        "merchantCode": "EPAYTEST",
+        "merchantId": "JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R",
+        "merchantSecret": "BhwIWQQADhIYSxILExMcAgFXFhcOBwAKBgAXEQ=="
+      },
+      {
+        "id": 2,
+        "title": "Khalti",
+        "default": false,
+        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/605f006d34208.png",
+        "live": false,
+        "merchantId": "test_public_key_c94bd1c13bf1401e9b41079cb930ae99"
+      },
+      {
+        "id": 3,
+        "title": "Cash On Delivery",
+        "default": true,
+        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/62036af93adac.png"
+      },
+      {
+        "id": 5,
+        "title": "Fonepay",
+        "default": false,
+        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/61090f2b709cf.png"
+      }
+    ],
+    "site_contact_number": "9874512424",
+    "closingMessage": null,
+    "warehouse": [
+      {
+        "id": 1,
+        "title": "Kathmandu",
+        "bounds": {
+          "south": 27.67686524583014,
+          "west": 85.21096148857171,
+          "north": 27.737656351669504,
+          "east": 85.4259137190252,
+          "minZoom": 12,
+          "opening_time": "09:00",
+          "closing_time": "22:00"
+        },
+        "latitude": "27.703886837986065",
+        "longitude": "85.32003544027775",
+        "contact": "Avinash Shrestha",
+        "contactNo": "9860137428",
+        "image": null,
+        "outlets": [
+          {
+            "id": 11,
+            "title": "Newroad",
+            "latitude": "27.703869671213255",
+            "longitude": "85.30591868319233"
+          },
+          {
+            "id": 3,
+            "title": "Maharajgung",
+            "latitude": "27.695038036385068",
+            "longitude": "85.32110844380162"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Pokhara",
+        "bounds": {
+          "south": 28.194454809510432,
+          "west": 83.9318293423866,
+          "north": 28.224709248127024,
+          "east": 84.03930545761335,
+          "minZoom": 13,
+          "opening_time": "",
+          "closing_time": ""
+        },
+        "latitude": "28.211315625299452",
+        "longitude": "83.98102373792875",
+        "contact": "kabina",
+        "contactNo": "9860426571",
+        "image": null,
+        "outlets": [
+          {
+            "id": 7,
+            "title": "Chipledhunga",
+            "latitude": "28.2240071",
+            "longitude": "83.98673099999999"
+          }
+        ]
+      }
+    ],
+    "pageData": {
+      "facebook": "https://www.facebook.com/Dalle.ktm/",
+      "instagram": "https://www.instagram.com/dalle.ktm/?hl=en",
+      "max-price": "3000",
+      "min-price": "10",
+      "section2 content1": "About Us",
+      "section2 content2": "Privacy Policy",
+      "section2 content4": "Contact Us",
+      "section2 link5": "https://uat.ordering-dalle.ekbana.net/terms-and-conditions",
+      "section2 link6": "https://uat.ordering-dalle.ekbana.net/delivery-area",
+      "section3 title": "Payment modes",
+      "phone": "(+)977-1-4411302",
+      "section1 address": "Kamaladi, Kathmandu",
+      "section1 mobile": "(+)977-1-4411302",
+      "section2 content3": "FAQs",
+      "section2 content5": "Terms and Conditions",
+      "section1 email": "info@dallerestaurant.com.np",
+      "section5 facebook": "https://www.facebook.com/Dalle.ktm",
+      "sitelogo2": "https://uat.ordering-dalle.ekbana.net/uploads/Dalle%2520logo.png",
+      "section4 description": "You can download the DALLE mobile app on the following platforms by clicking on the images below.",
+      "sitelogo": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "logo": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "section4 title": "<p>GET THE APP ON</p>",
+      "section1 description": "Want a delicious meal, but no time Dalle will deliver it hot and yummy.",
+      "section4 googleplay": "https://uat.ordering-dalle.ekbana.net/uploads/google_play.png",
+      "section4 appstore link": "https://apps.apple.com/us/app/dalle/id1560777520",
+      "section1 title": "<p>INFORMATION</p>",
+      "section4 appstore": "https://uat.ordering-dalle.ekbana.net/uploads/app_store.png?1617179203055",
+      "section2 link3": "https://uat.ordering-dalle.ekbana.net/page/faq",
+      "section5 youtube": "https://www.youtube.com/watch?v=CDLZblD79Wg",
+      "section5 instagram": "https://www.instagram.com/dalle.ktm/?hl=en",
+      "section2 title": "<p>INFORMATION</p>",
+      "section2 link4": "https://uat.ordering-dalle.ekbana.net/page/contact-us",
+      "section2 link1": "https://uat.ordering-dalle.ekbana.net/page/about-us",
+      "section2 link2": "https://uat.ordering-dalle.ekbana.net/page/privacy-policy",
+      "section3 content1": "<p>Cash On Delivery</p>",
+      "section3 content2": "<p>Card on Delivery</p>",
+      "section4 googleplay link": "https://play.google.com/store/apps/details?id=com.dalle.order"
+    }
+  },
+  "code": 0
 }

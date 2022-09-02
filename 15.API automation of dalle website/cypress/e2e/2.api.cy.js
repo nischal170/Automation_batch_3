@@ -11,7 +11,7 @@ describe('Dalle momos api when signed in',()=>{
     "username": res.email }).then((response) => {
         expect(response.status).to.eq(200)
         expect(response.duration).to.be.lessThan(1000)
-        cy.writeFile('cypress/fixtures/logintokensresponse.json',response)
+        cy.writeFile('cypress/fixtures/logintokensresponse.json',response.body)
         Cypress.env('accesstoken', response.body.access_token)
    
                     })
@@ -40,7 +40,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/config.json',response)
+            cy.writeFile('cypress/fixtures/after-login/config.json',response.body)
 
         })
     });
@@ -61,7 +61,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/profile.json',response)
+            cy.writeFile('cypress/fixtures/after-login/profile.json',response.body)
 
         })
     });
@@ -82,7 +82,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/category.json',response)
+            cy.writeFile('cypress/fixtures/after-login/category.json',response.body)
 
         })
     });
@@ -104,7 +104,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/cart.json',response)
+            cy.writeFile('cypress/fixtures/after-login/cart.json',response.body)
 
         })
     });*/
@@ -125,7 +125,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/favourite-products.json',response)
+            cy.writeFile('cypress/fixtures/after-login/favourite-products.json',response.body)
 
         })
     });
@@ -146,7 +146,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/banner-landing.json',response)
+            cy.writeFile('cypress/fixtures/after-login/banner-landing.json',response.body)
 
         })
     });
@@ -167,7 +167,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/home.json',response)
+            cy.writeFile('cypress/fixtures/after-login/home.json',response.body)
 
         })
     });
@@ -195,7 +195,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/cart-product.json',response)
+            cy.writeFile('cypress/fixtures/after-login/cart-product.json',response.body)
 
         })
     });*/
@@ -218,7 +218,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/related-products.json',response)
+            cy.writeFile('cypress/fixtures/after-login/related-products.json',response.body)
 
         })
     });*/
@@ -239,7 +239,7 @@ describe('Dalle momos api when signed in',()=>{
         cy.request(options).then((response) => {
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
-            cy.writeFile('cypress/fixtures/after-login/favourite-per-page.json',response)
+            cy.writeFile('cypress/fixtures/after-login/favourite-per-page.json',response.body)
 
         })
     });*/
