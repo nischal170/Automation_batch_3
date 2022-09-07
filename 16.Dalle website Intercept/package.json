@@ -1,5 +1,5 @@
 {
-  "name": "15.api-automation-of-dalle-website",
+  "name": "16.dalle-website-intercept",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^7.4.0",
-    "concurrently": "^7.3.0",
-    "cypress": "^10.6.0"
+    "@faker-js/faker": "^7.5.0",
+    "cypress": "^10.7.0"
   }
 }

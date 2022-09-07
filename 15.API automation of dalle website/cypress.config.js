@@ -15,6 +15,7 @@ module.exports = defineConfig({
       })
       // implement node event listeners here
     },
+    projectId: "ogxye3",
     baseUrl: "https://uat.ordering-dalle.ekbana.net/api/v4/"
   },
   env:{

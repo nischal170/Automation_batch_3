@@ -1,0 +1,69 @@
+{
+    "data":[
+        {
+            "id": 6,
+            "parentId": null,
+            "title": "CHOWMEAN",
+            "description": null,
+            "slug": "signatures",
+            "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d875de1e3.png",
+            "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/606478c728c31.png",
+            "position": 2,
+            "hasProduct": true,
+            "avgRating": 0,
+            "ratingCount": 0,
+            "productCount": 1,
+            "userRating": null,
+            "banner": [],
+            "hierarchy_level": 1,
+            "isRestaurant": false,
+            "isRestaurantOpen": true,
+            "subcategories": {
+                "data": [],
+                "meta": {
+                    "pagination": {
+                        "total": 0,
+                        "count": 0,
+                        "per_page": 15,
+                        "current_page": 1,
+                        "total_pages": 0,
+                        "links": []
+                    }
+                }
+            }
+        },
+        {
+            "id": 2,
+            "parentId": null,
+            "title": " GOLO MOMOS",
+            "description": null,
+            "slug": "dalle-momos",
+            "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "position": 1,
+            "hasProduct": true,
+            "avgRating": 4,
+            "ratingCount": 99,
+            "productCount": 99,
+            "userRating": null,
+            "banner": [],
+            "hierarchy_level": 1,
+            "isRestaurant": false,
+            "isRestaurantOpen": true,
+            "subcategories": {
+                "data": [],
+                "meta": {
+                    "pagination": {
+                        "total": 0,
+                        "count": 0,
+                        "per_page": 15,
+                        "current_page": 1,
+                        "total_pages": 0,
+                        "links": []
+                    }
+                }
+            }
+        }
+        
+    ]
+}

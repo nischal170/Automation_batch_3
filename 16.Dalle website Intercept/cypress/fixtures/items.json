@@ -1,0 +1,126 @@
+{
+    "data":[
+        {
+            "id": 3,
+            "title": "MITHO MOMO",
+            "slug": "steamed-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Steamed Momos</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Steamed Momos</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+                {
+                    "id": 3,
+                    "title": "Plate",
+                    "sellingPrice": 110,
+                    "markedPrice": 110,
+                    "newPrice": 450,
+                    "oldPrice": 110,
+                    "size": null,
+                    "sku": "RML1",
+                    "description": null,
+                    "barcode": null,
+                    "stock": 999,
+                    "hasOffer": false,
+                    "alwaysAvailable": true
+                }
+            ],
+            "images": [
+                {
+                    "id": 24,
+                    "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f1347b3dfd.jpg",
+                    "unit_price_id": null
+                },
+                {
+                    "id": 37,
+                    "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d6405ad68e.jpg",
+                    "unit_price_id": null
+                },
+                {
+                    "id": 41,
+                    "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d7397091d6.png",
+                    "unit_price_id": null
+                },
+                {
+                    "id": 42,
+                    "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d73dbc93a9.png",
+                    "unit_price_id": null
+                },
+                {
+                    "id": 43,
+                    "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d7be11e73a.png",
+                    "unit_price_id": null
+                }
+            ],
+            "warehouses": [
+                {
+                    "id": 1,
+                    "title": "Kathmandu"
+                }
+            ],
+            "tags": [],
+            "brand": null
+        },
+        {
+            "id": 64,
+            "title": "Piroooo MOMO C",
+            "slug": "chicken-c-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\n<div style=\"display: none;\">&nbsp;</div>\n<p>Chicken C MOMO</p>\n<p>&nbsp;</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\n<div style=\"display: none;\">&nbsp;</div>\n<p>Chicken C MOMO</p>\n<p>&nbsp;</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+                {
+                    "id": 37,
+                    "title": "Plate",
+                    "sellingPrice": 650,
+                    "markedPrice": 650,
+                    "newPrice": 135,
+                    "oldPrice": 650,
+                    "size": null,
+                    "sku": "Momo12121",
+                    "description": null,
+                    "barcode": null,
+                    "stock": 999,
+                    "hasOffer": false,
+                    "alwaysAvailable": true
+                }
+            ],
+            "images": [
+                {
+                    "id": 0,
+                    "imageName": "https://uat.ordering-dalle.ekbana.net/backend/no-image.jpg",
+                    "unit_price_id": null
+                }
+            ],
+            "warehouses": [
+                {
+                    "id": 1,
+                    "title": "Kathmandu"
+                }
+            ],
+            "tags": [],
+            "brand": null
+        }
+        
+        
+
+            
+     ]
+    }

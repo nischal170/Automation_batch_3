@@ -58,7 +58,7 @@ Cypress.Commands.add('Register', () => {
             
     })
 });
-Cypress.Commands.add('login', () => {
+Cypress.Commands.add('Login', () => {
     cy.readFile('cypress/fixtures/login.json').then(res=>{
         cy.request("POST",'auth/login',{"client_id": "2",
 "client_secret": "olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa",
@@ -72,8 +72,9 @@ Cypress.Commands.add('login', () => {
     expect(response.duration).to.be.lessThan(1000)
     if (response.status == 200){
         cy.writeFile('cypress/fixtures/logintokensresponse.json',response.body)
-        Cypress.env('accesstoken', response.body.access_token) 
+       
     }
+    Cypress.env('accesstoken', response.body.access_token) 
     
     
 

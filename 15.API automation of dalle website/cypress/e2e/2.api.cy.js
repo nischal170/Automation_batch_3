@@ -8,7 +8,7 @@ describe('Dalle momos api when signed in',()=>{
             else
             {
                 cy.log("File Exists Now logging In to get access tokens")
-                cy.login()
+                cy.Login()
             }
         })  
     });
@@ -32,12 +32,7 @@ describe('Dalle momos api when signed in',()=>{
             expect(response.duration).to.be.lessThan(1000)
             cy.writeFile('cypress/fixtures/after-login/config.json',response.body)
 
-        })
-
-            
-
-        
-       
+        })   
         
     });
     it("show profile",()=>{
