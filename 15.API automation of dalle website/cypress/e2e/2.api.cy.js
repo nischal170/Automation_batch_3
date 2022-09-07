@@ -1,26 +1,16 @@
 describe('Dalle momos api when signed in',()=>{
     before(()=>{
-        cy.readFile('cypress/fixtures/login.json').then(res=>{
-            cy.request("POST",'auth/login',{"client_id": "2",
-    "client_secret": "olzBb6we0po4B0PSJyDpNGhhSsnvZmeio8sRoASa",
-    "grant_type": "password",
-    "password": res.password,
-    "provider": "",
-    "refresh_token": "",
-    "scope": "",
-    "username": res.email }).then((response) => {
-        expect(response.status).to.eq(200)
-        expect(response.duration).to.be.lessThan(1000)
-        cy.writeFile('cypress/fixtures/logintokensresponse.json',response.body)
-        Cypress.env('accesstoken', response.body.access_token)
-   
-                    })
-        
-
-        })
-        
-    
-        
+        cy.task('checkfile_exists', 'cypress/fixtures/login.json').then((textOrNull) => { 
+            if (textOrNull==null){
+                cy.log("File doesn't Exist,Running Register Command ")
+                cy.Register()
+            }
+            else
+            {
+                cy.log("File Exists Now logging In to get access tokens")
+                cy.login()
+            }
+        })  
     });
 
     it("Config",()=>{
@@ -43,6 +33,12 @@ describe('Dalle momos api when signed in',()=>{
             cy.writeFile('cypress/fixtures/after-login/config.json',response.body)
 
         })
+
+            
+
+        
+       
+        
     });
     it("show profile",()=>{
         const token = Cypress.env('accesstoken');

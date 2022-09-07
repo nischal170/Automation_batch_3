@@ -7,15 +7,15 @@
     }
   },
   "data": {
-    "id": 799,
-    "email": "lucious_beer30@hotmail.com",
-    "username": "rachelle_wuckert_83",
-    "firstName": "Rachelle",
-    "lastName": "Wuckert",
+    "id": 815,
+    "email": "ernestina12@hotmail.com",
+    "username": "janick_berge_46",
+    "firstName": "Janick",
+    "lastName": "Berge",
     "verified": true,
-    "mobileNumber": "9887903962",
-    "createdAt": "Sep 2, 2022",
-    "updatedAt": "Sep 2, 2022",
+    "mobileNumber": "9827877625",
+    "createdAt": "Sep 7, 2022",
+    "updatedAt": "Sep 7, 2022",
     "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
     "total_loyalty_points": 50
   },
