@@ -1,0 +1,96 @@
+{
+  "body": {
+    "meta": {
+      "copyright": "Copyright 2017 Ekbana Pte",
+      "emails": "info@ekbana.com",
+      "api": {
+        "version": "0.2"
+      }
+    },
+    "data": {
+      "firstName": "Jacey",
+      "middleName": "bahadur",
+      "lastName": "Weissnat",
+      "contactNo": "9863795486",
+      "email": "Alex.Mraz@hotmail.com",
+      "address": "sinamangal",
+      "previously_applied": "false",
+      "franchise_type": "multi unit",
+      "status": "Pending"
+    },
+    "code": 0
+  },
+  "headers": {
+    "date": "Tue, 30 Aug 2022 09:39:55 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache, max-age=31536000",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "expires": "Wed, 30 Aug 2023 09:39:55 GMT",
+    "content-length": "342",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate",
+    "content-type": "application/json",
+    "content-length": 205
+  },
+  "requestBody": "{\"address\":\"sinamangal\",\"contactNo\":\"9863795486\",\"email\":\"Alex.Mraz@hotmail.com\",\"firstName\":\"Jacey\",\"franchise_type\":\"multi unit\",\"lastName\":\"Weissnat\",\"middleName\":\"bahadur\",\"previously_applied\":\"false\"}",
+  "duration": 5025,
+  "allRequestResponses": [
+    {
+      "Request Body": "{\"address\":\"sinamangal\",\"contactNo\":\"9863795486\",\"email\":\"Alex.Mraz@hotmail.com\",\"firstName\":\"Jacey\",\"franchise_type\":\"multi unit\",\"lastName\":\"Weissnat\",\"middleName\":\"bahadur\",\"previously_applied\":\"false\"}",
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate",
+        "content-type": "application/json",
+        "content-length": 205
+      },
+      "Request URL": "https://uat.ordering-dalle.ekbana.net/api/v4/franchise",
+      "Response Body": {
+        "meta": {
+          "copyright": "Copyright 2017 Ekbana Pte",
+          "emails": "info@ekbana.com",
+          "api": {
+            "version": "0.2"
+          }
+        },
+        "data": {
+          "firstName": "Jacey",
+          "middleName": "bahadur",
+          "lastName": "Weissnat",
+          "contactNo": "9863795486",
+          "email": "Alex.Mraz@hotmail.com",
+          "address": "sinamangal",
+          "previously_applied": "false",
+          "franchise_type": "multi unit",
+          "status": "Pending"
+        },
+        "code": 0
+      },
+      "Response Headers": {
+        "date": "Tue, 30 Aug 2022 09:39:55 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache, max-age=31536000",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "expires": "Wed, 30 Aug 2023 09:39:55 GMT",
+        "content-length": "342",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

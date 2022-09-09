@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "pagination": {
+      "total": 0,
+      "count": 0,
+      "per_page": 20,
+      "current_page": 1,
+      "total_pages": 0,
+      "links": []
+    }
+  },
+  "data": [],
+  "code": 0
+}
