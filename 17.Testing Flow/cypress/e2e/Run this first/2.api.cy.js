@@ -97,6 +97,7 @@ describe('Dalle momos api when signed in',()=>{
             expect(response.status).to.eq(200)
             expect(response.duration).to.be.lessThan(1000)
             cy.writeFile('cypress/fixtures/after-login/cart.json',response.body)
+            Cypress.env('cart_no', response.body.data.cartNumber)
 
         })
     });
@@ -170,6 +171,7 @@ describe('Dalle momos api when signed in',()=>{
         const token = Cypress.env('accesstoken');
         const authorization = `Bearer ${ token }`;
         const key=Cypress.env("apikey")
+        const cartno=Cypress.env("cart_no")
     
     const options={
         method: 'GET',
@@ -178,7 +180,7 @@ describe('Dalle momos api when signed in',()=>{
         headers: {
             'Api-Key':`${key}`,
             authorization,
-            'Cart-Number':"XVB35BZ",
+            'Cart-Number':`${cartno}`,
             "Warehouse-Id":'1'
           }
         };

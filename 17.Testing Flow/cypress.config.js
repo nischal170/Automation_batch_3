@@ -23,7 +23,8 @@ module.exports = defineConfig({
   env:{
     apikey:"q0eq7VRCxJBEW6n1EJkHy4qNLgaS86ztm8DYhGMqerV1eldXa6",
     accesstoken:'',
-    url:"https://uat.ordering-dalle.ekbana.net/"
+    url:"https://uat.ordering-dalle.ekbana.net/",
+    cart_no:''
 
   }
 });
