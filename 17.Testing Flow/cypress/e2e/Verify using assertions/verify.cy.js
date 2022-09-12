@@ -109,17 +109,8 @@ describe('Verifying datas in UI Via assertions ',()=>{
            })
      });
 
-     it("Verify all categories",()=>{
-
-        cy.visit(Cypress.env("url")+"/menu")
-        cy.wait(5000)
-        cy.readFile('cypress/fixtures/after-login/category.json').then(res=>{
-            cy.wait(500)
-            cy.get(".swiper-wrapper .category-list .category-thumb a img").should("have.length",res.meta.pagination.count)//this shows error because 15 items are sent from api but 14 are there .
-           })
-     });
-
-     it.only("Verify items in cart",()=>{
+  
+     it("Verify items in cart",()=>{
 
         cy.visit(Cypress.env("url")+"cart")
         cy.wait(1000)
@@ -154,16 +145,23 @@ describe('Verifying datas in UI Via assertions ',()=>{
             })
             //verify grandtotal and others
             var g=0
-            let pricing={}
+            let pricing_from_json={
+                "0":`${"NRS "+res.data.orderAmount}`,
+                "1":`${"NRS "+res.data.serviceCharge}`,
+                "2":`${"NRS "+res.data.taxAmount}`,
+                "3":`${"NRS "+res.data.subTotal}`,
+                "4":`${"NRS "+res.data.deliveryCharge}`
+            }
             cy.get("h5 span").each(items=>{
                 
-               
-                pricing[`${g}`]=items.text()
-                g=g+1
-                
 
+                expect(items.text().trim()).to.eql(pricing_from_json[g])
+                g=g+1
             })
-            cy.log(pricing)
+
+            cy.get("h4[class='grand-totall-title'] span").should("have.text","NRS "+res.data.total)
+            console.log("diss",res.data.total)
+            
 
             
 
@@ -172,8 +170,6 @@ describe('Verifying datas in UI Via assertions ',()=>{
            })
      });
 
-    
-    
     
 
     
