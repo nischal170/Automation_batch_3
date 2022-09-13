@@ -6,8 +6,8 @@
       "version": "0.2"
     },
     "pagination": {
-      "total": 4,
-      "count": 4,
+      "total": 1,
+      "count": 1,
       "per_page": 15,
       "current_page": 1,
       "total_pages": 1,
@@ -15,61 +15,6 @@
     }
   },
   "data": [
-    {
-      "id": 29,
-      "title": "samakhusi",
-      "shortDescription": "",
-      "type": "landing",
-      "websiteUrl": "https://uat.ordering-haritagriculture.ekbana.net/",
-      "linkTo": "product",
-      "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1f4d949785.jpg",
-      "position": null,
-      "product": {
-        "id": 132,
-        "title": "Dallecious product",
-        "categoryId": 87,
-        "categoryTitle": "Dallecious",
-        "categorySlug": "43ak-dallecious-4dxc",
-        "slug": "fgjm-dallecious-product-test8003-yapq",
-        "hasOffer": false,
-        "unitPrice": [
-          {
-            "id": 105,
-            "title": "Plate",
-            "sellingPrice": 226,
-            "markedPrice": 226,
-            "newPrice": 20,
-            "oldPrice": 226,
-            "size": null,
-            "sku": "test8003",
-            "barcode": null,
-            "stock": 999,
-            "hasOffer": false,
-            "alwaysAvailable": true
-          }
-        ]
-      }
-    },
-    {
-      "id": 37,
-      "title": "kabinalanding",
-      "shortDescription": "",
-      "type": "landing",
-      "websiteUrl": null,
-      "linkTo": "link_to",
-      "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/619275178e5b9.png",
-      "position": null
-    },
-    {
-      "id": 34,
-      "title": "samakhusi",
-      "shortDescription": "",
-      "type": "landing",
-      "websiteUrl": null,
-      "linkTo": "link_to",
-      "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60eec45ccd27d.jpg",
-      "position": null
-    },
     {
       "id": 26,
       "title": "apple",

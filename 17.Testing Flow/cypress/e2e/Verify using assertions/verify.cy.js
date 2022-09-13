@@ -7,8 +7,8 @@ describe('Verifying datas in UI Via assertions ',()=>{
         cy.visit(Cypress.env("url"))
         cy.readFile('cypress/fixtures/after-login/banner-landing.json').then(res=>{
             cy.wait(500)
-            cy.get("h1[class='animated']").should("contain",res.data[3].title)
-            cy.get("div.bg-img").should('have.css', 'background').and("include",res.data[3].bannerImage)
+            cy.get("h1[class='animated']").should("contain",res.data[0].title)
+            cy.get("div.bg-img").should('have.css', 'background').and("include",res.data[0].bannerImage)
            })
     });
 
@@ -32,8 +32,8 @@ describe('Verifying datas in UI Via assertions ',()=>{
         cy.readFile('cypress/fixtures/after-login/home.json').then(res=>{
             cy.wait(500)
         var banners=res.data.banners
-        var banners_count=banners.length
-         cy.get(".container h1").should('have.length',banners_count)//This also shows error because api has given 2 buut in ui there's only one
+        var banners_count=banners.length //counts the no of banners received from api
+         cy.get(".container h1").should('have.length',banners_count)
         var i=0
         cy.get(".container h1").each(items=>{
             var name_of_item=''
@@ -52,7 +52,7 @@ describe('Verifying datas in UI Via assertions ',()=>{
             var adbanners=res.data.adbanners//for counting the number of adbanners received from the api
             var size=adbanners.length
 
-             cy.get("app-banner").find('img').should('have.length', size)//This shows error because only 3 are shown in ui but actually there are 5 adbanners received from api
+             cy.get("app-banner").find('img').should('have.length', size)
                      
      })
     });
@@ -65,14 +65,15 @@ describe('Verifying datas in UI Via assertions ',()=>{
              var appCategories=res.data.appCategories
              var app_count=appCategories.length
              var f=0
+             cy.get(".best-sells-area .container .section-title__carousel h2").should('have.length',app_count)//error//api has given 3 datas but only 2 are there in ui
              cy.get(".best-sells-area .container .section-title__carousel h2").each(items=>{
                  var name_of_header=''
          
          name_of_header=items.text()
-         expect(items.text().trim()).to.eql(res.data.appCategories[f].title)
+         expect(items.text().trim()).to.eql(res.data.appCategories[f].title)//INdexing Problem//can be solved by making it static// throws error( became dynamic) need to fix this issue
          f=f+1
              })
-             cy.get(".best-sells-area .container .section-title__carousel h2").should('have.length',app_count) //INdexing Problem//can be solved by making it static// throws error( became dynamic) need to fix this issue
+              
  
             })
         
@@ -111,7 +112,7 @@ describe('Verifying datas in UI Via assertions ',()=>{
                 var name=''
                 
                 name=items.text()
-                expect(items.text().trim()).to.eql(res.data[o].title)
+                expect(items.text().trim()).to.eql(res.data[o].title)//error in naming assertions because in Ui items are not ordered accouding to api data
                 o=o+1
             })
            })

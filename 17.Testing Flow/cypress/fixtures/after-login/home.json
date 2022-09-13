@@ -36,7 +36,485 @@
         "collection_type": "product",
         "type": "product_horizontal",
         "position": 1,
-        "products": []
+        "products": [
+          {
+            "id": 35,
+            "title": "Dalle Choupsey",
+            "slug": "dalle-choupsey",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>&nbsp;</p>",
+            "description": "",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 8,
+            "categoryTitle": "VEG",
+            "categorySlug": "veg",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+            "unitPrice": [
+              {
+                "id": 33,
+                "title": "Plate",
+                "sellingPrice": 560,
+                "markedPrice": 560,
+                "newPrice": 180,
+                "oldPrice": 560,
+                "size": null,
+                "sku": "Dalle Choupsey",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 31,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606c5754bf70c.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [
+              {
+                "id": 2,
+                "title": "spicy",
+                "content": "",
+                "imageLink": null,
+                "slug": "spicy"
+              }
+            ],
+            "brand": null
+          },
+          {
+            "id": 29,
+            "title": "Curly Fries served with hot spicy chicken and 1L coke or fanta",
+            "slug": "curly-fries-served-with-hot-spicy-chicken-and-1l-coke-or-fanta",
+            "link": "",
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Curly fires</p>",
+            "description": "",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 6,
+            "categoryTitle": "SIGNATURES",
+            "categorySlug": "signatures",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066d875de1e3.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/606478c728c31.png",
+            "unitPrice": [
+              {
+                "id": 29,
+                "title": "Pc",
+                "sellingPrice": 295,
+                "markedPrice": 295,
+                "newPrice": 266,
+                "oldPrice": 295,
+                "size": null,
+                "sku": "ff11",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 19,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f0ed22aa99.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 7,
+            "title": "Pan Fried Momos With Chillies",
+            "slug": "pan-fried-momos-with-chillies",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>&nbsp;</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>&nbsp;</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 7,
+                "title": "Plate",
+                "sellingPrice": 80,
+                "markedPrice": 80,
+                "newPrice": 252,
+                "oldPrice": 80,
+                "size": null,
+                "sku": "JJB4",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 28,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/6066dc979b350.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 30,
+            "title": "Chicken C MOMO",
+            "slug": "chicken-c-momo",
+            "link": "",
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Chicken C MOMO</p>\r\n<p>&nbsp;</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Chicken C MOMO</p>\r\n<p>&nbsp;</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 30,
+                "title": "Pc",
+                "sellingPrice": 280,
+                "markedPrice": 280,
+                "newPrice": 1000,
+                "oldPrice": 280,
+                "size": null,
+                "sku": "JC0101111",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 21,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f109e4ebae.png",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [
+              {
+                "id": 2,
+                "title": "spicy",
+                "content": "",
+                "imageLink": null,
+                "slug": "spicy"
+              }
+            ],
+            "brand": null
+          },
+          {
+            "id": 5,
+            "title": "Dalle Jhol Momos",
+            "slug": "dalle-jhol-momos",
+            "link": null,
+            "moreInfo": "<p>dalle</p>",
+            "description": "<p>Dalle jhol momo</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 5,
+                "title": "Plate",
+                "sellingPrice": 750,
+                "markedPrice": 750,
+                "newPrice": 135,
+                "oldPrice": 750,
+                "size": null,
+                "sku": "JJB1",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 73,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/gallery/KFC Logo.png",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 6,
+            "title": "Deep Fried Momos",
+            "slug": "deep-fried-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Dalle Deep freid momos</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Dalle deep fried momos</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 6,
+                "title": "Plate",
+                "sellingPrice": 550,
+                "markedPrice": 550,
+                "newPrice": 4000000,
+                "oldPrice": 550,
+                "size": null,
+                "sku": "JJB3",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 18,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f0e0a1d7d6.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 3,
+            "title": "Steamed Momos",
+            "slug": "steamed-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Steamed Momos</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Steamed Momos</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 3,
+                "title": "Plate",
+                "sellingPrice": 110,
+                "markedPrice": 110,
+                "newPrice": 450,
+                "oldPrice": 110,
+                "size": null,
+                "sku": "RML1",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 24,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f1347b3dfd.jpg",
+                "unit_price_id": null
+              },
+              {
+                "id": 37,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d6405ad68e.jpg",
+                "unit_price_id": null
+              },
+              {
+                "id": 41,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d7397091d6.png",
+                "unit_price_id": null
+              },
+              {
+                "id": 42,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d73dbc93a9.png",
+                "unit_price_id": null
+              },
+              {
+                "id": 43,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d7be11e73a.png",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 10,
+            "title": "Thukpa with fried momos",
+            "slug": "thukpa-with-fried-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<p> </p>",
+            "description": "<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<div style=\"display: none;\"> </div>\r\n<p> </p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 3,
+            "categoryTitle": "RICE AND NOODLES",
+            "categorySlug": "rice-and-noodles",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/608f99e251c0e.png",
+            "unitPrice": [
+              {
+                "id": 10,
+                "title": "Plate",
+                "sellingPrice": 180,
+                "markedPrice": 180,
+                "newPrice": 162,
+                "oldPrice": 180,
+                "size": null,
+                "sku": "JJB16",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 25,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f13cbdd73e.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 20,
+            "title": "Chicken Wings",
+            "slug": "chicken-wings",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Chicken Wings</p>\r\n<p>&nbsp;</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Dalle&nbsp;Chicken Wings</p>\r\n<p>&nbsp;</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 6,
+            "categoryTitle": "SIGNATURES",
+            "categorySlug": "signatures",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066d875de1e3.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/606478c728c31.png",
+            "unitPrice": [
+              {
+                "id": 20,
+                "title": "Plate",
+                "sellingPrice": 600,
+                "markedPrice": 600,
+                "newPrice": 540,
+                "oldPrice": 600,
+                "size": null,
+                "sku": "GLE3",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 22,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f118b2d4f7.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          }
+        ]
       },
       {
         "id": 21,
@@ -49,16 +527,6 @@
         "products": []
       },
       {
-        "id": 22,
-        "title": "RICE & NOODLES",
-        "description": null,
-        "icon": null,
-        "collection_type": "product",
-        "type": "product_horizontal",
-        "position": 22,
-        "products": []
-      },
-      {
         "id": 23,
         "title": "MOMOS",
         "description": null,
@@ -66,7 +534,281 @@
         "collection_type": "product",
         "type": "product_horizontal",
         "position": 23,
-        "products": []
+        "products": [
+          {
+            "id": 30,
+            "title": "Chicken C MOMO",
+            "slug": "chicken-c-momo",
+            "link": "",
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Chicken C MOMO</p>\r\n<p>&nbsp;</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Chicken C MOMO</p>\r\n<p>&nbsp;</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 30,
+                "title": "Pc",
+                "sellingPrice": 280,
+                "markedPrice": 280,
+                "newPrice": 1000,
+                "oldPrice": 280,
+                "size": null,
+                "sku": "JC0101111",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 21,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f109e4ebae.png",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [
+              {
+                "id": 2,
+                "title": "spicy",
+                "content": "",
+                "imageLink": null,
+                "slug": "spicy"
+              }
+            ],
+            "brand": null
+          },
+          {
+            "id": 3,
+            "title": "Steamed Momos",
+            "slug": "steamed-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Steamed Momos</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Steamed Momos</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 3,
+                "title": "Plate",
+                "sellingPrice": 110,
+                "markedPrice": 110,
+                "newPrice": 450,
+                "oldPrice": 110,
+                "size": null,
+                "sku": "RML1",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 24,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f1347b3dfd.jpg",
+                "unit_price_id": null
+              },
+              {
+                "id": 37,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d6405ad68e.jpg",
+                "unit_price_id": null
+              },
+              {
+                "id": 41,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d7397091d6.png",
+                "unit_price_id": null
+              },
+              {
+                "id": 42,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d73dbc93a9.png",
+                "unit_price_id": null
+              },
+              {
+                "id": 43,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/606d7be11e73a.png",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 5,
+            "title": "Dalle Jhol Momos",
+            "slug": "dalle-jhol-momos",
+            "link": null,
+            "moreInfo": "<p>dalle</p>",
+            "description": "<p>Dalle jhol momo</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 5,
+                "title": "Plate",
+                "sellingPrice": 750,
+                "markedPrice": 750,
+                "newPrice": 135,
+                "oldPrice": 750,
+                "size": null,
+                "sku": "JJB1",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 73,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/gallery/KFC Logo.png",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 6,
+            "title": "Deep Fried Momos",
+            "slug": "deep-fried-momos",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Dalle Deep freid momos</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Dalle deep fried momos</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 6,
+                "title": "Plate",
+                "sellingPrice": 550,
+                "markedPrice": 550,
+                "newPrice": 4000000,
+                "oldPrice": 550,
+                "size": null,
+                "sku": "JJB3",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 18,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/605f0e0a1d7d6.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          },
+          {
+            "id": 7,
+            "title": "Pan Fried Momos With Chillies",
+            "slug": "pan-fried-momos-with-chillies",
+            "link": null,
+            "moreInfo": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>&nbsp;</p>",
+            "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<p>&nbsp;</p>",
+            "taxable": true,
+            "taxableAmount": 0,
+            "decimal": false,
+            "hasOffer": false,
+            "categoryId": 2,
+            "categoryTitle": "DALLE MOMOS",
+            "categorySlug": "dalle-momos",
+            "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+            "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+            "unitPrice": [
+              {
+                "id": 7,
+                "title": "Plate",
+                "sellingPrice": 80,
+                "markedPrice": 80,
+                "newPrice": 252,
+                "oldPrice": 80,
+                "size": null,
+                "sku": "JJB4",
+                "description": null,
+                "barcode": null,
+                "stock": 999,
+                "hasOffer": false,
+                "alwaysAvailable": true
+              }
+            ],
+            "images": [
+              {
+                "id": 28,
+                "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/6066dc979b350.jpg",
+                "unit_price_id": null
+              }
+            ],
+            "warehouses": [
+              {
+                "id": 1,
+                "title": "Kathmandu"
+              }
+            ],
+            "tags": [],
+            "brand": null
+          }
+        ]
       }
     ],
     "banners": [
@@ -87,16 +829,6 @@
           "icon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
           "slug": "rice-and-noodles"
         }
-      },
-      {
-        "id": 6,
-        "title": "Satisfy Your Cravings",
-        "shortDescription": "",
-        "type": "home",
-        "websiteUrl": "#",
-        "linkTo": "website",
-        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6066cd6c964d9.jpg",
-        "position": 2
       }
     ],
     "adbanners": [
@@ -109,16 +841,6 @@
         "linkTo": "website",
         "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6094f5fc55869.jpg",
         "position": 1
-      },
-      {
-        "id": 27,
-        "title": "first pkr",
-        "shortDescription": "",
-        "type": "ad_home",
-        "websiteUrl": null,
-        "linkTo": "website",
-        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d20f92431.jpg",
-        "position": 2
       },
       {
         "id": 16,
@@ -139,16 +861,6 @@
         "linkTo": "website",
         "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af87311f0.jpg",
         "position": 3
-      },
-      {
-        "id": 28,
-        "title": "second pkr",
-        "shortDescription": "",
-        "type": "ad_home",
-        "websiteUrl": null,
-        "linkTo": "website",
-        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d518b0567.jpg",
-        "position": 4
       }
     ],
     "brands": [
