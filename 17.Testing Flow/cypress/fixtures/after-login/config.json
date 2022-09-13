@@ -36,35 +36,35 @@
         "title": "Normal",
         "point": 0,
         "color": "#FF7B4A",
-        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61fa239964b2d.png"
+        "image": "https://assets.uat.ordering-dalle.ekbana.net/storage/user-group/61fa239964b2d.png"
       },
       {
         "id": 10,
         "title": "Silver",
         "point": 500,
         "color": "#C0C0C1",
-        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2a77c7a.png"
+        "image": "https://assets.uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2a77c7a.png"
       },
       {
         "id": 7,
         "title": "Gold",
         "point": 1000,
         "color": "#D6B530",
-        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2301d1b.png"
+        "image": "https://assets.uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca2301d1b.png"
       },
       {
         "id": 8,
         "title": "Diamond",
         "point": 2500,
         "color": "#8964DB",
-        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca336483a.png"
+        "image": "https://assets.uat.ordering-dalle.ekbana.net/storage/user-group/61f7ca336483a.png"
       },
       {
         "id": 9,
         "title": "Platinum",
         "point": 5000,
         "color": "#07649A",
-        "image": "https://uat.ordering-dalle.ekbana.net/storage/user-group/61fa23a61f7a1.png"
+        "image": "https://assets.uat.ordering-dalle.ekbana.net/storage/user-group/61fa23a61f7a1.png"
       }
     ],
     "orderColor": [
@@ -172,7 +172,7 @@
         "id": 1,
         "title": "Esewa",
         "default": false,
-        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/620a0b30a10fe.png",
+        "icon": "https://assets.uat.ordering-dalle.ekbana.net/storage/payment/icon/620a0b30a10fe.png",
         "live": false,
         "merchantCode": "EPAYTEST",
         "merchantId": "JB0BBQ4aD0UqIThFJwAKBgAXEUkEGQUBBAwdOgABHD4DChwUAB0R",
@@ -182,7 +182,7 @@
         "id": 2,
         "title": "Khalti",
         "default": false,
-        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/605f006d34208.png",
+        "icon": "https://assets.uat.ordering-dalle.ekbana.net/storage/payment/icon/605f006d34208.png",
         "live": false,
         "merchantId": "test_public_key_c94bd1c13bf1401e9b41079cb930ae99"
       },
@@ -190,13 +190,13 @@
         "id": 3,
         "title": "Cash On Delivery",
         "default": true,
-        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/62036af93adac.png"
+        "icon": "https://assets.uat.ordering-dalle.ekbana.net/storage/payment/icon/62036af93adac.png"
       },
       {
         "id": 5,
         "title": "Fonepay",
         "default": false,
-        "icon": "https://uat.ordering-dalle.ekbana.net/storage/payment/icon/61090f2b709cf.png"
+        "icon": "https://assets.uat.ordering-dalle.ekbana.net/storage/payment/icon/61090f2b709cf.png"
       }
     ],
     "site_contact_number": "9874512424",
@@ -218,7 +218,7 @@
         "longitude": "85.32003544027775",
         "contact": "Avinash Shrestha",
         "contactNo": "9860137428",
-        "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+        "image": null,
         "outlets": [
           {
             "id": 11,
@@ -250,7 +250,7 @@
         "longitude": "83.98102373792875",
         "contact": "kabina",
         "contactNo": "9860426571",
-        "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+        "image": null,
         "outlets": [
           {
             "id": 7,

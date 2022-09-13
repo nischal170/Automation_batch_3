@@ -54,12 +54,13 @@ describe('Verifying datas in UI Via assertions ',()=>{
 
              cy.get("app-banner").find('img').should('have.length', size)//This shows error because only 3 are shown in ui but actually there are 5 adbanners received from api
                      
-     });
+     })
+    });
 
 
-     it("Checking app Categories",()=>{
-        cy.visit(Cypress.env("url"))
-        cy.readFile('cypress/fixtures/after-login/banner-landing.json').then(res=>{
+     it("Checking appCategories",()=>{
+        cy.visit(Cypress.env("url")+"menu")
+        cy.readFile('cypress/fixtures/after-login/home.json').then(res=>{
             cy.wait(500)
              var appCategories=res.data.appCategories
              var app_count=appCategories.length
@@ -71,13 +72,12 @@ describe('Verifying datas in UI Via assertions ',()=>{
          expect(items.text().trim()).to.eql(res.data.appCategories[f].title)
          f=f+1
              })
-             cy.get(".best-sells-area .container .section-title__carousel h2").should('have.length',app_count) // throws error( became static) need to fix this issue
+             cy.get(".best-sells-area .container .section-title__carousel h2").should('have.length',app_count) //INdexing Problem//can be solved by making it static// throws error( became dynamic) need to fix this issue
  
             })
         
-           })
+           });
 
-    });
 
 
      it("Category signature",()=>{
@@ -105,7 +105,15 @@ describe('Verifying datas in UI Via assertions ',()=>{
         cy.wait(5000)
         cy.readFile('cypress/fixtures/after-login/category.json').then(res=>{
             cy.wait(500)
-            cy.get(".swiper-wrapper .category-list .category-thumb a img").should("have.length",res.meta.pagination.count)//this shows error because 15 items are sent from api but 14 are there .
+            cy.get(".categorie-area .container swiper.d-lg-none .category-list .category-thumb a img").should("have.length",res.meta.pagination.count)
+            var o=0
+            cy.get('.categorie-area .container swiper.d-lg-none .category-list .desc-listcategoreis h4').each(items=>{
+                var name=''
+                
+                name=items.text()
+                expect(items.text().trim()).to.eql(res.data[o].title)
+                o=o+1
+            })
            })
      });
 
@@ -160,7 +168,7 @@ describe('Verifying datas in UI Via assertions ',()=>{
             })
 
             cy.get("h4[class='grand-totall-title'] span").should("have.text","NRS "+res.data.total)
-            console.log("diss",res.data.total)
+            
             
 
             

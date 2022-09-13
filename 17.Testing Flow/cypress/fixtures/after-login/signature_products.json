@@ -35,8 +35,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 189,
@@ -57,7 +57,7 @@
       "images": [
         {
           "id": 0,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
           "unit_price_id": null
         }
       ],
@@ -84,8 +84,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 190,
@@ -106,7 +106,7 @@
       "images": [
         {
           "id": 0,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
           "unit_price_id": null
         }
       ],
@@ -133,8 +133,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 187,
@@ -155,7 +155,7 @@
       "images": [
         {
           "id": 66,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0752c7b7c.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0752c7b7c.jpg",
           "unit_price_id": null
         }
       ],
@@ -182,8 +182,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 191,
@@ -204,7 +204,7 @@
       "images": [
         {
           "id": 67,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b078e612b9.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b078e612b9.jpg",
           "unit_price_id": null
         }
       ],
@@ -231,8 +231,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 186,
@@ -253,7 +253,7 @@
       "images": [
         {
           "id": 70,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b080da8f6e.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b080da8f6e.jpg",
           "unit_price_id": null
         }
       ],
@@ -280,8 +280,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 192,
@@ -302,12 +302,12 @@
       "images": [
         {
           "id": 68,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b07aa62928.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b07aa62928.jpg",
           "unit_price_id": null
         },
         {
           "id": 69,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b07c22eab0.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b07c22eab0.jpg",
           "unit_price_id": null
         }
       ],
@@ -334,8 +334,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 188,
@@ -356,7 +356,7 @@
       "images": [
         {
           "id": 71,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0a9f69109.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0a9f69109.jpg",
           "unit_price_id": null
         }
       ],
@@ -383,8 +383,8 @@
       "categoryId": 134,
       "categoryTitle": "SIGNATURE",
       "categorySlug": "signature",
-      "categoryIcon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
-      "categoryBackgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
       "unitPrice": [
         {
           "id": 193,
@@ -405,7 +405,7 @@
       "images": [
         {
           "id": 72,
-          "imageName": "https://uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0acda6586.jpg",
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0acda6586.jpg",
           "unit_price_id": null
         }
       ],

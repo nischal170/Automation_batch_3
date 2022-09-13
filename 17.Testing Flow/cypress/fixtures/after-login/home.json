@@ -21,11 +21,11 @@
     "id": 1,
     "page": {
       "min-price": "10",
-      "home ad2 link": "",
-      "home ad3 link": "",
-      "home ad4 link": "",
       "home ad2": "https://uat.ordering-dalle.ekbana.net/uploads/thumbs/thumbs/thumbs/Add%20banner%2039%402x.png",
-      "home ad1": ""
+      "home ad2 link": null,
+      "home ad3 link": null,
+      "home ad4 link": null,
+      "home ad1": null
     },
     "appCategories": [
       {
@@ -77,14 +77,14 @@
         "type": "home",
         "websiteUrl": null,
         "linkTo": "category",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/607fd38a1a31a.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/607fd38a1a31a.jpg",
         "position": 1,
         "category": {
           "id": 3,
           "parentId": null,
           "title": "RICE AND NOODLES",
           "description": null,
-          "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
+          "icon": "https://assets.uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
           "slug": "rice-and-noodles"
         }
       },
@@ -95,7 +95,7 @@
         "type": "home",
         "websiteUrl": "#",
         "linkTo": "website",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6066cd6c964d9.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6066cd6c964d9.jpg",
         "position": 2
       }
     ],
@@ -107,7 +107,7 @@
         "type": "ad_home",
         "websiteUrl": "#",
         "linkTo": "website",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6094f5fc55869.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6094f5fc55869.jpg",
         "position": 1
       },
       {
@@ -117,7 +117,7 @@
         "type": "ad_home",
         "websiteUrl": null,
         "linkTo": "website",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d20f92431.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d20f92431.jpg",
         "position": 2
       },
       {
@@ -127,7 +127,7 @@
         "type": "ad_home",
         "websiteUrl": "https://uat.ordering-dalle.ekbana.net/product/dalle-jhol-momos",
         "linkTo": "website",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af41d9e3c.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af41d9e3c.jpg",
         "position": 2
       },
       {
@@ -137,7 +137,7 @@
         "type": "ad_home",
         "websiteUrl": "https://uat.ordering-dalle.ekbana.net/product/deep-fried-momos",
         "linkTo": "website",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af87311f0.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/6093af87311f0.jpg",
         "position": 3
       },
       {
@@ -147,7 +147,7 @@
         "type": "ad_home",
         "websiteUrl": null,
         "linkTo": "website",
-        "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d518b0567.jpg",
+        "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1d518b0567.jpg",
         "position": 4
       }
     ],
@@ -155,7 +155,7 @@
       {
         "id": 6,
         "title": "test",
-        "icon": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+        "icon": null,
         "slug": "test",
         "content": null
       }

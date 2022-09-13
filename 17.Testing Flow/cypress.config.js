@@ -17,7 +17,7 @@ module.exports = defineConfig({
     },
     //projectId: "ogxye3",
     "experimentalSessionAndOrigin":true,
-    baseUrl: "https://uat.ordering-dalle.ekbana.net/api/v4/"
+    baseUrl: "https://api.uat.ordering-dalle.ekbana.net/api/v4"
     
   },
   env:{

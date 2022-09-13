@@ -68,6 +68,7 @@ describe('Dalle momos api when signed in',()=>{
         headers: {
             'Api-Key':`${key}`,
             authorization,
+            "Warehouse-Id":'1'
           }
         };
         cy.request(options).then((response) => {
