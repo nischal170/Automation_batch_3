@@ -8,11 +8,11 @@
     "socialTags": {
       "og:title": "Dalle",
       "og:description": "DALLE is one of the fastest-growing quick-service restaurants (QSR) in Nepal. Dalle presents you Darjeeling style cooked food, which is a very basic and simple style of cooking with core ingredients that are the hero of the dish, and bursts of natural flavors.",
-      "og:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "og:image": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
       "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
       "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
       "twitter:title": null,
-      "twitter:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png?1617612758529",
+      "twitter:image": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png?1617612758529",
       "twitter:description": "dalle"
     }
   },
@@ -279,16 +279,11 @@
       "section2 content5": "Terms and Conditions",
       "section1 email": "info@dallerestaurant.com.np",
       "section5 facebook": "https://www.facebook.com/Dalle.ktm",
-      "sitelogo2": "https://uat.ordering-dalle.ekbana.net/uploads/Dalle%2520logo.png",
       "section4 description": "You can download the DALLE mobile app on the following platforms by clicking on the images below.",
-      "sitelogo": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
-      "logo": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
       "section4 title": "<p>GET THE APP ON</p>",
       "section1 description": "Want a delicious meal, but no time Dalle will deliver it hot and yummy.",
-      "section4 googleplay": "https://uat.ordering-dalle.ekbana.net/uploads/google_play.png",
       "section4 appstore link": "https://apps.apple.com/us/app/dalle/id1560777520",
       "section1 title": "<p>INFORMATION</p>",
-      "section4 appstore": "https://uat.ordering-dalle.ekbana.net/uploads/app_store.png?1617179203055",
       "section2 link3": "https://uat.ordering-dalle.ekbana.net/page/faq",
       "section5 youtube": "https://www.youtube.com/watch?v=CDLZblD79Wg",
       "section5 instagram": "https://www.instagram.com/dalle.ktm/?hl=en",
@@ -298,7 +293,12 @@
       "section2 link2": "https://uat.ordering-dalle.ekbana.net/page/privacy-policy",
       "section3 content1": "<p>Cash On Delivery</p>",
       "section3 content2": "<p>Card on Delivery</p>",
-      "section4 googleplay link": "https://play.google.com/store/apps/details?id=com.dalle.order"
+      "section4 googleplay link": "https://play.google.com/store/apps/details?id=com.dalle.order",
+      "sitelogo2": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Dalle%2520logo.png",
+      "sitelogo": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "logo": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "section4 googleplay": "https://assets.uat.ordering-dalle.ekbana.net/uploads/google_play.png",
+      "section4 appstore": "https://assets.uat.ordering-dalle.ekbana.net/uploads/app_store.png?1617179203055"
     }
   },
   "code": 0

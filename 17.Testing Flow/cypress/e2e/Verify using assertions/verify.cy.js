@@ -112,7 +112,7 @@ describe('Verifying datas in UI Via assertions ',()=>{
                 var name=''
                 
                 name=items.text()
-                expect(items.text().trim()).to.eql(res.data[o].title)//error in naming assertions because in Ui items are not ordered accouding to api data
+                expect(items.text().trim()).to.eql(res.data[o].title)//error in naming assertions because in Ui items are not ordered according to api data
                 o=o+1
             })
            })
@@ -169,14 +169,33 @@ describe('Verifying datas in UI Via assertions ',()=>{
             })
 
             cy.get("h4[class='grand-totall-title'] span").should("have.text","NRS "+res.data.total)
-            
-            
-
-            
-
-
 
            })
+     });
+
+     it("Check config",()=>{
+
+        cy.visit(Cypress.env("url")+"cart")
+        cy.wait(5000)
+        cy.readFile('cypress/fixtures/after-login/config.json').then(res=>{
+            cy.wait(500)
+            cy.get("h4[class='grand-totall-title'] span").should("contain",res.data.currency)
+            cy.get(".col-lg-6 > .location__select__wrapper > .select__inner > .ng-select > .ng-select-container > .ng-value-container > .ng-input").click()
+            var p=0
+            cy.get("div .ng-option-label").each(items=>{
+                expect(items.text().trim()).to.eql(res.data.warehouse[p].title)
+                p=p+1
+            })
+            cy.visit(Cypress.env("url")+"checkout")
+            cy.wait(5000)
+            cy.get(".Place-order > .w-100 > .login-btn").click()
+            cy.get(".toast-message").should('contain',"NRS"+"."+res.data.minimumPrice)
+            
+
+
+            
+            })
+        
      });
 
     

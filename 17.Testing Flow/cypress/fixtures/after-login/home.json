@@ -8,11 +8,11 @@
     "socialTags": {
       "og:title": "DALLE Food and resturant",
       "og:description": "dalledalle",
-      "og:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "og:image": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
       "keywords": "Dalle Nepal, Food Delivery, Momos, Dalle Bowl, Dalle Achar, Nepalese cuisine, Dalle Kathmandu, Dalle Pokhara, Best Momos, Quality Food.",
       "description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps.",
       "twitter:title": "DALLE Food and resturant",
-      "twitter:image": "https://uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
+      "twitter:image": "https://assets.uat.ordering-dalle.ekbana.net/uploads/Mask%20Group%2041%402x.png",
       "twitter:description": "Tantalize your palate with our delicious and true flavored Darjeeling-style cooked food. Dalle is one of the most popular go-to places for momo. Dalle also offers catering and meal box services. Dalle has a total of 11 outlets to choose from with the best services and offers. Dalle offers you quality delivery services within Nepal right at your doorsteps."
     },
     "totalBrands": 1
@@ -21,11 +21,11 @@
     "id": 1,
     "page": {
       "min-price": "10",
-      "home ad2": "https://uat.ordering-dalle.ekbana.net/uploads/thumbs/thumbs/thumbs/Add%20banner%2039%402x.png",
       "home ad2 link": null,
       "home ad3 link": null,
       "home ad4 link": null,
-      "home ad1": null
+      "home ad1": null,
+      "home ad2": "https://assets.uat.ordering-dalle.ekbana.net/uploads/thumbs/thumbs/thumbs/Add%20banner%2039%402x.png"
     },
     "appCategories": [
       {
