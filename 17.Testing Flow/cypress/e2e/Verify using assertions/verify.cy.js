@@ -182,6 +182,7 @@ describe('Verifying datas in UI Via assertions ',()=>{
             cy.get("h4[class='grand-totall-title'] span").should("contain",res.data.currency)
             cy.get(".col-lg-6 > .location__select__wrapper > .select__inner > .ng-select > .ng-select-container > .ng-value-container > .ng-input").click()
             var p=0
+            
             cy.get("div .ng-option-label").each(items=>{
                 expect(items.text().trim()).to.eql(res.data.warehouse[p].title)
                 p=p+1
@@ -189,7 +190,9 @@ describe('Verifying datas in UI Via assertions ',()=>{
             cy.visit(Cypress.env("url")+"checkout")
             cy.wait(5000)
             cy.get(".Place-order > .w-100 > .login-btn").click()
+            //var a="minimumPrice"
             cy.get(".toast-message").should('contain',"NRS"+"."+res.data.minimumPrice)
+            
             
 
 
