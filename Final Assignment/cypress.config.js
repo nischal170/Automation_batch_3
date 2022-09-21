@@ -11,6 +11,7 @@ module.exports = defineConfig({
   env:{
       accesstoken:'',
       url:"https://dev.surinamefe.codefirm.net/api",
+      resp:""
   
 
 

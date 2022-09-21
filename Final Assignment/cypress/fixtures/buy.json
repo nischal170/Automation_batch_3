@@ -1,0 +1,100 @@
+{
+  "id": "interceptedRequest470",
+  "browserRequestId": "10560.2887",
+  "routeId": "1663733123239-2086",
+  "request": {
+    "headers": {
+      "host": "dev.surinamefe.codefirm.net",
+      "connection": "keep-alive",
+      "content-length": "38",
+      "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"102\"",
+      "accept-language": "en",
+      "sec-ch-ua-mobile": "?0",
+      "authorization": "Bearer InorWImq1BhyPd0zdbGtsFl0HZjJzsq0P9cHK8EnmRD8L9pxakeOaqwGNYIG4pCi1MtiEYzmKcq3BXGqDMpYM1ogukehtneIBgkaKLc27R1oifmDGjJD8go6N5EPVE4Oreulx94hiIkXUdP9g4VaWu",
+      "content-type": "application/json",
+      "accept": "application/json",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.8.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "origin": "https://dev.suriname.codefirm.net",
+      "sec-fetch-site": "same-site",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "referer": "https://dev.suriname.codefirm.net/",
+      "accept-encoding": "gzip, deflate, br",
+      "cookie": ""
+    },
+    "url": "https://dev.surinamefe.codefirm.net/api/transactions/buy",
+    "method": "POST",
+    "httpVersion": "1.1",
+    "body": {
+      "amount": 100,
+      "remarks": "buy remarks"
+    },
+    "responseTimeout": 30000
+  },
+  "state": "Complete",
+  "requestWaited": true,
+  "responseWaited": true,
+  "subscriptions": [],
+  "response": {
+    "headers": {
+      "date": "Wed, 21 Sep 2022 04:05:25 GMT",
+      "server": "Apache/2.4.41 (Ubuntu)",
+      "content-security-policy": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "x-dns-prefetch-control": "off",
+      "expect-ct": "max-age=0",
+      "x-frame-options": "SAMEORIGIN",
+      "strict-transport-security": "max-age=15552000; includeSubDomains",
+      "x-download-options": "noopen",
+      "x-content-type-options": "nosniff",
+      "x-permitted-cross-domain-policies": "none",
+      "referrer-policy": "no-referrer",
+      "content-language": "en",
+      "access-control-allow-origin": "*",
+      "ratelimit-limit": "100",
+      "ratelimit-remaining": "68",
+      "ratelimit-reset": "30",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "580",
+      "etag": "W/\"244-0JehBCKOrPKacGIt9Ak2ZkPszqk\"",
+      "keep-alive": "timeout=5, max=95",
+      "connection": "Keep-Alive"
+    },
+    "url": "https://dev.surinamefe.codefirm.net/api/transactions/buy",
+    "method": null,
+    "httpVersion": "1.1",
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "body": {
+      "id": 11165,
+      "amount": 100,
+      "transactionType": "buy",
+      "status": "pending",
+      "transactionFee": 0,
+      "networkFee": 0,
+      "srdcToUsdRate": 1,
+      "transactionHash": null,
+      "referenceCode": "CZZ2SPTFS",
+      "remarks": "Bought 100 eGWAP for $100 USD.",
+      "reason": null,
+      "createdAt": "2022-09-21T04:05:25.911Z",
+      "updatedAt": "2022-09-21T04:05:25.911Z",
+      "sender": {
+        "id": 2,
+        "firstName": "Master",
+        "lastName": "account",
+        "email": "master.account@surinam.info",
+        "phone": "81212121212"
+      },
+      "receiver": {
+        "id": 212,
+        "firstName": "###!@3a",
+        "lastName": "Mangrati",
+        "email": "rajit@mailinator.com",
+        "phone": "9860596632"
+      },
+      "wireNumber": null,
+      "payoutTotal": 100
+    }
+  }
+}
