@@ -30,36 +30,43 @@ export class coinpage{
     clickbuymodify(){
         cy.get(".ant-form-item-control-input-content button.ant-btn").click()
     }
+    clicksellmodify(){
+        cy.get(".coins-modal-body button").click()
+    }
+    select_modify_for_sell(){
+        cy.get("[data-row-key='1'] button.ant-btn-icon-only").click({force:true})
+        cy.wait(500)
+        cy.get(".ant-dropdown-menu-root li:nth-child(1)").click()
+    }
     clickupdateverify(coin){
         cy.intercept('PATCH',"**/modify").as("get_modify_details")
         cy.get('.footer .ant-btn').click()
         cy.wait('@get_modify_details').should((res) => {
-            expect(res.response.statusCode).to.equal(200)
+            expect(res.response.statusCode).to.equal(200)//verify status code of api
             expect(coin).to.equal(res.response.body.amount)
         })
     }
     successfulmodify(){
-        cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
+        cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")//Success message assertion
         cy.get(".ant-notification-notice-content .ant-notification-notice-description").then(($text) => {
-                const num = $text.text().replace(/You've|successfully|updated|eGWAP./g, "")
+                const num = $text.text().replace(/You've|successfully|updated|eGWAP./g, "")//removes ("You've successfully updated *** eGwap") from toast notification ,This helps to verify the number of coins.
                 cy.get('@get_modify_details').should((res) => {
     
                      expect(parseFloat(num)).to.equal(res.response.body.amount)
                 })
                
             })
-
     }
 
-    clickviewverify(){
-        //here get_buy_details is used ad variables to store resp from buypage
+    clickviewverify(identifier){
+        //here @get_buy_details and @get_sell_details are the two possible value of "identifier" which is passed from "it" block, they are used as variables to store response from buypage and sellpage
         var fees=[]//empty array to store payout total and transaction fee
-        cy.get('@get_buy_details').then((resp)=>{
+        cy.get(identifier).then((resp)=>{
             cy.get(".custom-table th:nth-child(2)").should("contain",resp.response.body.referenceCode)//verify reference code
-            fees[0]=resp.response.body.payoutTotal
+            fees[0]=resp.response.body.payoutTotal    //store payout total and transaction fee
             fees[1]=resp.response.body.transactionFee
         cy.get(".srdc-point span:nth-child(2)").then(($ele)=>{
-            var coin=$ele.text().replace(/[+]|eGWAP/g,"")//removing + and eGWAP form text
+            var coin=$ele.text().replace(/[+]|[-]|eGWAP/g,"")//removing + for buy and - for sell and eGWAP form text
             expect(parseFloat(coin)).to.equal(resp.response.body.amount)//verify coin amount 
         })
         var i=0
@@ -70,11 +77,7 @@ export class coinpage{
             i=i+1   
         })
 
-        })
-        
-        
-        
-        
+        })  
 
     }
 

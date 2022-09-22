@@ -6,7 +6,7 @@ export class homepage {
     breadcrumb(){
         cy.get(".header__breadcrumb > h2").should("contain","Dashboard")
     }
-   
+   //check available balance text and amount
     availablebalance(){ 
         cy.intercept('GET',Cypress.env("url")+"/users/profile").as("get_available_balance")
         cy.get("div[class='ant-card srdc'] h3").should("contain","Available Wallet Balance")
@@ -22,6 +22,7 @@ export class homepage {
     })     
     }
 
+//check current balance text and amount
     currentbalance(){ 
         cy.intercept('GET',Cypress.env("url")+"/users/profile").as("get_current_balance")
         cy.get("div[class='ant-card matic'] h3").should("contain","Current Wallet Balance")
