@@ -41,11 +41,10 @@ describe('login',()=>{
         coinpageobj.click_modify()
         coinpageobj.type_update_and_verify("buy")
     })
-    it('Sell and view verification',()=>{
+    it.only('Sell and view verification',()=>{
         cy.visit('/')
         coinpageobj.coin_page_button()
-        coinpageobj.click_buy()
-        sellpageobj.sell_via_ui()
+        sellpageobj.sell_via_ui()//buys via ui,verifies with api,assertions in toast message
         coinpageobj.click_view()
         coinpageobj.click_view_verify('@get_sell_details')//sending alias to the function
     })
