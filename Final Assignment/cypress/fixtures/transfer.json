@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "date": "Sun, 25 Sep 2022 11:06:08 GMT",
+    "server": "Apache/2.4.41 (Ubuntu)",
+    "content-security-policy": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+    "x-dns-prefetch-control": "off",
+    "expect-ct": "max-age=0",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "x-download-options": "noopen",
+    "x-content-type-options": "nosniff",
+    "x-permitted-cross-domain-policies": "none",
+    "referrer-policy": "no-referrer",
+    "content-language": "en",
+    "access-control-allow-origin": "*",
+    "ratelimit-limit": "100",
+    "ratelimit-remaining": "91",
+    "ratelimit-reset": "294",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "596",
+    "etag": "W/\"254-VQqvXpnKgb97l4ddqS0LMxh/ntQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "url": "https://dev.surinamefe.codefirm.net/api/transactions/send",
+  "method": null,
+  "httpVersion": "1.1",
+  "statusCode": 200,
+  "statusMessage": "OK",
+  "body": {
+    "id": 11536,
+    "amount": 2,
+    "transactionType": "send",
+    "status": "processing",
+    "transactionFee": 0,
+    "networkFee": 0,
+    "srdcToUsdRate": 1,
+    "transactionHash": "0x5c1a6d608727dc0a5e49ec5d17f1b498e9ac43d898837a26c9f91ebbf011cdbb",
+    "referenceCode": "Z2HKPDFI5",
+    "remarks": "Bedfordshire",
+    "reason": null,
+    "createdAt": "2022-09-25T11:06:08.238Z",
+    "updatedAt": "2022-09-25T11:06:08.238Z",
+    "sender": {
+      "id": 212,
+      "firstName": "###!@3a",
+      "lastName": "Mangrati",
+      "email": "rajit@mailinator.com",
+      "phone": "9860596632"
+    },
+    "receiver": {
+      "id": 228,
+      "firstName": "Jon",
+      "lastName": "Snow",
+      "email": "kush@mailinator.com",
+      "phone": "67376367367"
+    },
+    "payoutTotal": 2
+  }
+}

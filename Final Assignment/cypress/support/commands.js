@@ -43,3 +43,18 @@ Cypress.Commands.add('Login', (email,password,otp) => {
     })
 
     })
+
+    Cypress.Commands.add('login', (email,password) => { 
+
+        cy.request("POST",'oauth2/token',{"client_id": "dd22611cfbc6c1ffdd2549e2445c5250",
+            "client_secret": "4fb1f68752ad86d0d0459c6f1cff4455",
+            "grant_type": "password",
+            "password": password,
+            "username": email }).then((response) => {
+                Cypress.env('token', response.body.access_token);
+                expect(response.status).to.eq(200)
+                expect(response.duration).to.be.lessThan(1000)
+          return response;
+     });
+    })
+   

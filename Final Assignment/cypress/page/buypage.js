@@ -23,6 +23,15 @@ export class buypage{
     //toast message success confirmation
     successfulbuy(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
+        cy.get(".ant-notification-notice-content .ant-notification-notice-description").then(($text) => {
+            const num = $text.text().replace(/You've|successfully|bought|eGWAP./g, "")//removes ("You've successfully bought *** eGwap") from toast notification ,This helps to verify the number of coins.
+            cy.get('@get_buy_details').should((res) => {
+
+                 expect(parseFloat(num)).to.equal(res.response.body.amount)
+            })
+           
+        })
+
       
         
     }

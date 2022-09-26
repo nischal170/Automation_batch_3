@@ -18,7 +18,15 @@ export class sellpage{
 
     }
     successfullsell(){
-        cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")  
+        cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
+        cy.get(".ant-notification-notice-content .ant-notification-notice-description").then(($text) => {
+            const num = $text.text().replace(/You've|successfully|sold|eGWAP./g, "")//removes ("You've successfully sold *** eGwap") from toast notification ,This helps to verify the number of coins.
+            cy.get('@get_sell_details').should((res) => {
+
+                 expect(parseFloat(num)).to.equal(res.response.body.amount)
+            })
+           
+        })
     }
 
 }

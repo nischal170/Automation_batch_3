@@ -24,7 +24,7 @@ export class coinpage{
         cy.get(".ant-dropdown-menu-root li:nth-child(2)").click()
     }
     typemodify(coin){
-        cy.get("#coin").click().type('{backspace},{backspace},{backspace}')
+        cy.get("#coin").clear()
         cy.get('#coin').type(coin).should("have.value",coin)
     }
     clickbuymodify(){
@@ -79,6 +79,9 @@ export class coinpage{
 
         })  
 
+    }
+    verifytableheader(){
+        
     }
 
 }
