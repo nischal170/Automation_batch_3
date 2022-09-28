@@ -58,30 +58,4 @@ export class coinpage{
             })
     }
 
-    clickviewverify(identifier){
-        //here @get_buy_details and @get_sell_details are the two possible value of "identifier" which is passed from "it" block, they are used as variables to store response from buypage and sellpage
-        var fees=[]//empty array to store payout total and transaction fee
-        cy.get(identifier).then((resp)=>{
-            cy.get(".custom-table th:nth-child(2)").should("contain",resp.response.body.referenceCode)//verify reference code
-            fees[0]=resp.response.body.payoutTotal    //store payout total and transaction fee
-            fees[1]=resp.response.body.transactionFee
-        cy.get(".srdc-point span:nth-child(2)").then(($ele)=>{
-            var coin=$ele.text().replace(/[+]|[-]|eGWAP/g,"")//removing + for buy and - for sell and eGWAP form text
-            expect(parseFloat(coin)).to.equal(resp.response.body.amount)//verify coin amount 
-        })
-        var i=0
-        cy.get(".custom-table tbody tr:nth-child(6)> td:nth-child(2)").each(($element)=>{
-            var price=$element.text().replace(/[$]|USD/g,"")// removing $ and USD from text
-            price=parseFloat(price)
-            expect(price).to.equal(fees[i])//verifies payout total and transaction fee in a loop
-            i=i+1   
-        })
-
-        })  
-
-    }
-    verifytableheader(){
-        
-    }
-
 }

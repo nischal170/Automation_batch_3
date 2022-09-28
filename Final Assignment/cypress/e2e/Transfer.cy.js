@@ -3,15 +3,14 @@ import * as historypageobj from "../pageobject/Historypageobj/historypageobj";
 import * as transferpageobj from "../pageobject/transferpageobject/transferpageobj";
 describe('Transfer Actions',()=>{
     beforeEach('login',()=>{
-        cy.Login("rajit@mailinator.com","Admin@123","ae7Dpa")
+        cy.login_via_api("rajit@mailinator.com","Admin@123","ae7Dpa")
+        cy.visit('/')
     })
     it('Verify Breadcrumb',()=>{
-        cy.visit('/')
         historypageobj.click_history()
         historypageobj.check_breadcrumb()  
     });
     it('Transfer',()=>{
-        cy.visit('/')
         coinpageobj.coin_page_button()
         transferpageobj.transfer_via_ui() 
         transferpageobj.verify_toast_message()
@@ -20,8 +19,7 @@ describe('Transfer Actions',()=>{
         transferpageobj.save_to_json()
         
     });
-    it('verify',()=>{
-        cy.visit('/')
+    it('Verify transfer in history page',()=>{
         historypageobj.click_history()
         historypageobj.search_history()
         historypageobj.verify_reference()

@@ -21,7 +21,25 @@ export function click_view(){
     coin.clickview()
 }
 export function click_view_verify(identifier){//identifier(any variable) is used  as argument to pass alias from it block
-    coin.clickviewverify(identifier)
+    //here @get_buy_details and @get_sell_details are the two possible value of "identifier" which is passed from "it" block, they are used as variables to store response from buypage and sellpage
+    var fees=[]//empty array to store payout total and transaction fee
+    cy.get(identifier).then((resp)=>{
+        cy.get(".custom-table th:nth-child(2)").should("contain",resp.response.body.referenceCode)//verify reference code
+        fees[0]=resp.response.body.payoutTotal    //store payout total and transaction fee
+        fees[1]=resp.response.body.transactionFee
+    cy.get(".srdc-point span:nth-child(2)").then(($ele)=>{
+        var coin=$ele.text().replace(/[+]|[-]|eGWAP/g,"")//removing + for buy and - for sell and eGWAP form text
+        expect(parseFloat(coin)).to.equal(resp.response.body.amount)//verify coin amount 
+    })
+    var i=0
+    cy.get(".custom-table tbody tr:nth-child(6)> td:nth-child(2)").each(($element)=>{
+        var price=$element.text().replace(/[$]|USD/g,"")// removing $ and USD from text
+        price=parseFloat(price)
+        expect(price).to.equal(fees[i])//verifies payout total and transaction fee in a loop
+        i=i+1   
+    })
+
+    })  
 }
 export function click_modify(){
     coin.clickmodify()
@@ -29,9 +47,28 @@ export function click_modify(){
 export function click_modify_for_sell(){
     coin.select_modify_for_sell()
 }
+export function verify_table_headers(){
+    var array=[1,3,8]
+        var headers=['S.N','Reference code','Action']
+        var i=0
+        var j=0
+        cy.get('.ant-table-thead .ant-table-cell').each((element)=>{
+            i=i+1
+            if (i==array[j]){
+                expect(headers[j]).to.equal(element.text())
+                j=j+1 }
+        })
+        var rem_headers=['Date','Type','Quantity','Total','Status']
+        var m=0
+        cy.get(".ant-table-thead th.ant-table-column-has-sorters .ant-table-column-title").each((element)=>{
+            expect(rem_headers[m]).to.equal(element.text())
+            m=m+1
+
+        })
+}
 
 export function type_update_and_verify(type){
-    var coin_modified=Number(faker.datatype.number({min:50, max:500})) 
+    var coin_modified=Number(faker.datatype.number({min:5, max:30})) 
     coin.typemodify(coin_modified)
     if(type=='buy'){
         coin.clickbuymodify()//run this function if it is called from "buy" it block

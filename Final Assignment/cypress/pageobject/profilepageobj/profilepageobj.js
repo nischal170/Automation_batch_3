@@ -15,8 +15,8 @@ export function update_profile(){
     var locality=faker.address.cityName()
     var address=faker.address.streetAddress()
     var appartment=faker.address.buildingNumber()
-    
-    profile.clearinputfield("input#firstName")
+    var country=faker.address.country()
+    profile.clearinputfield("#firstName")
     profile.First_name(firstname)
     profile.clearinputfield("#lastName")
     profile.last_name(lastname)
@@ -28,18 +28,39 @@ export function update_profile(){
     profile.locality(locality)
     profile.clearinputfield("#zip")
     profile.zipcode(postcode)
-    //profile.clearinputfield("#country")
-    //profile.select_country("Nepal")
+    profile.select_country(country)
 }
 export function click_update_and_verify_toast(){
     profile.clickupdate()
     profile.successfulupdate()
 }
-export function clear_input_field_and_verify_input_field(){
-    profile.clearinputfield("input#firstName")
+export function clear_input_fields(){
+    profile.clearinputfield("#firstName")
     profile.clearinputfield("#lastName")
     profile.clearinputfield("#address")
     profile.clearinputfield("#city")
     profile.clearinputfield("#state")
-    profile.clearinputfield("#country")
+    profile.clearinputfield("#zip")
+    profile.clearcountry()
+    //profile.clearinputfield("#country")
+}
+export function verify_name_input_fields(){
+    var array=["First","Last"]
+    var i=0
+    cy.get("div.ant-col-lg-12 div[role='alert']").each((element)=>{
+        expect(element.text()).to.equal(array[i]+" "+"Name is required!")
+        i=i+1
+    })
+}
+export function verify_street_input_field(){
+    cy.get("div.ant-col.ant-col-xs-24.ant-col-lg-24 div[role='alert']").should("contain","Street Name and Number is required!")
+}
+export function postalcode_field_verify(){
+    profile.postalcodefield_verify()
+} 
+export function locality_field_verify(){
+    profile.localityfield_verify()
+}
+export function country_field_verify(){
+    profile.countryfield_verify()
 }

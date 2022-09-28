@@ -12,6 +12,14 @@ export function click_wire_transfer(){
 export function check_breadcrumb(){
     wire.wiretransferbreadcrumb()
 }
+export function clear_input_fields(){
+    wire.clearinputfield("#iban")
+    wire.clearinputfield("#bankName")
+    wire.clearinputfield("#bankAddress")
+    wire.clearinputfield("#postalCode")
+    wire.clearinputfield("#locality")
+    wire.clearcountry()
+}
 export function update_wire_transfer(){
  
     

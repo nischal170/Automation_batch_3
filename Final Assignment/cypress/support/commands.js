@@ -24,7 +24,13 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 //import 'cypress-localstorage-commands';
-
+const resizeObserverLoopErrRe = /^[^(ResizeObserver loop limit exceeded)]/
+Cypress.on('uncaught:exception', (err) => {
+    / returning false here prevents Cypress from failing the test /
+    if (resizeObserverLoopErrRe.test(err.message)) {
+        return false
+    }
+})
 
 Cypress.Commands.add('Login', (email,password,otp) => {
     cy.session([email,password,otp],()=>{
@@ -44,17 +50,29 @@ Cypress.Commands.add('Login', (email,password,otp) => {
 
     })
 
-    Cypress.Commands.add('login', (email,password) => { 
-
-        cy.request("POST",'oauth2/token',{"client_id": "dd22611cfbc6c1ffdd2549e2445c5250",
+    Cypress.Commands.add('login_via_api', (email,password,otp) => { 
+        cy.session([email,password,otp],()=>{
+        cy.request("POST",Cypress.env("url")+'/oauth2/token',{"client_id": "dd22611cfbc6c1ffdd2549e2445c5250",
             "client_secret": "4fb1f68752ad86d0d0459c6f1cff4455",
             "grant_type": "password",
             "password": password,
-            "username": email }).then((response) => {
-                Cypress.env('token', response.body.access_token);
-                expect(response.status).to.eq(200)
-                expect(response.duration).to.be.lessThan(1000)
-          return response;
-     });
+            "username": email }).then((response_from_login) => {
+                expect(response_from_login.status).to.eq(200)
+                expect(response_from_login.duration).to.be.lessThan(1000)
+                var token=response_from_login.body.access_token
+                var authorization="Bearer"+" "+token
+                const options={
+                    method: 'POST',
+                    url:Cypress.env("url")+'/auth/verify-otp',
+                    body:{"otp":`${otp}`},
+                    headers: {authorization}};
+                cy.request(options).then((response_from_otp) => {
+                    if (response_from_otp.status==200){
+                        window.localStorage.setItem("accessToken",JSON.stringify(response_from_login.body))
+
+                    }      
+                })      
+     })
+    })
     })
    

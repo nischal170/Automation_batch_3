@@ -7,11 +7,11 @@ export class profilepage{
         cy.get('.breadcrumbs-header h3').should("contain","Profile")
     }
     clearinputfield(selector){
-        cy.get(selector).clear()
+        cy.get(selector).clear({force:true})
+        cy.wait(200)
     }
     First_name(f_name){
-        cy.get("input#firstName").type(f_name).should("have.value",f_name)
-   
+        cy.get("#firstName").type(f_name).should("have.value",f_name)
     }
     last_name(l_name){
         cy.get("#lastName").type(l_name).should("have.value",l_name)
@@ -32,23 +32,35 @@ export class profilepage{
     zipcode(zip){
         cy.get("#zip").type(zip).should("have.value",zip)
     }
+    select_country(country){
+        cy.get("div[class='ant-col ant-form-item-control'] span[aria-label='close-circle']").click()
+        cy.get("#country").type(`${country}{enter}`)
+
+    }
+    clearcountry(){
+        cy.get(".ant-select-clear > .anticon >svg >path").click({force:true})
+
+    }
     clickupdate(){
         cy.intercept("POST",Cypress.env("url")+"/users/update-profile").as('users_update_profile')
         cy.get(".ant-col-offset-5 button[type='submit']").click()
         cy.wait('@users_update_profile').should((res)=>{
             expect(res.response.statusCode).to.equal(200)
-            
-
         })
 
     }
     successfulupdate(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
     }
-    first_name_field_verify(){
-        cy.get(".ant-form-item-has-error").should("exist")
-
-    }
+   postalcodefield_verify(){
+    cy.get(".mb-0.mt-0 > div [role='alert']").should("contain","Postal Code is required!")
+   }
+   localityfield_verify(){
+    cy.get(".ant-col.ant-col-xs-24.ant-col-sm-24.ant-col-md-24.ant-col-lg-8:nth-of-type(2) div[role='alert']").should("contain","Locality is required!")
+   }
+   countryfield_verify(){
+    cy.get(".ant-col.ant-col-xs-24.ant-col-sm-24.ant-col-md-24.ant-col-lg-8:nth-of-type(3) div[role='alert']").should("contain","Country is required!")
+   }
    
 
 }

@@ -44,4 +44,8 @@ export class wire_transferpage{
     successfulupdate(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
     }
+    clearcountry(){
+        cy.get("div.ant-col-xl-17.ant-col-xxl-20 span[aria-label='close-circle'] svg>path").click({force:true})
+
+    }
 }
