@@ -9,11 +9,11 @@ export function transfer_via_ui(){
     transfer.typetransferamount(transfer_amount)
     transfer.typereceiver(receiver_email)
     transfer.typenote(note)
-    transfer.clicksubmit()
+    transfer.clickpreview_transfer()
     transfer.clicktransferegwap()
 }
 export function verify_toast_message(){
-    transfer.successfulltransfer()
+    transfer.successfulltransfer_toast_message()
 
 }
 export function verify_with_api(){

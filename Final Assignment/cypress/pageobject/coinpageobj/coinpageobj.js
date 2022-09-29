@@ -20,7 +20,7 @@ export function click_transfer(){
 export function click_view(){
     coin.clickview()
 }
-export function click_view_verify(identifier){//identifier(any variable) is used  as argument to pass alias from it block
+export function verify_viewpage_with_api(identifier){//identifier(any variable) is used  as argument to pass alias from it block
     //here @get_buy_details and @get_sell_details are the two possible value of "identifier" which is passed from "it" block, they are used as variables to store response from buypage and sellpage
     var fees=[]//empty array to store payout total and transaction fee
     cy.get(identifier).then((resp)=>{
@@ -71,10 +71,10 @@ export function type_update_and_verify(type){
     var coin_modified=Number(faker.datatype.number({min:5, max:30})) 
     coin.typemodify(coin_modified)
     if(type=='buy'){
-        coin.clickbuymodify()//run this function if it is called from "buy" it block
+        coin.clickmodify_for_buy()//run this function if it is called from "buy" "it" block
     }
     else{
-        coin.clicksellmodify()//run this function if it is called from "sell" it block
+        coin.clickmodify_for_sell()//run this function if it is called from "sell" "it" block
     }
     coin.clickupdateverify(coin_modified)//veries with the ui if entered coin value and modified coin value match or not
     coin.successfulmodify()//verifies successful toast message with number of coins with ui

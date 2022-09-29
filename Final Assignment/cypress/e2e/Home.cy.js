@@ -10,21 +10,14 @@ describe('Actions in Homepage',()=>{
         homepageobj.verify_title()
         
     });
-    it('verify Breadcrumb',()=>{
+    it('Verify Breadcrumb',()=>{
         homepageobj.verify_breadcrumb()
     })
 
-    it('Verify available wallet balance',()=>{
+    it('Verify Available Wallet Balance',()=>{
         homepageobj.available_balance()
     });
-    it('Verify Current balance',()=>{
+    it('Verify Current Balance',()=>{
         homepageobj.current_balance()
     });
-    it("Verify Breadcrumb of Coins page",()=>{
-        coinpageobj.coin_page_button()
-        coinpageobj.bread_crumb()
-    })
-    
-    
-    
 })

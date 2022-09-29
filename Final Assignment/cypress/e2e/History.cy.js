@@ -14,9 +14,23 @@ describe('Transfer Actions',()=>{
         historypageobj.check_breadcrumb()
         historypageobj.verify_table()
     });
-    it.only('automate type filter',()=>{
+    it('automate type filter',()=>{
         historypageobj.click_history()
-        historypageobj.automate_type_filter()
+        historypageobj.automate_type_filter_buy()
+        historypageobj.automate_type_filter_sell()
+        historypageobj.automate_type_filter_send()
+
+    })
+    it.only('automate status filter',()=>{
+        historypageobj.click_history()
+        historypageobj.automate_status_completed()
+        historypageobj.automate_status_cancelled()
+        historypageobj.automate_status_failed()
+
+
+    })
+    it('automate date filter',()=>{
+        
     })
     
 })

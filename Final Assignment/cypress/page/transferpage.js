@@ -11,12 +11,12 @@ export class transferpage{
     typenote(note){
         cy.get("#remarks").type(note).should("have.value",note)
     }
-    clicksubmit(){
-        cy.get("button[type='submit']").click()
+    clickpreview_transfer(){
+        cy.get("button[type='submit']").should("be.visible").click()
     }
     clicktransferegwap(){
         cy.intercept('POST',Cypress.env("url")+"/transactions/send").as("get_transfer_details")
-        cy.get('.footer button > span').click()
+        cy.get('.footer button > span').should("be.visible").click()
         cy.wait('@get_transfer_details')  
     }
     verify_transfer_with_api(transferamt,receiver,note){
@@ -34,7 +34,7 @@ export class transferpage{
 
     }
    
-    successfulltransfer(){
+    successfulltransfer_toast_message(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
         cy.get(".ant-notification-notice-content .ant-notification-notice-description").then(($text) => {
             const num = $text.text().replace(/You've|successfully|sent|eGWAP./g, "")//removes ("You've successfully sent *** eGwap") from toast notification ,This helps to verify the number of coins.

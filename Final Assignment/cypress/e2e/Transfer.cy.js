@@ -6,10 +6,7 @@ describe('Transfer Actions',()=>{
         cy.login_via_api("rajit@mailinator.com","Admin@123","ae7Dpa")
         cy.visit('/')
     })
-    it('Verify Breadcrumb',()=>{
-        historypageobj.click_history()
-        historypageobj.check_breadcrumb()  
-    });
+   
     it('Transfer',()=>{
         coinpageobj.coin_page_button()
         transferpageobj.transfer_via_ui() 
@@ -19,7 +16,11 @@ describe('Transfer Actions',()=>{
         transferpageobj.save_to_json()
         
     });
-    it('Verify transfer in history page',()=>{
+    it('Verify Breadcrumb of history page',()=>{
+        historypageobj.click_history()
+        historypageobj.check_breadcrumb()  
+    });
+    it('Verify Search in history page',()=>{
         historypageobj.click_history()
         historypageobj.search_history()
         historypageobj.verify_reference()

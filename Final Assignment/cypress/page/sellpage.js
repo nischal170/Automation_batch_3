@@ -2,10 +2,10 @@ export class sellpage{
     clicksellbutton(){
         cy.get(".sell .ant-card-body").click({force:true})
     }
-    typesell(sell_amt){
+    entersellvalue(sell_amt){
         cy.get(".coins-sell #coin").click().type(sell_amt).should("have.value",sell_amt)
     }
-    clicksubmit(){
+    clickpreview_sell(){
         cy.get(".coins-sell button[type='submit']").click()
     }
     clicksellegwap(sell_amt){
@@ -17,7 +17,7 @@ export class sellpage{
         })
 
     }
-    successfullsell(){
+    successfulsell_toast_message_verify(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
         cy.get(".ant-notification-notice-content .ant-notification-notice-description").then(($text) => {
             const num = $text.text().replace(/You've|successfully|sold|eGWAP./g, "")//removes ("You've successfully sold *** eGwap") from toast notification ,This helps to verify the number of coins.

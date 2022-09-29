@@ -27,10 +27,10 @@ export class coinpage{
         cy.get("#coin").clear()
         cy.get('#coin').type(coin).should("have.value",coin)
     }
-    clickbuymodify(){
+    clickmodify_for_buy(){
         cy.get(".ant-form-item-control-input-content button.ant-btn").click()
     }
-    clicksellmodify(){
+    clickmodify_for_sell(){
         cy.get(".coins-modal-body button").click()
     }
     select_modify_for_sell(){
