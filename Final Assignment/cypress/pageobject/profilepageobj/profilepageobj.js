@@ -64,3 +64,16 @@ export function locality_field_verify(){
 export function country_field_verify(){
     profile.countryfield_verify()
 }
+export function verify_inputfields_after_update(){
+        cy.get('@view_updated_users_profile').then((res)=>{
+            cy.get("#firstName").should("have.value",res.response.body.firstName)
+            cy.get("#lastName").should("have.value",res.response.body.lastName)
+            cy.get("#address").should("have.value",res.response.body.address)
+            cy.get("#city").should("have.value",res.response.body.city)
+            cy.get("#state").should("have.value",res.response.body.state)
+            cy.get("#zip").should("have.value",res.response.body.zip)
+            cy.get(".ant-form-item-control .ant-select-selector .ant-select-selection-item").then((element)=>{
+                expect(element.text().trim()).to.equal(res.response.body.country)
+            })
+        })
+}

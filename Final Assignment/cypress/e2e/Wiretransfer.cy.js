@@ -11,10 +11,11 @@ describe('Transfer Actions',()=>{
         wiretransfobj.click_wire_transfer()
         wiretransfobj.check_breadcrumb()
     });
-    it('update wiretransfer details',()=>{
+    it('update wiretransfer details and verify ui with api',()=>{
         profilepageobj.click_account_settings()
         wiretransfobj.click_wire_transfer()
         wiretransfobj.update_wire_transfer()
         wiretransfobj.click_update_and_verify_toast()
+        wiretransfobj.verify_inputfields_after_update()
     });
 })

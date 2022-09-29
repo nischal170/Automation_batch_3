@@ -33,10 +33,23 @@ export function update_wire_transfer(){
     wire.postalcode(postalcode)
     wire.clearinputfield("#locality")
     wire.locality(locality)
-    //wire.clearinputfield('#country')
+    wire.clearcountry
     //wire.country("Nepal")
 }
 export function click_update_and_verify_toast(){
     wire.clickupdate(iban,bankname,address,postalcode,locality)
     wire.successfulupdate()
+}
+export function verify_inputfields_after_update(){
+    cy.get('@get_update_wire_transfer').then((res)=>{
+        cy.get("#iban").then((element)=>{
+            var text=element.val()
+            text=text.replace(/\s+/g, '')
+            expect(text).to.equal(res.response.body.iban)
+        })
+        cy.get("#bankName").should("have.value",res.response.body.bankName)
+        cy.get("#bankAddress").should("have.value",res.response.body.bankAddress)
+        cy.get("#postalCode").should("have.value",res.response.body.postalCode)
+        cy.get("#locality").should("have.value",res.response.body.locality)
+    })
 }

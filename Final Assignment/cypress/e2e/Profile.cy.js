@@ -1,15 +1,16 @@
 import * as profilepageobj from "../pageobject/profilepageobj/profilepageobj"
-describe('Transfer Actions',()=>{
+describe('Profile Page',()=>{
     beforeEach('login',()=>{
         cy.login_via_api("rajit@mailinator.com","Admin@123","ae7Dpa")
         cy.visit('/')
     })
-    it("check breadcrumb",()=>{
+    it("Check Breadcrumb",()=>{
         profilepageobj.click_account_settings()
         profilepageobj.check_breadcrumb()
     });
     it("Input Field Validation",()=>{
         profilepageobj.click_account_settings()
+        cy.wait(500)
         profilepageobj.clear_input_fields()
         profilepageobj.verify_name_input_fields()
         profilepageobj.verify_street_input_field()
@@ -19,10 +20,12 @@ describe('Transfer Actions',()=>{
         
     })
   
-    it('Update profile and verify',()=>{
+    it('Update profile and verify with ui and api',()=>{
         profilepageobj.click_account_settings()
+        cy.wait(500)
         profilepageobj.update_profile()
         profilepageobj.click_update_and_verify_toast()
+        profilepageobj.verify_inputfields_after_update()
     
 
     })

@@ -7,8 +7,7 @@ export class profilepage{
         cy.get('.breadcrumbs-header h3').should("contain","Profile")
     }
     clearinputfield(selector){
-        cy.get(selector).clear({force:true})
-        cy.wait(200)
+        cy.get(selector).focus().clear()
     }
     First_name(f_name){
         cy.get("#firstName").type(f_name).should("have.value",f_name)
@@ -43,7 +42,9 @@ export class profilepage{
     }
     clickupdate(){
         cy.intercept("POST",Cypress.env("url")+"/users/update-profile").as('users_update_profile')
+        cy.intercept("GET",Cypress.env("url")+"/users/profile").as('view_updated_users_profile')
         cy.get(".ant-col-offset-5 button[type='submit']").click()
+        cy.wait("@view_updated_users_profile")
         cy.wait('@users_update_profile').should((res)=>{
             expect(res.response.statusCode).to.equal(200)
         })
