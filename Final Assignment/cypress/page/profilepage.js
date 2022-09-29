@@ -2,6 +2,7 @@ export class profilepage{
     clickaccountsettings(){
         cy.get(".btn__profile").click()
         cy.get(".ant-dropdown-menu-item a[href='/account-settings']").click()
+        cy.url().should("include","/account-settings?tabName=Profile")
     }
     breadcrumb(){
         cy.get('.breadcrumbs-header h3').should("contain","Profile")

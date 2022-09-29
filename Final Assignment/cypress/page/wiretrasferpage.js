@@ -2,6 +2,7 @@ export class wire_transferpage{
 
     clickwiretransfer(){
         cy.get("div[id='rc-tabs-0-tab-6'] span[class='icon']").click()
+        cy.url().should("contain","tabName=Wire%20Transfer%20Details")
     }
     wiretransferbreadcrumb(){
         cy.get('div .breadcrumbs-header h3').should("contain","Wire Transfer Details")
@@ -10,8 +11,7 @@ export class wire_transferpage{
         cy.get('#iban').type(iban).should("have.value",iban)
     }
     country(country){
-        cy.get("#countryCode").select(country)
-
+        cy.get("#countryCode").type(`${country}{enter}`)
     }
     clearinputfield(selector){
         cy.get(selector).clear()
@@ -47,5 +47,31 @@ export class wire_transferpage{
     clearcountry(){
         cy.get("div.ant-col-xl-17.ant-col-xxl-20 span[aria-label='close-circle'] svg>path").click({force:true})
 
+    }
+
+    validate_iban_empty_field(){
+        cy.get(".ant-form-item-required.ant-form-item-has-error div[role='alert']:nth-of-type(1)").should("contain","IBAN is required!")
+
+    }
+    validate_bankname_empty_field(){
+        cy.get(".ant-form.ant-form-horizontal.mb-16 div:nth-child(3) > div:nth-child(2) div[role='alert']").should("contain","Bank Name is required!")
+
+        
+    }
+    validate_bankaddress_empty_field(){
+        cy.get("div.ant-form-item-required.ant-form-item-has-error div[class='ant-col ant-form-item-control'] div[role='alert']").should("contain","Street Name and Number is required!")
+        
+    }
+    validate_country_empty_field(){
+        cy.get(".ant-form.ant-form-horizontal.mb-16.align-center div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)").should("contain","Bank Country is required!")
+        
+    }
+    validate_postalcode_empty_field(){ 
+        cy.get(".ant-form.ant-form-horizontal div:nth-child(4) div:nth-child(2) div:nth-child(1) div:nth-child(1) div:nth-child(2) div:nth-child(2) div:nth-child(1)").should("contain","Postal Code is required!") 
+        
+    }
+    validate_locality_empty_field(){
+        cy.get(".ant-form-item-required :nth-of-type(3) div[role='alert']").should("contain","Locality is required!")
+        
     }
 }

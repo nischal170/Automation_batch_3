@@ -88,3 +88,33 @@ export function automate_status_failed(){
 
 
 }
+
+export function select_date_from_to(){
+    cy.get('.from .ant-picker-input input').click({force:true})
+    cy.get("td[title='2022-09-01'] div[class='ant-picker-cell-inner']").should("be.visible").click({force:true})
+    cy.wait(500)
+    cy.get("input[placeholder='To']").click({force:true})
+    cy.wait(500)
+    cy.get(".ant-picker-dropdown-hidden td[title='2022-09-29'] div[class='ant-picker-cell-inner']").should('not.be.visible')
+    cy.get("td[title='2022-09-29'] div[class='ant-picker-cell-inner']").filter(':visible').click()
+    
+}
+export function find_transaction_between_dates(){
+    cy.get('.from .ant-picker-input input').then((value1)=>{
+        var from_date=value1.val()
+        from_date=Date.parse(from_date)
+        cy.get("input[placeholder='To']").then((value2)=>{
+            var to_date=value2.val()
+            to_date=Date.parse(to_date)
+            cy.get(".ant-table-tbody tr td:nth-child(2) div").each((element)=>{
+                var check_date=element.text()
+                check_date=Date.parse(check_date)//The Date.parse() method parses a string representation of a date, and returns the number of milliseconds since January 1, 1970
+                expect(check_date).to.be.within(from_date,to_date)
+            })
+
+        })
+    })
+    
+    
+
+}

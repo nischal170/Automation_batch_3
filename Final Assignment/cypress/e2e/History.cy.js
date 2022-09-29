@@ -21,7 +21,7 @@ describe('Transfer Actions',()=>{
         historypageobj.automate_type_filter_send()
 
     })
-    it.only('automate status filter',()=>{
+    it('automate status filter',()=>{
         historypageobj.click_history()
         historypageobj.automate_status_completed()
         historypageobj.automate_status_cancelled()
@@ -29,7 +29,10 @@ describe('Transfer Actions',()=>{
 
 
     })
-    it('automate date filter',()=>{
+    it.only('automate date filter',()=>{
+        historypageobj.click_history()
+        historypageobj.select_date_from_to()
+        historypageobj.find_transaction_between_dates()
         
     })
     

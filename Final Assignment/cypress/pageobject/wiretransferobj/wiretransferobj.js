@@ -20,11 +20,11 @@ export function clear_input_fields(){
     wire.clearinputfield("#locality")
     wire.clearcountry()
 }
-export function update_wire_transfer(){
- 
-    
+export function update_wire_transfer(){   
     wire.clearinputfield("#iban")
     wire.iban(iban)
+    wire.clearcountry()
+    wire.country("Mexico")
     wire.clearinputfield("#bankName")
     wire.Bankname(bankname)
     wire.clearinputfield("#bankAddress")
@@ -33,12 +33,20 @@ export function update_wire_transfer(){
     wire.postalcode(postalcode)
     wire.clearinputfield("#locality")
     wire.locality(locality)
-    wire.clearcountry
-    //wire.country("Nepal")
+
 }
 export function click_update_and_verify_toast(){
     wire.clickupdate(iban,bankname,address,postalcode,locality)
     wire.successfulupdate()
+}
+export function validate_empty_input_fields(){
+    wire.validate_iban_empty_field()
+    wire.validate_bankname_empty_field()
+    wire.validate_bankaddress_empty_field()
+    wire.validate_country_empty_field()
+    wire.validate_postalcode_empty_field()
+    wire.validate_locality_empty_field()
+
 }
 export function verify_inputfields_after_update(){
     cy.get('@get_update_wire_transfer').then((res)=>{
