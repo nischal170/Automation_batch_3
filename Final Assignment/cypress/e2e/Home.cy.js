@@ -3,8 +3,8 @@ import *  as homepageobj from "../pageobject/homepage/homepageobject";
 
 describe('Actions in Homepage',()=>{
     beforeEach('login',()=>{
-        //cy.login_via_api(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
-        cy.Login(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
+        cy.login_via_api(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
+        //cy.Login(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
         cy.visit('/')
     })
     it('Verify Title',()=>{

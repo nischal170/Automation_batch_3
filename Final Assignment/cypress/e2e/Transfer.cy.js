@@ -3,8 +3,8 @@ import * as historypageobj from "../pageobject/Historypageobj/historypageobj";
 import * as transferpageobj from "../pageobject/transferpageobject/transferpageobj";
 describe('Transfer Actions',()=>{
     beforeEach('login',()=>{
-        //cy.login_via_api(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
-        cy.Login(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
+        cy.login_via_api(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
+        //cy.Login(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
         cy.visit('/')
     })
    
