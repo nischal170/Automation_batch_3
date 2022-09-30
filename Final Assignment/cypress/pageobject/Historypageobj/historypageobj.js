@@ -18,6 +18,9 @@ export function verify_reference_code(){
     history.verifyreference_code(key_word)
 })
 }
+export function check_transfer_json_file_exists(){
+
+}
 export function verify_table_headers(){
     var positions=[1,4,6,7]//the order in selectors 1,4,6,7 of certain headers were same so keeping them in array
     var i=0
@@ -97,7 +100,7 @@ export function select_date_from_to(){
     cy.get("input[placeholder='To']").click({force:true})
     cy.wait(500)
     cy.get(".ant-picker-dropdown-hidden td[title='2022-09-29'] div[class='ant-picker-cell-inner']").should('not.be.visible')
-    cy.get("td[title='2022-09-29'] div[class='ant-picker-cell-inner']").filter(':visible').click()
+    cy.get("td[title='2022-09-29'] div[class='ant-picker-cell-inner']").filter(':visible').click({force:true})
     
 }
 export function find_transaction_between_dates(){
