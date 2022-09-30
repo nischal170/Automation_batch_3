@@ -7,13 +7,25 @@ module.exports = defineConfig({
     },
     baseUrl:"https://dev.suriname.codefirm.net/",
     "experimentalSessionAndOrigin":true,
+    projectId: "71t4uk",
+    reporter: "cypress-multi-reporters",
+    reporterOptions: {
+        reporterEnabled: "mochawesome",
+        mochawesomeReporterOptions: {
+            reportDir: "cypress/reports/mocha",
+            quite: true,
+            overwrite: true,
+            html: true,
+            json: true
+        }
+    }
   },
   env:{
       accesstoken:'',
       url:"https://dev.surinamefe.codefirm.net/api",
-      resp:""
-  
-
-
+      resp:"",
+      email:"rajit@mailinator.com",
+      password:"Admin@123",
+      otp:"ae7Dpa"
   }
 });

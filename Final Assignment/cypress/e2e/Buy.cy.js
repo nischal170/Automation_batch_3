@@ -2,7 +2,8 @@ import * as buypageobj from "../pageobject/buypageobject/buypageobj";
 import * as coinpageobj from "../pageobject/coinpageobj/coinpageobj";
 describe('Buy actions',()=>{
     beforeEach('login',()=>{
-        cy.login_via_api("rajit@mailinator.com","Admin@123","ae7Dpa")
+        //cy.login_via_api(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
+        cy.Login(Cypress.env("email"),Cypress.env("password"),Cypress.env("otp"))
         cy.visit('/')
     })
     it("Verify Breadcrumb of Coins page",()=>{
