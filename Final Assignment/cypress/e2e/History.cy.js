@@ -1,6 +1,6 @@
 
 import * as historypageobj from "../pageobject/Historypageobj/historypageobj";
-describe('Transfer Actions',()=>{
+describe('History Actions',()=>{
     beforeEach('login',()=>{
         cy.login_via_api("rajit@mailinator.com","Admin@123","ae7Dpa")
         cy.visit('/')
@@ -11,8 +11,7 @@ describe('Transfer Actions',()=>{
     })
     it('Verify Table headers',()=>{
         historypageobj.click_history()
-        historypageobj.check_breadcrumb()
-        historypageobj.verify_table()
+        historypageobj.verify_table_headers()
     });
     it('automate type filter',()=>{
         historypageobj.click_history()
@@ -29,7 +28,7 @@ describe('Transfer Actions',()=>{
 
 
     })
-    it.only('automate date filter',()=>{
+    it('automate date filter',()=>{
         historypageobj.click_history()
         historypageobj.select_date_from_to()
         historypageobj.find_transaction_between_dates()

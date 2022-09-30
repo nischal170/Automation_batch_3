@@ -1,10 +1,10 @@
 import { coinpage } from "../../page/coinpage"
 import { faker } from '@faker-js/faker';
 const coin=new coinpage()
-export function coin_page_button(){
-    coin.goto_coin_page_button()
+export function click_coin_page_button(){
+    coin.click_on_coins()
 }
-export function bread_crumb(){
+export function check_bread_crumb(){
     coin.breadcrumb()
 }
 export function click_buy(){
@@ -77,5 +77,5 @@ export function type_update_and_verify(type){
         coin.clickmodify_for_sell()//run this function if it is called from "sell" "it" block
     }
     coin.clickupdateverify(coin_modified)//veries with the ui if entered coin value and modified coin value match or not
-    coin.successfulmodify()//verifies successful toast message with number of coins with ui
+    coin.successfully_modified_toast()//verifies successful toast message with number of coins with ui
 }

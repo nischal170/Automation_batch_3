@@ -5,6 +5,15 @@ export class transferpage{
     typetransferamount(transfer_amt){
         cy.get("#amount").click().type(transfer_amt).should("have.value",transfer_amt)
     }
+    clear_transfer_page_input_field(selector){
+        cy.get(selector).clear({force:true})
+    }
+    transfer_amt_input_verify(){
+        cy.get("div.ant-form-item-explain-connected div:nth-child(1)").should("contain","Please enter eGWAP!")
+    }
+    receiver_input_verify(){
+        cy.get("div[class='reciever-details'] div[role='alert']").should("contain","Phone, Email, or Public Address is required!")
+    }
     typereceiver(receiver){
         cy.get("#receiver").type(receiver).should("have.value",receiver)
     }
@@ -15,6 +24,7 @@ export class transferpage{
         cy.get("button[type='submit']").should("be.visible").click()
     }
     clicktransferegwap(){
+        cy.get(".message.text-center").should("contain","The Coin transfer will start processing immediately.")
         cy.intercept('POST',Cypress.env("url")+"/transactions/send").as("get_transfer_details")
         cy.get('.footer button > span').should("be.visible").click()
         cy.wait('@get_transfer_details')  
@@ -32,6 +42,9 @@ export class transferpage{
             cy.writeFile('cypress/fixtures/transfer.json',res.response)
         })
 
+    }
+    email_invalid_assertion(){
+        cy.get("div[role='alert']").should("contain","We didn't recognize the receiver. Are you sure the provided value is correct?")
     }
    
     successfulltransfer_toast_message(){

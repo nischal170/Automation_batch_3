@@ -28,7 +28,7 @@ export class wire_transferpage{
     locality(locality){
         cy.get("#locality").type(locality).should("have.value",locality)
     }
-    clickupdate(iban,bankname,address,postalcode,locality){
+    clickupdate_and_verify_with_api(iban,bankname,address,postalcode,locality){
         cy.intercept("PUT","**/update").as("get_update_wire_transfer")
         cy.get(".w-100").click({force:true})
         cy.wait('@get_update_wire_transfer').should((res) => {
@@ -41,7 +41,7 @@ export class wire_transferpage{
             expect(res.response.body.locality).to.equal(locality)
         })
     }
-    successfulupdate(){
+    successfully_updated_toast_message(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")
     }
     clearcountry(){
@@ -49,28 +49,28 @@ export class wire_transferpage{
 
     }
 
-    validate_iban_empty_field(){
+    verify_iban_empty_field(){
         cy.get(".ant-form-item-required.ant-form-item-has-error div[role='alert']:nth-of-type(1)").should("contain","IBAN is required!")
 
     }
-    validate_bankname_empty_field(){
+    verify_bankname_empty_field(){
         cy.get(".ant-form.ant-form-horizontal.mb-16 div:nth-child(3) > div:nth-child(2) div[role='alert']").should("contain","Bank Name is required!")
 
         
     }
-    validate_bankaddress_empty_field(){
+    verify_bankaddress_empty_field(){
         cy.get("div.ant-form-item-required.ant-form-item-has-error div[class='ant-col ant-form-item-control'] div[role='alert']").should("contain","Street Name and Number is required!")
         
     }
-    validate_country_empty_field(){
+    verify_country_empty_field(){
         cy.get(".ant-form.ant-form-horizontal.mb-16.align-center div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)").should("contain","Bank Country is required!")
         
     }
-    validate_postalcode_empty_field(){ 
+    verify_postalcode_empty_field(){ 
         cy.get(".ant-form.ant-form-horizontal div:nth-child(4) div:nth-child(2) div:nth-child(1) div:nth-child(1) div:nth-child(2) div:nth-child(2) div:nth-child(1)").should("contain","Postal Code is required!") 
         
     }
-    validate_locality_empty_field(){
+    verify_locality_empty_field(){
         cy.get(".ant-form-item-required :nth-of-type(3) div[role='alert']").should("contain","Locality is required!")
         
     }

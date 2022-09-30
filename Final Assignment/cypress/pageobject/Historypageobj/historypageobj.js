@@ -6,33 +6,34 @@ export function click_history(){
 export function check_breadcrumb(){
     history.breadcrumb()
 }
-export function search_history(){
+export function search_in_history_page(){
     cy.readFile('cypress/fixtures/transfer.json').then(res=>{
         var key_word=res.body.referenceCode  
     history.search(key_word)
     })
 }
-export function verify_reference(){
+export function verify_reference_code(){
     cy.readFile('cypress/fixtures/transfer.json').then(res=>{
         var key_word=res.body.referenceCode
-    history.verifyreference(key_word)})
+    history.verifyreference_code(key_word)
+})
 }
-export function verify_table(){
-    var arr=[1,4,6,7]
+export function verify_table_headers(){
+    var positions=[1,4,6,7]//the order in selectors 1,4,6,7 of certain headers were same so keeping them in array
     var i=0
     var j=0
-    var headers=['S.N','Reference code','Description','Action']
+    var headers=['S.N','Reference code','Description','Action']//these were the headers having same selectors
     cy.get('.ant-table-thead th.ant-table-cell').each((element)=>{
         i=i+1
-        if (i==arr[j]){
+        if (i==positions[j]){//running the loop until it matches the selector's position [1,4,6,7]
             expect(headers[j]).to.equal(element.text())
             j=j+1
         }
     })
-    var rem_headers=['Date','Type','Status']
+    var remaining_headers=['Date','Type','Status']
     var m=0
     cy.get(".ant-table-thead th.ant-table-column-has-sorters .ant-table-column-title").each((element)=>{
-        expect(rem_headers[m]).to.equal(element.text())
+        expect(remaining_headers[m]).to.equal(element.text())
         m=m+1
     })
 

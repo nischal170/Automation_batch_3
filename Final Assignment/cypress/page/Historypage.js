@@ -11,7 +11,7 @@ export class historypage{
         cy.get("input[placeholder='Search Description']").type('{enter}')
 
     }
-    verifyreference(reference){
+    verifyreference_code(reference){
         cy.get('.ant-table-tbody tr[data-row-key="1"] .quantity span').then((Element)=>{
             var text=Element.text()
             expect(text).to.equal(reference)

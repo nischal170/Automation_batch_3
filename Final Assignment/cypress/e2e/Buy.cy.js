@@ -6,17 +6,17 @@ describe('Buy actions',()=>{
         cy.visit('/')
     })
     it("Verify Breadcrumb of Coins page",()=>{
-        coinpageobj.coin_page_button()
-        coinpageobj.bread_crumb()
+        coinpageobj.click_coin_page_button()
+        coinpageobj.check_bread_crumb()
     })
     it("Verify table header of Coins page",()=>{
-        coinpageobj.coin_page_button()
+        coinpageobj.click_coin_page_button()
         coinpageobj.verify_table_headers()
     })
 
     it('Buy From Ui and verify view page data from api ',()=>{
 
-        coinpageobj.coin_page_button()
+        coinpageobj.click_coin_page_button()
         coinpageobj.click_buy()
         buypageobj.buy_via_ui()//1.)buys via ui 2.)verifies with api
         buypageobj.verify_the_toast_message_buy_coins()
@@ -25,7 +25,7 @@ describe('Buy actions',()=>{
         //verifies in view table with the api data(reference number,coins bought,charges,and total )   
     });
     it("Verify the modified Buy",()=>{
-        coinpageobj.coin_page_button()
+        coinpageobj.click_coin_page_button()
         coinpageobj.click_modify()
         coinpageobj.type_update_and_verify("buy")
     })

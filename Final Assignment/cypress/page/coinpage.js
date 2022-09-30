@@ -1,5 +1,5 @@
 export class coinpage{
-    goto_coin_page_button(){
+    click_on_coins(){
         cy.get("a[href='/coins']").click()
         cy.url().should("contain","/coins")
     }
@@ -8,6 +8,7 @@ export class coinpage{
     }
     clickbuy(){
         cy.get(".buy .ant-card-body").click({force:true})
+        cy.get("div[class='instruction-link text-center'] span").should("contain","Wire Transfer Instructions")
     }
     clicksell(){
         cy.get(".sell .ant-card-body").click({force:true})
@@ -46,7 +47,7 @@ export class coinpage{
             expect(coin).to.equal(res.response.body.amount)
         })
     }
-    successfulmodify(){
+    successfully_modified_toast(){
         cy.get(".ant-notification-notice-content .ant-notification-notice-message").should("contain","Success")//Success message assertion
         cy.get(".ant-notification-notice-content .ant-notification-notice-description").then(($text) => {
                 const num = $text.text().replace(/You've|successfully|updated|eGWAP./g, "")//removes ("You've successfully updated *** eGwap") from toast notification ,This helps to verify the number of coins.

@@ -36,16 +36,16 @@ export function update_wire_transfer(){
 
 }
 export function click_update_and_verify_toast(){
-    wire.clickupdate(iban,bankname,address,postalcode,locality)
-    wire.successfulupdate()
+    wire.clickupdate_and_verify_with_api(iban,bankname,address,postalcode,locality)
+    wire.successfully_updated_toast_message()
 }
-export function validate_empty_input_fields(){
-    wire.validate_iban_empty_field()
-    wire.validate_bankname_empty_field()
-    wire.validate_bankaddress_empty_field()
-    wire.validate_country_empty_field()
-    wire.validate_postalcode_empty_field()
-    wire.validate_locality_empty_field()
+export function verify_empty_input_fields(){
+    wire.verify_iban_empty_field()
+    wire.verify_bankname_empty_field()
+    wire.verify_bankaddress_empty_field()
+    wire.verify_country_empty_field()
+    wire.verify_postalcode_empty_field()
+    wire.verify_locality_empty_field()
 
 }
 export function verify_inputfields_after_update(){

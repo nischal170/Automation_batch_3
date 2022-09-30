@@ -1,12 +1,10 @@
 export class buypage{
-    clickbuybutton(){
-        cy.get(".buy .ant-card-body").click({force:true})
-    }
     enterbuyvalue(coin){
         cy.get('#coin').type(coin).should("have.value",coin)
     }
     clickpreview_buy(){
         cy.get('.ant-form-item-control-input-content .ant-btn-primary').should("be.visible").click()
+        cy.get("div[class='coins-buy-wrapper'] p:nth-child(1)").should("contain","Your next step is to transfer the Total to the eGWAP account.")
     }
     //this function clicks buy and verifies with the api the number of coins bought
     clickbuyegwap(coin){
