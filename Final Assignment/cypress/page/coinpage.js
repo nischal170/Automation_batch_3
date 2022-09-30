@@ -1,6 +1,7 @@
 export class coinpage{
     click_on_coins(){
         cy.get("a[href='/coins']").click()
+        cy.wait(500)
         cy.url().should("contain","/coins")
     }
     breadcrumb(){

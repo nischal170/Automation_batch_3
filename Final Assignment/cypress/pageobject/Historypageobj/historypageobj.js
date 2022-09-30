@@ -43,24 +43,24 @@ export function verify_table_headers(){
 }
 export function automate_type_filter_buy(){
     history.clicktype_filter()   
-    cy.get(".rc-virtual-list-holder-inner div:nth-child(2)").click()
-    cy.wait(1000)
+    cy.get(".rc-virtual-list-holder-inner div:nth-child(2)").click({force:true})
+    cy.wait(1500)
     cy.get(".ant-table-tbody tr td:nth-child(3) div").each((element)=>{
         expect(element.text()).to.equal("Buy")
     })
 }
 export function automate_type_filter_sell(){
     history.clicktype_filter()
-    cy.get(".rc-virtual-list-holder-inner div:nth-child(3)").click()
-    cy.wait(1000)
+    cy.get(".rc-virtual-list-holder-inner div:nth-child(3)").click({force:true})
+    cy.wait(1500)
     cy.get(".ant-table-tbody tr td:nth-child(3) div").each((element)=>{
         expect(element.text()).to.equal("Sell")
     })
 }
 export function automate_type_filter_send(){
     history.clicktype_filter()
-    cy.get(".rc-virtual-list-holder-inner div:nth-child(4)").click()
-    cy.wait(1000)
+    cy.get(".rc-virtual-list-holder-inner div:nth-child(4)").click({force:true})
+    cy.wait(1500)
     cy.get(".ant-table-tbody tr td:nth-child(3) div").each((element)=>{
         expect(element.text()).to.equal("Send")
     })
@@ -69,7 +69,7 @@ export function automate_type_filter_send(){
 export function automate_status_completed(){
     history.clickstatus_filter()
     cy.get(".rc-virtual-list-holder-inner div.ant-select-item-option:nth-child(2)").click({force:true})
-    cy.wait(1000)
+    cy.wait(1500)
     cy.get(".ant-table-tbody tr td:nth-child(5) div").each((element)=>{
         expect(element.text()).to.equal("Completed")
     })  
@@ -77,7 +77,7 @@ export function automate_status_completed(){
 export function automate_status_cancelled(){
     history.clickstatus_filter()
     cy.get(".rc-virtual-list-holder-inner div.ant-select-item-option:nth-child(3)").click({force:true})
-    cy.wait(1000)
+    cy.wait(1500)
     cy.get(".ant-table-tbody tr td:nth-child(5) div").each((element)=>{
         expect(element.text()).to.equal("Cancelled")
     })
@@ -85,7 +85,7 @@ export function automate_status_cancelled(){
 export function automate_status_failed(){
     history.clickstatus_filter()
     cy.get(".rc-virtual-list-holder-inner div.ant-select-item-option:nth-child(4)").click({force:true})
-    cy.wait(1000)
+    cy.wait(1500)
     cy.get(".ant-table-tbody tr td:nth-child(5) div").each((element)=>{
         expect(element.text()).to.equal("Failed")
     })

@@ -33,7 +33,7 @@ describe('History Actions',()=>{
     it('automate date filter',()=>{
         historypageobj.click_history()
         historypageobj.select_date_from_to()
-        cy.wait(500)
+        cy.wait(1000)
         historypageobj.find_transaction_between_dates()
         
     })

@@ -15,7 +15,7 @@ export function update_profile(){
     var locality=faker.address.cityName()
     var address=faker.address.streetAddress()
     var appartment=faker.address.buildingNumber()
-    var country=faker.address.country()
+    var country=faker.random.alpha()
     profile.clearinputfield("#firstName")
     profile.First_name(firstname)
     profile.clearinputfield("#lastName")
@@ -42,7 +42,6 @@ export function clear_input_fields(){
     profile.clearinputfield("#state")
     profile.clearinputfield("#zip")
     profile.clearcountry()
-    //profile.clearinputfield("#country")
 }
 export function verify_name_input_fields(){
     var array=["First","Last"]

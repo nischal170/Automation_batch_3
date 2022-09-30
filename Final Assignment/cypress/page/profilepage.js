@@ -1,7 +1,9 @@
 export class profilepage{
     clickaccountsettings(){
-        cy.get(".btn__profile").click()
-        cy.get(".ant-dropdown-menu-item a[href='/account-settings']").click()
+        cy.get(".btn__profile").click({force:true})
+        cy.wait(500)
+        cy.get(".ant-dropdown-menu-item a[href='/account-settings']").click({force:true})
+        cy.wait(500)
         cy.url().should("include","/account-settings?tabName=Profile")
     }
     breadcrumb(){
@@ -25,15 +27,15 @@ export class profilepage{
     locality(locality){
         cy.get("#state").type(locality).should("have.value",locality)
     }
-    select_country(country){
-        cy.get("#country").select(country)
+    //select_country(country){
+       // cy.get("#country").select(country)
 
-    }
+    //}
     zipcode(zip){
         cy.get("#zip").type(zip).should("have.value",zip)
     }
     select_country(country){
-        cy.get("div[class='ant-col ant-form-item-control'] span[aria-label='close-circle']").click()
+        cy.get("div[class='ant-col ant-form-item-control'] span[aria-label='close-circle']").click({force:true})
         cy.get("#country").type(`${country}{enter}`)
 
     }

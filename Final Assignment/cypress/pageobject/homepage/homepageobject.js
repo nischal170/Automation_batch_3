@@ -9,8 +9,7 @@ export function verify_breadcrumb(){
 //check available balance text and amount
 export function available_balance(){
     cy.intercept('GET',Cypress.env("url")+"/users/profile").as("get_available_balance")
-        cy.get("div[class='ant-card srdc'] h3").should("contain","Available Wallet Balance")
-        cy.get("a[href='/']").click()
+    cy.get("a[href='/']").click()
         cy.wait('@get_available_balance').should((res) => {
             expect(res.response.statusCode).to.equal(200)
             cy.get('.srdc .revenue-number h2').then(($span) => {
@@ -19,11 +18,11 @@ export function available_balance(){
             })
         
     })  
+    cy.get("div[class='ant-card srdc'] h3").should("contain","Available Wallet Balance")
 }
 //check current balance text and amount
 export function current_balance(){
     cy.intercept('GET',Cypress.env("url")+"/users/profile").as("get_current_balance")
-    cy.get("div[class='ant-card matic'] h3").should("contain","Current Wallet Balance")
     cy.get("a[href='/']").click()
     cy.wait('@get_current_balance').should((res) => {
         expect(res.response.statusCode).to.equal(200)
@@ -32,4 +31,5 @@ export function current_balance(){
             expect(parseFloat(number)).to.equal(res.response.body.ouroBalance)
         })
 })
+cy.get("div[class='ant-card matic'] h3").should("contain","Current Wallet Balance")
 }

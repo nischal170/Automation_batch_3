@@ -14,7 +14,7 @@ export class wire_transferpage{
         cy.get("#countryCode").type(`${country}{enter}`)
     }
     clearinputfield(selector){
-        cy.get(selector).clear()
+        cy.get(selector).clear({force:true})
     }
     Bankname(bankname){
         cy.get("#bankName").type(bankname).should("have.value",bankname)
