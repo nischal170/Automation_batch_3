@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "category": {
+      "title": "SIGNATURE",
+      "slug": "signature",
+      "icon": null
+    },
+    "tag": null,
+    "pagination": {
+      "total": 8,
+      "count": 8,
+      "per_page": 20,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": []
+    }
+  },
+  "data": [
+    {
+      "id": 216,
+      "title": "Chicken DalleBowl",
+      "slug": "chicken-dallebowl",
+      "link": null,
+      "moreInfo": "",
+      "description": null,
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 189,
+          "title": "Plate",
+          "sellingPrice": 335,
+          "markedPrice": 335,
+          "newPrice": 0,
+          "oldPrice": 335,
+          "size": null,
+          "sku": "adga46",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 0,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 217,
+      "title": "Curly Fries",
+      "slug": "curly-fries",
+      "link": null,
+      "moreInfo": "",
+      "description": null,
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 190,
+          "title": "Plate",
+          "sellingPrice": 315,
+          "markedPrice": 315,
+          "newPrice": 0,
+          "oldPrice": 315,
+          "size": null,
+          "sku": "adga47",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 0,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 214,
+      "title": "Chicken Choila Fried Rice",
+      "slug": "chicken-choila-fried-rice",
+      "link": "",
+      "moreInfo": "",
+      "description": "",
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 187,
+          "title": "Plate",
+          "sellingPrice": 265,
+          "markedPrice": 265,
+          "newPrice": 0,
+          "oldPrice": 265,
+          "size": null,
+          "sku": "adga44",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 66,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0752c7b7c.jpg",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 218,
+      "title": "Veg DalleBowl",
+      "slug": "veg-dallebowl",
+      "link": "",
+      "moreInfo": "",
+      "description": "",
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 191,
+          "title": "Plate",
+          "sellingPrice": 285,
+          "markedPrice": 285,
+          "newPrice": 0,
+          "oldPrice": 285,
+          "size": null,
+          "sku": "adga48",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 67,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b078e612b9.jpg",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 213,
+      "title": "Mushroom Choila Fried Rice",
+      "slug": "mushroom-choila-fried-rice",
+      "link": "",
+      "moreInfo": "",
+      "description": "",
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 186,
+          "title": "Plate",
+          "sellingPrice": 245,
+          "markedPrice": 245,
+          "newPrice": 0,
+          "oldPrice": 245,
+          "size": null,
+          "sku": "adga43",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 70,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b080da8f6e.jpg",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 219,
+      "title": "Chicken Choila Chowmin",
+      "slug": "chicken-choila-chowmin",
+      "link": "",
+      "moreInfo": "",
+      "description": "",
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 192,
+          "title": "Plate",
+          "sellingPrice": 265,
+          "markedPrice": 265,
+          "newPrice": 0,
+          "oldPrice": 265,
+          "size": null,
+          "sku": "adga49",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 68,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b07aa62928.jpg",
+          "unit_price_id": null
+        },
+        {
+          "id": 69,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b07c22eab0.jpg",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 215,
+      "title": "Mushroom Choila Chowmin",
+      "slug": "mushroom-choila-chowmin",
+      "link": "",
+      "moreInfo": "",
+      "description": "",
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 188,
+          "title": "Plate",
+          "sellingPrice": 245,
+          "markedPrice": 245,
+          "newPrice": 0,
+          "oldPrice": 245,
+          "size": null,
+          "sku": "adga45",
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 71,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0a9f69109.jpg",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    },
+    {
+      "id": 220,
+      "title": "curly fries",
+      "slug": "curly-fries-f3859p",
+      "link": "",
+      "moreInfo": "",
+      "description": "",
+      "taxable": true,
+      "taxableAmount": 0,
+      "decimal": false,
+      "hasOffer": false,
+      "categoryId": 134,
+      "categoryTitle": "SIGNATURE",
+      "categorySlug": "signature",
+      "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "unitPrice": [
+        {
+          "id": 193,
+          "title": "Plate",
+          "sellingPrice": 310,
+          "markedPrice": 0,
+          "newPrice": 0,
+          "oldPrice": 310,
+          "size": null,
+          "sku": null,
+          "description": null,
+          "barcode": null,
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 72,
+          "imageName": "https://assets.uat.ordering-dalle.ekbana.net/storage/products/thumbnail/623b0acda6586.jpg",
+          "unit_price_id": null
+        }
+      ],
+      "warehouses": [
+        {
+          "id": 1,
+          "title": "Kathmandu"
+        }
+      ],
+      "tags": [],
+      "brand": null
+    }
+  ],
+  "code": 0
+}

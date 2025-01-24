@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    }
+  },
+  "data": {
+    "id": 840,
+    "email": "herminia_mills82@gmail.com",
+    "username": "alta_bechtelar_70",
+    "firstName": "Alta",
+    "lastName": "Bechtelar",
+    "verified": true,
+    "mobileNumber": "9855985863",
+    "createdAt": "Sep 13, 2022",
+    "updatedAt": "Sep 13, 2022",
+    "image": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
+    "total_loyalty_points": 50
+  },
+  "code": 0
+}

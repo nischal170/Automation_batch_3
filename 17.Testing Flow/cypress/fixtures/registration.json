@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    }
+  },
+  "data": {
+    "id": 840,
+    "email": "h---------------@-----.com",
+    "username": "alta_bechtelar_70",
+    "firstName": "Alta",
+    "lastName": "Bechtelar",
+    "verified": true,
+    "mobileNumber": "98------63",
+    "createdAt": "Sep 13, 2022",
+    "updatedAt": "Sep 13, 2022",
+    "image": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
+    "total_loyalty_points": 50,
+    "current_loyalty_points": 50,
+    "user_level": "Normal",
+    "next_level": "Silver",
+    "required_points_next": 450
+  },
+  "code": 0
+}

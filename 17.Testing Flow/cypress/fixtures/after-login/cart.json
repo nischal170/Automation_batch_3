@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    }
+  },
+  "data": {
+    "id": 11088,
+    "cartNumber": "HGmoZFP",
+    "categoryId": null,
+    "warehouseId": 1,
+    "orderAmount": 50,
+    "discount": 0,
+    "scheme": 0,
+    "subTotal": 62.15,
+    "deliveryCharge": 150,
+    "extra": [
+      {
+        "title": "Service Charge",
+        "value": 0
+      },
+      {
+        "title": "Extra Charge",
+        "value": 0
+      }
+    ],
+    "message": "",
+    "campaign_message": "",
+    "total": 213,
+    "pickupTotal": 63,
+    "taxAmount": 7.15,
+    "serviceCharge": 5,
+    "cartProducts": [
+      {
+        "id": 6609,
+        "price": 50,
+        "quantity": 1,
+        "selectedUnit": {
+          "id": "16",
+          "title": "Plate",
+          "sellingPrice": 50,
+          "markedPrice": 50,
+          "newPrice": 180,
+          "oldPrice": 50,
+          "size": "",
+          "sku": "HIM11",
+          "barcode": "",
+          "stock": 999,
+          "hasOffer": false,
+          "alwaysAvailable": true
+        },
+        "note": "",
+        "product": {
+          "id": 16,
+          "title": "Aloo Chop",
+          "slug": "aloo-chop",
+          "link": null,
+          "moreInfo": "",
+          "description": "",
+          "taxable": true,
+          "taxableAmount": 0,
+          "decimal": false,
+          "hasOffer": false,
+          "categoryId": 8,
+          "categoryTitle": "VEG",
+          "categorySlug": "veg",
+          "categoryIcon": "https://assets.uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+          "categoryBackgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+          "unitPrice": [
+            {
+              "id": 16,
+              "title": "Plate",
+              "sellingPrice": 50,
+              "markedPrice": 50,
+              "newPrice": 180,
+              "oldPrice": 50,
+              "size": null,
+              "sku": "HIM11",
+              "description": null,
+              "barcode": null,
+              "stock": 999,
+              "hasOffer": false,
+              "alwaysAvailable": true
+            }
+          ],
+          "images": [
+            {
+              "id": 0,
+              "imageName": "https://assets.uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+              "unit_price_id": null
+            }
+          ],
+          "warehouses": [
+            {
+              "id": 1,
+              "title": "Kathmandu"
+            }
+          ],
+          "tags": [],
+          "brand": null
+        }
+      }
+    ]
+  },
+  "code": 0
+}

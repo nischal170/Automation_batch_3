@@ -1,0 +1,600 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "banners": [],
+    "pagination": {
+      "total": 15,
+      "count": 15,
+      "per_page": 20,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": []
+    }
+  },
+  "data": [
+    {
+      "id": 6,
+      "parentId": null,
+      "title": "SIGNATURES",
+      "description": null,
+      "slug": "signatures",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d875de1e3.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/606478c728c31.png",
+      "position": 1,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 6,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "parentId": null,
+      "title": "SNACKS",
+      "description": null,
+      "slug": "snacks",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d88befff6.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/606589eddf84d.png",
+      "position": 1,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 5,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 2,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [
+          {
+            "id": 9,
+            "parentId": 4,
+            "title": "NON VEG",
+            "description": null,
+            "slug": "non-veg",
+            "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+            "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+            "hasProduct": true,
+            "avgRating": 0,
+            "ratingCount": 0,
+            "productCount": 2,
+            "userRating": 0,
+            "banner": [],
+            "position": 3,
+            "showProfile": false,
+            "hierarchy_level": 1,
+            "isRestaurant": false,
+            "isRestaurantOpen": true,
+            "products": [],
+            "subcategories": {
+              "data": []
+            }
+          },
+          {
+            "id": 8,
+            "parentId": 4,
+            "title": "VEG",
+            "description": null,
+            "slug": "veg",
+            "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+            "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+            "hasProduct": true,
+            "avgRating": 0,
+            "ratingCount": 0,
+            "productCount": 2,
+            "userRating": 0,
+            "banner": [],
+            "position": 0,
+            "showProfile": false,
+            "hierarchy_level": 1,
+            "isRestaurant": false,
+            "isRestaurantOpen": true,
+            "products": [],
+            "subcategories": {
+              "data": []
+            }
+          }
+        ],
+        "meta": {
+          "pagination": {
+            "total": 2,
+            "count": 2,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 1,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "parentId": null,
+      "title": "DALLE MOMOS",
+      "description": null,
+      "slug": "dalle-momos",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066e4ecd87ef.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/60647816e5114.png",
+      "position": 2,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 9,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "parentId": null,
+      "title": "RICE AND NOODLES",
+      "description": null,
+      "slug": "rice-and-noodles",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066d89e4cd53.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/608f99e251c0e.png",
+      "position": 3,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 9,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 82,
+      "parentId": null,
+      "title": "ice-cream",
+      "description": null,
+      "slug": "ice-cream",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 4,
+      "hasProduct": false,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 0,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "parentId": null,
+      "title": "FROZEN ITEMS",
+      "description": "good",
+      "slug": "frozen-items",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/608f9a52d97cf.png",
+      "position": 7,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 2,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 47,
+      "parentId": null,
+      "title": "Beverages",
+      "description": null,
+      "slug": "beverages",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 90,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 2,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 87,
+      "parentId": null,
+      "title": "Dallecious",
+      "description": null,
+      "slug": "43ak-dallecious-4dxc",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 1,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "parentId": null,
+      "title": "MOMO",
+      "description": null,
+      "slug": "momo",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/6066e5ba8d0f9.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/6066e5ba9dc2c.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 1,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [
+          {
+            "id": 88,
+            "parentId": 10,
+            "title": "Jhol Momo",
+            "description": "This jhol momo is very good. It's plate liking taste will make you crazy.",
+            "slug": "jhol-momo",
+            "icon": "https://uat.ordering-dalle.ekbana.net/storage/category/icon/60bdf69d39605.png",
+            "backgroundImage": "https://uat.ordering-dalle.ekbana.net/storage/category/background/60bdf69dc3f70.png",
+            "hasProduct": false,
+            "avgRating": 0,
+            "ratingCount": 0,
+            "productCount": 0,
+            "userRating": 0,
+            "banner": [],
+            "position": 1,
+            "showProfile": false,
+            "hierarchy_level": 1,
+            "isRestaurant": false,
+            "isRestaurantOpen": true,
+            "products": [],
+            "subcategories": {
+              "data": []
+            }
+          }
+        ],
+        "meta": {
+          "pagination": {
+            "total": 1,
+            "count": 1,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 1,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 113,
+      "parentId": null,
+      "title": "Dallecious 10",
+      "description": null,
+      "slug": "qpuf-dallecious-10-ge9t",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 2,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 106,
+      "parentId": null,
+      "title": "Dalle Momo combination ch",
+      "description": null,
+      "slug": "ch7l-dalle-momo-combination-ch-o1ga",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": false,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 0,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [
+          {
+            "id": 107,
+            "parentId": 106,
+            "title": "Chicken cheese ch",
+            "description": null,
+            "slug": "7psr-chicken-cheese-ch-jd2v",
+            "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+            "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+            "hasProduct": false,
+            "avgRating": 0,
+            "ratingCount": 0,
+            "productCount": 0,
+            "userRating": 0,
+            "banner": [],
+            "position": 0,
+            "showProfile": false,
+            "hierarchy_level": 1,
+            "isRestaurant": false,
+            "isRestaurantOpen": true,
+            "products": [],
+            "subcategories": {
+              "data": []
+            }
+          }
+        ],
+        "meta": {
+          "pagination": {
+            "total": 1,
+            "count": 1,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 1,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 109,
+      "parentId": null,
+      "title": "Dallecious 2",
+      "description": null,
+      "slug": "zvl2-dallecious-2-ee6c",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 2,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 116,
+      "parentId": null,
+      "title": "Dallecious 30",
+      "description": null,
+      "slug": "lxzs-dallecious-30-vlfs",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 2,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 133,
+      "parentId": null,
+      "title": "MOMO",
+      "description": null,
+      "slug": "momo-T1324I",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 16,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    },
+    {
+      "id": 134,
+      "parentId": null,
+      "title": "SIGNATURE",
+      "description": null,
+      "slug": "signature",
+      "icon": "https://uat.ordering-dalle.ekbana.net/storage/placeholder/placeholder-app-category.png",
+      "backgroundImage": "https://uat.ordering-dalle.ekbana.net/frontend/img/no_image.png",
+      "position": 0,
+      "hasProduct": true,
+      "avgRating": 0,
+      "ratingCount": 0,
+      "productCount": 8,
+      "userRating": null,
+      "banner": [],
+      "hierarchy_level": 1,
+      "isRestaurant": false,
+      "isRestaurantOpen": true,
+      "subcategories": {
+        "data": [],
+        "meta": {
+          "pagination": {
+            "total": 0,
+            "count": 0,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 0,
+            "links": []
+          }
+        }
+      }
+    }
+  ],
+  "code": 0
+}

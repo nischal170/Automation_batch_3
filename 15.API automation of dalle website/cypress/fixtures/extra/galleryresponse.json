@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "pagination": {
+      "total": 21,
+      "count": 16,
+      "per_page": 16,
+      "current_page": 1,
+      "total_pages": 2,
+      "links": {
+        "next": "https://uat.ordering-dalle.ekbana.net/api/v4/gallery?page=2"
+      }
+    }
+  },
+  "data": [
+    {
+      "id": 62,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/Musuro Daal 1Kg.jpg",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 61,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/45@2x.png",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 60,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/29@2x.png",
+      "featured": true,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 53,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/Artboard 1 copy.png",
+      "featured": true,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 52,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/originals-kaval-windbreaker-winter-jacket-2-1@2x.png",
+      "featured": true,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 50,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/originals-kaval-windbreaker-winter-jacket-2-3@2x.png",
+      "featured": true,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 45,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/12.png",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 46,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/12@2x.png",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 47,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/43 (1).png",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 48,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/originals-kaval-windbreaker-winter-jacket-2-7.png",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 49,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/43 (1)-1@2x.png",
+      "featured": true,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 24,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/165564935_10225582732494927_9190283121174597419_n.jpg",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 23,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/165555824_10225582733934963_5833693921913828782_n.jpg",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 22,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/166628154_10225582733174944_3164669081542302748_n.jpg",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 20,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/166206470_10225582735094992_2871999590629738506_n.jpg",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    },
+    {
+      "id": 19,
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/gallery/150472044_3890685214285452_7647620674018976590_n.jpg",
+      "featured": false,
+      "position": 9999999,
+      "title": null,
+      "content": null,
+      "author": null
+    }
+  ],
+  "code": 0
+}

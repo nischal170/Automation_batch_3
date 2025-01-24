@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "pagination": {
+      "total": 2,
+      "count": 2,
+      "per_page": 20,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": []
+    }
+  },
+  "data": [
+    {
+      "id": 18,
+      "name": "Neeki Pradhan",
+      "title": "Yummy Dalle momos",
+      "date": "2021-05-03",
+      "designation": "Trip Advisor ",
+      "email": "pradhanneeki@gmail.com",
+      "description": "<p>Dalle momos are very tasty, you should definitely try momo from here. Too good</p>",
+      "shortDesc": "",
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/uploads/testimonial/60a37b04739f0.png",
+      "rating": "4.5"
+    },
+    {
+      "id": 11,
+      "name": "Ronnieshares",
+      "title": "",
+      "date": "",
+      "designation": "Trip Advisor ",
+      "email": "",
+      "description": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>Dalle is one of the very rare restaurants in town which wins at maintaining the same taste throughout their multiple branches! My personal favorites are their pork momos and chicken chilies. They do not overdo their spices. The quality is great. Their momos are light yet filling. The price factor makes it ideal for everyday office lunch as well! Quick and warm service. I think I'll be having Dalle's momos for lunch today as well!</p>",
+      "shortDesc": "<div style=\"display: none;\">&nbsp;</div>\r\n<div style=\"display: none;\">&nbsp;</div>\r\n<p>&nbsp;</p>",
+      "image": "https://uat.ordering-dalle.ekbana.net/storage/uploads/testimonial/606c1afd7a40c.jpg",
+      "rating": "3"
+    }
+  ],
+  "code": 0
+}

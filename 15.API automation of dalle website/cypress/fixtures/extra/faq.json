@@ -1,0 +1,72 @@
+{
+  "body": {
+    "data": [
+      {
+        "id": 1,
+        "question": "What is the maximum quantity for purchase?",
+        "answer": "<p>The maximum quantity for purchase is 999</p>"
+      },
+      {
+        "id": 2,
+        "question": "How can I get the discount?",
+        "answer": "<p>Whenever there is any kind of sales/discount offers in our products, you can easily see it in web banner and will provide you a coupon to redeem while carting our products.</p>"
+      },
+      {
+        "id": 3,
+        "question": "Can I cancel my order if needed?",
+        "answer": "<p>The order can be canceled by manually contacting our customer service. But if any products are already dispatched from our location then you are liable to pay the return delivery charges.</p>"
+      },
+      {
+        "id": 4,
+        "question": "How do I contact customer support?",
+        "answer": "<p>If you have any queries a member of our team will always be happy to help. You can simply contact us on&nbsp;(+)977-1-4411302 and mail us at cs@dalle.com.np</p>\r\n<div class=\"single-contact-info\">\r\n<div class=\"contact-icon\">&nbsp;</div>\r\n<div class=\"contact-info-dec\">&nbsp;</div>\r\n</div>"
+      }
+    ]
+  },
+  "headers": {
+    "date": "Mon, 29 Aug 2022 14:16:34 GMT",
+    "server": "Apache",
+    "cache-control": "no-cache",
+    "x-ratelimit-limit": "60",
+    "x-ratelimit-remaining": "59",
+    "content-length": "1017",
+    "connection": "close",
+    "content-type": "application/json"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+    "accept": "*/*",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 387,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "Api-Key": "HzTXzarpsGmmCOUpj2fGnBmL1AEtSxII68JhaCozg8b9OXufVk",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/10.6.0 Chrome/102.0.5005.148 Electron/19.0.8 Safari/537.36",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://dalle.com.np/api/v4/faq",
+      "Response Body": "{\"data\":[{\"id\":1,\"question\":\"What is the maximum quantity for purchase?\",\"answer\":\"<p>The maximum quantity for purchase is 999<\\/p>\"},{\"id\":2,\"question\":\"How can I get the discount?\",\"answer\":\"<p>Whenever there is any kind of sales\\/discount offers in our products, you can easily see it in web banner and will provide you a coupon to redeem while carting our products.<\\/p>\"},{\"id\":3,\"question\":\"Can I cancel my order if needed?\",\"answer\":\"<p>The order can be canceled by manually contacting our customer service. But if any products are already dispatched from our location then you are liable to pay the return delivery charges.<\\/p>\"},{\"id\":4,\"question\":\"How do I contact customer support?\",\"answer\":\"<p>If you have any queries a member of our team will always be happy to help. You can simply contact us on&nbsp;(+)977-1-4411302 and mail us at cs@dalle.com.np<\\/p>\\r\\n<div class=\\\"single-contact-info\\\">\\r\\n<div class=\\\"contact-icon\\\">&nbsp;<\\/div>\\r\\n<div class=\\\"contact-info-dec\\\">&nbsp;<\\/div>\\r\\n<\\/div>\"}]}",
+      "Response Headers": {
+        "date": "Mon, 29 Aug 2022 14:16:34 GMT",
+        "server": "Apache",
+        "cache-control": "no-cache",
+        "x-ratelimit-limit": "60",
+        "x-ratelimit-remaining": "59",
+        "content-length": "1017",
+        "connection": "close",
+        "content-type": "application/json"
+      },
+      "Response Status": 200
+    }
+  ]
+}

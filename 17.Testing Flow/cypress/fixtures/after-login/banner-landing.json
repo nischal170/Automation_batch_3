@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "pagination": {
+      "total": 1,
+      "count": 1,
+      "per_page": 15,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": []
+    }
+  },
+  "data": [
+    {
+      "id": 26,
+      "title": "apple",
+      "shortDescription": "",
+      "type": "landing",
+      "websiteUrl": "#",
+      "linkTo": "product",
+      "bannerImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1cdcbaf461.jpg",
+      "position": null,
+      "product": {
+        "id": 134,
+        "title": "Chicken C MOMO testingg ©",
+        "categoryId": 2,
+        "categoryTitle": "DALLE MOMOS",
+        "categorySlug": "dalle-momos",
+        "slug": "vk1s-chicken-c-momo-testingg-afsasfd-go6p",
+        "hasOffer": false,
+        "unitPrice": [
+          {
+            "id": 107,
+            "title": "Pc",
+            "sellingPrice": 80,
+            "markedPrice": 80,
+            "newPrice": 72,
+            "oldPrice": 80,
+            "size": null,
+            "sku": "afsasfd",
+            "barcode": null,
+            "stock": 999,
+            "hasOffer": false,
+            "alwaysAvailable": true
+          }
+        ]
+      }
+    }
+  ],
+  "code": 0
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    }
+  },
+  "data": {
+    "id": 822,
+    "email": "malcolm.west@hotmail.com",
+    "username": "kariane_walker_46",
+    "firstName": "Kariane",
+    "lastName": "Walker",
+    "verified": true,
+    "mobileNumber": "9806070534",
+    "createdAt": "Sep 7, 2022",
+    "updatedAt": "Sep 7, 2022",
+    "image": "https://uat.ordering-dalle.ekbana.net/frontend/img/default_user.jpg",
+    "total_loyalty_points": 50
+  },
+  "code": 0
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "socialTags": {
+      "og:title": "",
+      "og:description": "",
+      "og:image": null,
+      "keywords": "",
+      "description": "",
+      "twitter:title": "",
+      "twitter:image": null,
+      "twitter:description": ""
+    }
+  },
+  "data": {
+    "id": 5,
+    "pageData": [],
+    "title": "Terms and Conditions",
+    "subTitle": "Terms and Conditions",
+    "slug": "terms-and-conditions",
+    "backgroundImage": "https://assets.uat.ordering-dalle.ekbana.net/storage/uploads/pages/background/606c3d0e21d11.png",
+    "thumbImage": null,
+    "description": "<div class=\"bg-base text-secondary\">\r\n<div class=\"container \">\r\n<div class=\"staticContent undefined\">\r\n<p style=\"text-align: justify;\"><img style=\"width: 100%;\" src=\"https://www.gyapu.com/public/files/19DDF274535AA88-TermAndCondition.jpeg\" alt=\"\" /></p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p style=\"text-align: justify;\"><span style=\"font-size: 23pt; color: #3a3a3a; text-align: left;\">Terms and Conditions</span></p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<div style=\"border: 1pt none #e0e0e0; padding: 0in; text-align: justify;\">\r\n<p>Welcome to Dalle - Restaurant and Food Service!</p>\r\n<p>These terms and conditions outline the rules and regulations for the use of Dalle's Website, located at https://uat.ordering-dalle.ekbana.net/.</p>\r\n<p>By accessing this website we assume you accept these terms and conditions. Do not continue to use Dalle - Restaurant and Food Service if you do not agree to take all of the terms and conditions stated on this page.</p>\r\n<ul>\r\n<li>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: \"Client\", \"You\" and \"Your\" refers to you, the person log on this website and compliant to the Company&rsquo;s terms and conditions.</li>\r\n<li>\"The Company\", \"Ourselves\", \"We\", \"Our\" and \"Us\", refers to our Company.</li>\r\n<li>\"Party\", \"Parties\", or \"Us\", refers to both the Client and ourselves.</li>\r\n<li>All terms refer to the offer, acceptance, and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client&rsquo;s needs in respect of the provision of the Company&rsquo;s stated services, in accordance with and subject to, prevailing law of Netherlands.</li>\r\n<li>Any use of the above terminology or other words in the singular, plural, capitalization, and/or he/she or they, are taken as interchangeable and therefore as referring to same.</li>\r\n</ul>\r\n</div>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n</div>\r\n</div>\r\n</div>",
+    "position": "1"
+  },
+  "code": 0
+}

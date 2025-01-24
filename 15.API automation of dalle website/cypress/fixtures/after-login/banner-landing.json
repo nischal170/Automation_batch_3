@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "copyright": "Copyright 2017 Ekbana Pte",
+    "emails": "info@ekbana.com",
+    "api": {
+      "version": "0.2"
+    },
+    "pagination": {
+      "total": 4,
+      "count": 4,
+      "per_page": 15,
+      "current_page": 1,
+      "total_pages": 1,
+      "links": []
+    }
+  },
+  "data": [
+    {
+      "id": 29,
+      "title": "samakhusi",
+      "shortDescription": "",
+      "type": "landing",
+      "websiteUrl": "https://uat.ordering-haritagriculture.ekbana.net/",
+      "linkTo": "product",
+      "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1f4d949785.jpg",
+      "position": null,
+      "product": {
+        "id": 132,
+        "title": "Dallecious product",
+        "categoryId": 87,
+        "categoryTitle": "Dallecious",
+        "categorySlug": "43ak-dallecious-4dxc",
+        "slug": "fgjm-dallecious-product-test8003-yapq",
+        "hasOffer": false,
+        "unitPrice": [
+          {
+            "id": 105,
+            "title": "Plate",
+            "sellingPrice": 226,
+            "markedPrice": 226,
+            "newPrice": 20,
+            "oldPrice": 226,
+            "size": null,
+            "sku": "test8003",
+            "barcode": null,
+            "stock": 999,
+            "hasOffer": false,
+            "alwaysAvailable": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "title": "kabinalanding",
+      "shortDescription": "",
+      "type": "landing",
+      "websiteUrl": null,
+      "linkTo": "link_to",
+      "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/619275178e5b9.png",
+      "position": null
+    },
+    {
+      "id": 34,
+      "title": "samakhusi",
+      "shortDescription": "",
+      "type": "landing",
+      "websiteUrl": null,
+      "linkTo": "link_to",
+      "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60eec45ccd27d.jpg",
+      "position": null
+    },
+    {
+      "id": 26,
+      "title": "apple",
+      "shortDescription": "",
+      "type": "landing",
+      "websiteUrl": "#",
+      "linkTo": "product",
+      "bannerImage": "https://uat.ordering-dalle.ekbana.net/storage/uploads/banner/60d1cdcbaf461.jpg",
+      "position": null,
+      "product": {
+        "id": 134,
+        "title": "Chicken C MOMO testingg ©",
+        "categoryId": 2,
+        "categoryTitle": "DALLE MOMOS",
+        "categorySlug": "dalle-momos",
+        "slug": "vk1s-chicken-c-momo-testingg-afsasfd-go6p",
+        "hasOffer": false,
+        "unitPrice": [
+          {
+            "id": 107,
+            "title": "Pc",
+            "sellingPrice": 80,
+            "markedPrice": 80,
+            "newPrice": 72,
+            "oldPrice": 80,
+            "size": null,
+            "sku": "afsasfd",
+            "barcode": null,
+            "stock": 999,
+            "hasOffer": false,
+            "alwaysAvailable": true
+          }
+        ]
+      }
+    }
+  ],
+  "code": 0
+}

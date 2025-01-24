@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-09-30T12:41:19.542Z",
+    "end": "2022-09-30T12:41:46.740Z",
+    "duration": 27198,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "95ba17d8-6bc8-42a5-b599-60321720a1f7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Wiretransfer.cy.js",
+      "file": "cypress\\e2e\\Wiretransfer.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "02249337-1090-4da9-becb-7a372183a62b",
+          "title": "Wiretransfer Actions",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Breadcrumb",
+              "fullTitle": "Wiretransfer Actions Verify Breadcrumb",
+              "timedOut": null,
+              "duration": 9548,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "profilepageobj.click_account_settings();\nwiretransfobj.click_wire_transfer();\nwiretransfobj.check_breadcrumb();",
+              "err": {},
+              "uuid": "ce2fc047-84c5-4520-bdf8-94b486f28d60",
+              "parentUUID": "02249337-1090-4da9-becb-7a372183a62b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Update wiretransfer details and verify ui with api",
+              "fullTitle": "Wiretransfer Actions Update wiretransfer details and verify ui with api",
+              "timedOut": null,
+              "duration": 11094,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "profilepageobj.click_account_settings();\nwiretransfobj.click_wire_transfer();\nwiretransfobj.update_wire_transfer(); //only types new values in the input field\nwiretransfobj.click_update_and_verify_toast(); //clicks update button ,verifies toast message,verifies updated data withapi\nwiretransfobj.verify_inputfields_after_update(); //verifies with the input fields",
+              "err": {},
+              "uuid": "ef140778-b3d0-428f-b28e-36d1fb99fbe1",
+              "parentUUID": "02249337-1090-4da9-becb-7a372183a62b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify empty input fields",
+              "fullTitle": "Wiretransfer Actions Verify empty input fields",
+              "timedOut": null,
+              "duration": 5999,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "profilepageobj.click_account_settings();\nwiretransfobj.click_wire_transfer();\nwiretransfobj.clear_input_fields(); //clear all input fields of wiretransferpage\nwiretransfobj.verify_empty_input_fields();",
+              "err": {},
+              "uuid": "4fdd85b5-9fca-4749-961f-916c502c6845",
+              "parentUUID": "02249337-1090-4da9-becb-7a372183a62b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ce2fc047-84c5-4520-bdf8-94b486f28d60",
+            "ef140778-b3d0-428f-b28e-36d1fb99fbe1",
+            "4fdd85b5-9fca-4749-961f-916c502c6845"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 26641,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": true,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
